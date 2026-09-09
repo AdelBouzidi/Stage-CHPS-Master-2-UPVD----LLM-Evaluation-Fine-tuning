@@ -1,0 +1,44 @@
+FIGURES DU CHAPITRE — CANDIDATS
+
+FIG01
+Qwen3.5-27B base vs FT A
+A retenu = 63/164.
+Convention : +1 OK et -1 compile_err par rapport au run A archivé à 62.
+
+FIG02
+Contexte Qwen27 : Base / C / A / C→A.
+
+FIG03
+Premières expériences du pipeline Qwen3.6-27B :
+00_firstTests / 01_wAttnProjLayers / 02_refBench.
+Candidate ; décision d'inclusion après inspection.
+
+FIG04
+Influence de la taille du dataset (03_DSsize).
+Candidate importante.
+
+FIG05
+Comparaison initiale des datasets (04_DSAdel1).
+Alternative propre au dashboard existant.
+Peut être remplacée par le tableau si manque de place.
+
+FIG06
+Influence de la température (05_temperatureSweep).
+Candidate ; peut être condensée dans le texte/tableau.
+
+FIG07
+Dataset × epochs × learning rate (06_DSAdel2).
+Figure principale du pipeline Prompt2FortranBench.
+Valeurs = delta par rapport à la baseline 48.17%.
+
+FIG08
+Influence du rang LoRA (07_DSAdel2_LoraR).
+Utilise directement les aggregate.json actuels et inclut r=128 si disponible.
+
+FIG09
+Baseline vs meilleure configuration sur les 10 runs.
+Baseline :
+mean=48.17%, max=50.61% (83/164)
+
+FT Both / 3ep / 2e-5 :
+mean=49.94%, max=52.44% (86/164)

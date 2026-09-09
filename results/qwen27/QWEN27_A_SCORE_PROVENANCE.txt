@@ -1,0 +1,23 @@
+Qwen3.5-27B — fine-tuning sur dataset A
+
+Valeur retenue pour les figures et tableaux du rapport :
+63/164 = 38.41 %
+
+Baseline :
+56/164 = 34.15 %
+
+Gain :
++7 tâches
++4.27 points de Pass@1
+
+Provenance :
+- un rerun du fine-tuning A a obtenu 63/164 ;
+- ce rerun n'a pas été sauvegardé ;
+- le run A récupéré sur disque donne 62/164 ;
+- C_then_A récupéré sur disque donne 64/164.
+
+Conséquence :
+- A est la configuration principale retenue pour la présentation ;
+- C_then_A peut être mentionné comme meilleur score ponctuel observé ;
+- aucune répartition détaillée des statuts ne doit être attribuée au run A=63,
+  car ses résultats tâche par tâche n'ont pas été sauvegardés.

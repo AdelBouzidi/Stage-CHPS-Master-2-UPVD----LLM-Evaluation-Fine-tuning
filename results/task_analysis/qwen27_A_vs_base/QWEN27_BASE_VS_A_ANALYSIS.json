@@ -1,0 +1,99 @@
+{
+  "source": {
+    "base_summary": "/path/to/project/__sandbox_adel__LAST/evaluation_finetuning/qwen27/base/results/base_qwen27_humaneval_mistral_conc12_evaluation_summary.json",
+    "base_details": "/path/to/project/__sandbox_adel__LAST/evaluation_finetuning/qwen27/base/results/base_qwen27_humaneval_mistral_conc12_evaluation_details.json",
+    "A_summary": "/path/to/project/__sandbox_adel__LAST/evaluation_finetuning/qwen27/epoch1/learning_rate_1/results/ft_A_qwen27_humaneval_mistral_conc12_evaluation_summary.json",
+    "A_details": "/path/to/project/__sandbox_adel__LAST/evaluation_finetuning/qwen27/epoch1/learning_rate_1/results/ft_A_qwen27_humaneval_mistral_conc12_evaluation_details.json"
+  },
+  "archived_results": {
+    "base": {
+      "ok": 56,
+      "compile_err": 71,
+      "runtime_err": 25,
+      "ineq": 12,
+      "exception": 0
+    },
+    "A": {
+      "ok": 62,
+      "compile_err": 54,
+      "runtime_err": 39,
+      "ineq": 9,
+      "exception": 0
+    }
+  },
+  "report_convention": {
+    "A": {
+      "ok": 63,
+      "compile_err": 53,
+      "runtime_err": 39,
+      "ineq": 9,
+      "exception": 0
+    },
+    "note": "Le rerun A=63 n'est pas sauvegardé. Pour les agrégats du rapport : +1 OK, -1 compile_err. Les IDs task-level restent ceux du run A archivé."
+  },
+  "task_level_archived_run": {
+    "counts": {
+      "conservee": 40,
+      "echec_persistant": 86,
+      "acquise": 22,
+      "regression": 16
+    },
+    "transition_counts": {
+      "ok->ok": 40,
+      "compile_err->ineq": 6,
+      "runtime_err->runtime_err": 20,
+      "compile_err->ok": 18,
+      "compile_err->compile_err": 31,
+      "runtime_err->ok": 2,
+      "ok->runtime_err": 2,
+      "compile_err->runtime_err": 16,
+      "ok->compile_err": 13,
+      "ineq->compile_err": 7,
+      "ineq->ineq": 2,
+      "ineq->ok": 2,
+      "runtime_err->compile_err": 3,
+      "ineq->runtime_err": 1,
+      "ok->ineq": 1
+    },
+    "corrected_statuses": {
+      "compile_err": 18,
+      "runtime_err": 2,
+      "ineq": 2
+    },
+    "corrected_error_families": {
+      "compilation_non_detaillee": 18,
+      "runtime_non_detaillee": 2,
+      "sortie_incorrecte": 2
+    },
+    "introduced_statuses": {
+      "runtime_err": 2,
+      "compile_err": 13,
+      "ineq": 1
+    },
+    "introduced_error_families": {
+      "runtime_non_detaillee": 2,
+      "compilation_non_detaillee": 13,
+      "sortie_incorrecte": 1
+    },
+    "persistent_status_transitions": {
+      "compile_err->ineq": 6,
+      "runtime_err->runtime_err": 20,
+      "compile_err->compile_err": 31,
+      "compile_err->runtime_err": 16,
+      "ineq->compile_err": 7,
+      "ineq->ineq": 2,
+      "runtime_err->compile_err": 3,
+      "ineq->runtime_err": 1
+    },
+    "persistent_error_family_transitions": {
+      "compilation_non_detaillee->sortie_incorrecte": 6,
+      "runtime_non_detaillee->runtime_non_detaillee": 20,
+      "compilation_non_detaillee->compilation_non_detaillee": 31,
+      "compilation_non_detaillee->runtime_non_detaillee": 16,
+      "sortie_incorrecte->compilation_non_detaillee": 7,
+      "sortie_incorrecte->sortie_incorrecte": 2,
+      "runtime_non_detaillee->compilation_non_detaillee": 3,
+      "sortie_incorrecte->runtime_non_detaillee": 1
+    }
+  }
+}

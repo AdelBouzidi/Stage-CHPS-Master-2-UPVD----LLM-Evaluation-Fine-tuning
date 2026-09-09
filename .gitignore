@@ -1,0 +1,66 @@
+# Modèles et adaptateurs
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+adapter_model*
+checkpoint*/
+
+# Sorties d'entraînement
+outputs/
+prepared/
+last_run_prepared/
+wandb/
+runs/
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+*.tar.zst
+*.zip
+*.rar
+*.7z
+
+# Logs
+*.log
+*.out
+nohup.out
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Fortran
+*.o
+*.mod
+*.smod
+*.exe
+a.out
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.token
+
+# Temporaires
+*.bak
+*.tmp
+*.swp
+*~
+STEP*_FOR_CHAT.txt
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/

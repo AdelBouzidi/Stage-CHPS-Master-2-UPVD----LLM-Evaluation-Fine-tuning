@@ -1,0 +1,44 @@
+adapter: lora
+attn_implementation: eager
+base_model: /path/to/calypso/workdir/models/Qwen3.5-9B
+bf16: true
+chat_template: qwen3_5
+dataset_prepared_path: /path/to/calypso/workdir/finetuning_domaines_eval/prepared/train_ABC_source_fortran_lang
+datasets:
+- path: /path/to/calypso/workdir/finetuning_domaines_eval/data/by_source/train_ABC_source_fortran_lang_chat.jsonl
+  type: chat_template
+evals_per_epoch: 4
+gradient_accumulation_steps: 8
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+learning_rate: 0.0001
+load_in_4bit: false
+logging_steps: 1
+lora_alpha: 32
+lora_dropout: 0.05
+lora_embedding_kernel: false
+lora_mlp_kernel: false
+lora_o_kernel: false
+lora_qkv_kernel: false
+lora_r: 16
+lora_target_modules:
+- q_proj
+- k_proj
+- v_proj
+- o_proj
+- down_proj
+- up_proj
+lr_scheduler: cosine
+micro_batch_size: 1
+num_epochs: 1
+optimizer: adamw_bnb_8bit
+output_dir: /path/to/calypso/workdir/finetuning_domaines_eval/outputs/train_ABC_source_fortran_lang
+sample_packing: false
+saves_per_epoch: 1
+sequence_len: 4096
+strict: false
+tf32: true
+val_set_size: 0.1
+warmup_ratio: 0.03
+weight_decay: 0.0

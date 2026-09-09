@@ -1,0 +1,54 @@
+services:
+  vllm-qwen35-9b-lora:
+    image: nvcr.io/nvidia/vllm:26.03-py3
+    container_name: vllm-qwen35-9b-lora
+    restart: unless-stopped
+
+    ipc: host
+    ulimits:
+      memlock: -1
+      stack: 67108864
+
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - HUGGING_FACE_HUB_TOKEN=${HF_TOKEN}
+
+    volumes:
+      - /path/to/sparka/workdir/vllm_qwen_lora/models:/models:ro
+      - /path/to/sparka/workdir/vllm_qwen_lora/adapters:/adapters:ro
+
+    ports:
+      - "8087:8000"
+
+    command: >
+      python -m vllm.entrypoints.openai.api_server
+        --model /models/Qwen3.5-9B
+        --served-model-name qwen35-9b-base
+        --language-model-only
+        --skip-mm-profiling
+        --enable-lora
+        --lora-modules ft_ABC_filtered_reject=/adapters/train_ABC_filtered_reject
+        --max-loras 1
+        --max-lora-rank 16
+        --tensor-parallel-size 1
+        --gpu-memory-utilization 0.75
+        --max-model-len 4096
+        --enforce-eager
+        --no-enable-prefix-caching
+        --host 0.0.0.0
+        --port 8000
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 180s

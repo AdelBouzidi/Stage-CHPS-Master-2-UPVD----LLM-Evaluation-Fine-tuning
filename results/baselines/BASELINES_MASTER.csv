@@ -1,0 +1,4 @@
+model,run,concurrency,total,ok,pass_at_1,compile_err,runtime_err,ineq,exception,execution_time_limit,role
+Qwen3.5-9B,conc3,3,164,38,0.2317073171,40,56,27,3,120,historical
+Qwen3.5-9B,conc30,30,164,36,0.2195121951,41,55,29,3,120,primary_baseline
+Qwen3.5-27B,conc12,12,164,56,0.3414634146,71,25,12,0,10,primary_baseline

@@ -1,0 +1,29 @@
+services:
+  vllm-qwen35-27b-base:
+    image: nvcr.io/nvidia/vllm:26.03-py3
+    container_name: vllm-qwen35-27b-base
+    restart: unless-stopped
+    ports:
+      - "8087:8000"
+    volumes:
+      - /path/to/sparka/workdir/vllm_qwen27_lora/models:/models:ro
+      - /path/to/sparka/workdir/vllm_qwen27_lora/adapters:/adapters:ro
+    ipc: host
+    gpus: all
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-}
+    command: >
+      python3 -m vllm.entrypoints.openai.api_server
+      --model /models/Qwen3.5-27B
+      --served-model-name qwen35-27b-base
+      --enable-lora
+      --lora-modules ft_human_domains_epoch2_lr2_qwen27=/adapters/datasets4_epoch12_lr12_only/human_domains_epoch2_lr2
+      --limit-mm-per-prompt '{"image":0,"video":0}'
+      --max-loras 1
+      --max-lora-rank 16
+      --gpu-memory-utilization 0.75
+      --max-model-len 4096
+      --enforce-eager
+      --no-enable-prefix-caching
+      --host 0.0.0.0
+      --port 8000
