@@ -1,0 +1,65 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:5:18:
+
+    5 |   result = digits(n)
+      |                  1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:8:32:
+
+    8 |   function digits(n) result(res)
+      |                                1
+Error: PROGRAM attribute of ‘digits’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:9:28:
+
+    9 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:10:18:
+
+   10 |     integer :: res
+      |                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:11:23:
+
+   11 |     integer :: i, digit
+      |                       1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:12:11:
+
+   12 |     res = 0
+      |           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:13:15:
+
+   13 |     do i = 1, n
+      |               1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:14:24:
+
+   14 |       digit = mod(i, 10)
+      |                        1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:15:34:
+
+   15 |       if (mod(digit, 2) == 1) then
+      |                                  1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:16:25:
+
+   16 |         res = res * digit
+      |                         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:17:9:
+
+   17 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:18:7:
+
+   18 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_131.f90:19:5:
+
+   19 |   end function digits
+      |     1
+Error: Expecting END PROGRAM statement at (1)

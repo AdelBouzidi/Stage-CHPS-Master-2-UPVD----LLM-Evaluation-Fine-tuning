@@ -1,0 +1,40 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_138.f90:6:36:
+
+    6 |       result = is_equal_to_sum_even(n)
+      |                                    1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_138.f90:9:46:
+
+    9 |       logical function is_equal_to_sum_even(n)
+      |                                              1
+Error: PROGRAM attribute of ‘is_equal_to_sum_even’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_138.f90:10:45:
+
+   10 |         if (mod(n, 2) == 0 .and. n >= 8) then
+      |                                             1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_138.f90:11:32:
+
+   11 |            is_equal_to_sum_even = .true.
+      |                                1
+Error: Symbol ‘is_equal_to_sum_even’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_138.f90:12:12:
+
+   12 |         else
+      |            1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_138.f90:13:32:
+
+   13 |            is_equal_to_sum_even = .false.
+      |                                1
+Error: Symbol ‘is_equal_to_sum_even’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_138.f90:14:11:
+
+   14 |         end if
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_138.f90:15:9:
+
+   15 |       end function is_equal_to_sum_even
+      |         1
+Error: Expecting END PROGRAM statement at (1)

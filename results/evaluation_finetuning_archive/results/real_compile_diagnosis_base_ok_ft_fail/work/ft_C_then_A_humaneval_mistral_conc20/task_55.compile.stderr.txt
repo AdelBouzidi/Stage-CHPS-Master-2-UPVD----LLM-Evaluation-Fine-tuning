@@ -1,0 +1,55 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:5:15:
+
+    5 |   result = fib(n)
+      |               1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:8:25:
+
+    8 |   integer function fib(n)
+      |                         1
+Error: PROGRAM attribute of ‘fib’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:9:28:
+
+    9 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:10:20:
+
+   10 |     if (n <= 0) then
+      |                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:11:10:
+
+   11 |       fib = 0
+      |          1
+Error: Symbol ‘fib’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:12:25:
+
+   12 |     else if (n == 1) then
+      |                         1
+Error: Unexpected ELSE IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:13:10:
+
+   13 |       fib = 1
+      |          1
+Error: Symbol ‘fib’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:14:8:
+
+   14 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:15:10:
+
+   15 |       fib = fib(n-1) + fib(n-2)
+      |          1
+Error: Symbol ‘fib’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:16:7:
+
+   16 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_55.f90:17:5:
+
+   17 |   end function fib
+      |     1
+Error: Expecting END PROGRAM statement at (1)

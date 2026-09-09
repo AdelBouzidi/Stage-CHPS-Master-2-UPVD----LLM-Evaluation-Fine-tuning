@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_21.f90:10:11:
+
+   10 |   read(*,*) n
+      |           1
+Error: Named constant ‘n’ in variable definition context (item in READ) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_21.f90:24:6:
+
+   24 |   if (max_val == min_val) then
+      |      1
+Warning: Equality comparison for REAL(4) at (1) [-Wcompare-reals]

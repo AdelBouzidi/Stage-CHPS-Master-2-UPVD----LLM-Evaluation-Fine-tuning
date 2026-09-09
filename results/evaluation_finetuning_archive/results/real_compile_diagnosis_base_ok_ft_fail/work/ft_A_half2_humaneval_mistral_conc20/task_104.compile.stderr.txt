@@ -1,0 +1,65 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:40:34:
+
+   40 |   logical function has_even_digit(num)
+      |                                  1
+Error: Procedure ‘has_even_digit’ at (1) has an explicit interface from a previous declaration
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:41:30:
+
+   41 |     integer, intent(in) :: num
+      |                              1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:42:19:
+
+   42 |     integer :: temp
+      |                   1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:43:19:
+
+   43 |     temp = abs(num)
+      |                   1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:44:23:
+
+   44 |     do while (temp > 0)
+      |                       1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:45:130:
+
+   45 |       if (mod(temp, 10) == 0 .or. mod(temp, 10) == 2 .or. mod(temp, 10) == 4 .or. mod(temp, 10) == 6 .or. mod(temp, 10) == 8) then
+      |                                                                                                                                  1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:46:31:
+
+   46 |         has_even_digit = .true.
+      |                               1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:47:14:
+
+   47 |         return
+      |              1
+Error: GNU Extension: RETURN statement in main program at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:48:9:
+
+   48 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:49:22:
+
+   49 |       temp = temp / 10
+      |                      1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:50:7:
+
+   50 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:51:28:
+
+   51 |     has_even_digit = .false.
+      |                            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_104.f90:52:5:
+
+   52 |   end function has_even_digit
+      |     1
+Error: Expecting END PROGRAM statement at (1)

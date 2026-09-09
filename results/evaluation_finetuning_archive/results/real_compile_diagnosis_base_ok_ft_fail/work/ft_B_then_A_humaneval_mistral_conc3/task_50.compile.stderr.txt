@@ -1,0 +1,35 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_50.f90:7:9:
+
+    7 |         function decode_shift(string s)
+      |         1
+Error: Unclassifiable statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_50.f90:8:21:
+
+    8 |         implicit none
+      |                     1
+Error: Duplicate IMPLICIT NONE statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_50.f90:9:31:
+
+    9 |         character(len=100) :: s
+      |                               1
+Error: Symbol ‘s’ at (1) already has basic type of CHARACTER
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_50.f90:11:20:
+
+   11 |         integer :: i
+      |                    1
+Error: Symbol ‘i’ at (1) already has basic type of INTEGER
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_50.f90:21:11:
+
+   21 |         end function decode_shift
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_50.f90:14:41:
+
+   14 |                 decode_shift = char(ieor(s(i:i), 5))
+      |                                         1
+Error: ‘i’ argument of ‘ieor’ intrinsic at (1) must be INTEGER
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_50.f90:16:41:
+
+   16 |                 decode_shift = char(ieor(s(i:i), 5))
+      |                                         1
+Error: ‘i’ argument of ‘ieor’ intrinsic at (1) must be INTEGER

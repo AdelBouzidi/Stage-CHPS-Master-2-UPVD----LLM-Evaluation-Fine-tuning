@@ -1,0 +1,51 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:3:21:
+
+    3 |     integer function digits(n)
+      |                     1
+Error: Syntax error in data declaration at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:5:11:
+
+    5 |     digits = 0
+      |           1
+Error: ‘digits’ at (1) is not a variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:7:11:
+
+    7 |     digits = 0
+      |           1
+Error: ‘digits’ at (1) is not a variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:9:11:
+
+    9 |     digits = 1
+      |           1
+Error: ‘digits’ at (1) is not a variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:11:11:
+
+   11 |     digits = digits * mod(n, 10)
+      |           1
+Error: ‘digits’ at (1) is not a variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:15:7:
+
+   15 |     end function digits
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:16:16:
+
+   16 |     program main
+      |                1
+Error: Unexpected PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:17:16:
+
+   17 |     integer :: n
+      |                1
+Error: Symbol ‘n’ at (1) already has basic type of INTEGER
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:19:20:
+
+   19 |     print *, digits(n)
+      |                    1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90:20:20:
+
+   20 |     end program main
+      |                    1
+Error: Expected label ‘digits’ for END PROGRAM statement at (1)
+f951: Error: Unexpected end of file in ‘results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_131.f90’

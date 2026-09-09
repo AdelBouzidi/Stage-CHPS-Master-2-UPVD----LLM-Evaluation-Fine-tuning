@@ -1,0 +1,8 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_106.f90:41:15:
+
+   18 |       result(i) = sum_to(i)
+      |                  2
+......
+   41 |     do i = 1, k
+      |               1
+Error: Index variable ‘i’ redefined at (1) in procedure ‘sum_to’ called from within DO loop at (2)

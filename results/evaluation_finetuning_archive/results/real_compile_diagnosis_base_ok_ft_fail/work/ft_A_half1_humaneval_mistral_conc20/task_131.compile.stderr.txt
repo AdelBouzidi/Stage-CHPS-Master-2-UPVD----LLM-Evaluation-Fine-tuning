@@ -1,0 +1,5 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half1_humaneval_mistral_conc20/task_131.f90:16:2:
+
+   16 |   integer function digits(n)
+      |  1
+Warning: ‘digits’ declared at (1) may shadow the intrinsic of the same name.  In order to call the intrinsic, explicit INTRINSIC declarations may be required. [-Wintrinsic-shadow]

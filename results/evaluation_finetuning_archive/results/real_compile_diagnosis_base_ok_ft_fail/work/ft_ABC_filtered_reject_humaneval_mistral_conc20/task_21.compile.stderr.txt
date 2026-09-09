@@ -1,0 +1,15 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_21.f90:15:30:
+
+   15 |   real(dp) :: min_val, max_val
+      |                              1
+Error: Unexpected data declaration statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_21.f90:17:9:
+
+   17 |   max_val = numbers(1)
+      |         1
+Error: Symbol ‘max_val’ at (1) has no IMPLICIT type
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_21.f90:16:9:
+
+   16 |   min_val = numbers(1)
+      |         1
+Error: Symbol ‘min_val’ at (1) has no IMPLICIT type

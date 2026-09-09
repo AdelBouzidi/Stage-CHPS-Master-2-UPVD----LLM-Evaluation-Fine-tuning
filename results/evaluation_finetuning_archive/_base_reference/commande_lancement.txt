@@ -1,0 +1,8 @@
+python evaluate_all_qwen_lora_solutions.py \
+  --benchmark ../benchmark.json \
+  --solutions-dir _base_reference/results_qwen_lora/solutions \
+  --results-dir _base_reference/results \
+  --execution-time-limit 120 \
+  --force \
+  2>&1 | tee _base_reference/logs/evaluate_base_reference_force.log
+"

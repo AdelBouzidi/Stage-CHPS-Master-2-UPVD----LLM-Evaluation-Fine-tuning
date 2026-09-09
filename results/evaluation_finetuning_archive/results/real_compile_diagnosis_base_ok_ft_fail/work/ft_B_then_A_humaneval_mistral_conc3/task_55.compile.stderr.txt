@@ -1,0 +1,15 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_55.f90:15:16:
+
+   15 |       fib = fib(i-1) + fib(i-2)
+      |                1
+Error: ‘fib’ at (1) is the name of a recursive function and so refers to the result variable. Use an explicit RESULT variable for direct recursion (12.5.2.1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_55.f90:11:34:
+
+   11 |   recursive integer function fib(i)
+      |                                  1
+Error: Symbol ‘i’ at (1) has no IMPLICIT type
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_55.f90:6:11:
+
+    6 |   result = fib(n)
+      |           1
+Error: Type mismatch in argument ‘i’ at (1); passed INTEGER(4) to UNKNOWN

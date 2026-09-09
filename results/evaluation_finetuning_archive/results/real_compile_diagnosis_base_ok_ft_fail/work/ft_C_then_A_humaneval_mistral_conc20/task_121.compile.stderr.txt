@@ -1,0 +1,70 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:13:20:
+
+   13 |   result = solution(lst_len, lst)
+      |                    1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:19:41:
+
+   19 |   integer function solution(lst_len, lst)
+      |                                         1
+Error: PROGRAM attribute of ‘solution’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:20:34:
+
+   20 |     integer, intent(in) :: lst_len
+      |                                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:21:33:
+
+   21 |     integer, intent(in) :: lst(:)
+      |                                 1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:22:16:
+
+   22 |     integer :: i
+      |                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:23:22:
+
+   23 |     integer :: sum_val
+      |                      1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:24:15:
+
+   24 |     sum_val = 0
+      |               1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:25:24:
+
+   25 |     do i = 2, lst_len, 2
+      |                        1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:26:35:
+
+   26 |       if (mod(lst(i), 2) == 1) then
+      |                                   1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:27:34:
+
+   27 |         sum_val = sum_val + lst(i)
+      |                                  1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:28:9:
+
+   28 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:29:7:
+
+   29 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:30:13:
+
+   30 |     solution = sum_val
+      |             1
+Error: Symbol ‘solution’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_121.f90:31:5:
+
+   31 |   end function solution
+      |     1
+Error: Expecting END PROGRAM statement at (1)

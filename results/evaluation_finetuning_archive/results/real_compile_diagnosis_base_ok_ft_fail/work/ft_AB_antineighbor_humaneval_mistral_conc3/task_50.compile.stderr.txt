@@ -1,0 +1,15 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_50.f90:4:14:
+
+    4 |   integer :: i, len
+      |              1
+Warning: Unused variable ‘i’ declared at (1) [-Wunused-variable]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_50.f90:7:15:
+
+    7 |   read *, input
+      |               ^
+Warning: ‘.input’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_50.f90:38:27:
+
+   38 |   end function decode_shift
+      |                           ^
+note: ‘.input’ was declared here

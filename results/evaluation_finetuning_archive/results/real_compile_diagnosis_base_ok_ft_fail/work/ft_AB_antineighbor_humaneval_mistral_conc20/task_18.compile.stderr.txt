@@ -1,0 +1,105 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:10:26:
+
+   10 |   result = how_many_times(input(1), input(2))
+      |                          1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:17:52:
+
+   17 |   integer function how_many_times(string, substring)
+      |                                                    1
+Error: PROGRAM attribute of ‘how_many_times’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:18:42:
+
+   18 |     character(len=*), intent(in) :: string
+      |                                          1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:19:45:
+
+   19 |     character(len=*), intent(in) :: substring
+      |                                             1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:20:23:
+
+   20 |     integer :: i, count
+      |                       1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:21:31:
+
+   21 |     integer :: len_str, len_sub
+      |                               1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:23:30:
+
+   23 |     len_str = len_trim(string)
+      |                              1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:24:33:
+
+   24 |     len_sub = len_trim(substring)
+      |                                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:26:31:
+
+   26 |     if (len_sub > len_str) then
+      |                               1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:27:21:
+
+   27 |       how_many_times = 0
+      |                     1
+Error: Symbol ‘how_many_times’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:28:12:
+
+   28 |       return
+      |            1
+Error: GNU Extension: RETURN statement in main program at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:29:7:
+
+   29 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:31:13:
+
+   31 |     count = 0
+      |             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:32:35:
+
+   32 |     do i = 1, len_str - len_sub + 1
+      |                                   1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:33:19:
+
+   33 |       if (string(i:i+len_sub-1) == substring) then
+      |                   1
+Error: Syntax error in argument list at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:34:25:
+
+   34 |         count = count + 1
+      |                         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:35:9:
+
+   35 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:36:7:
+
+   36 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:38:19:
+
+   38 |     how_many_times = count
+      |                   1
+Error: Symbol ‘how_many_times’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:39:5:
+
+   39 |   end function how_many_times
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_18.f90:3:41:
+
+    3 |   character(len=*), dimension(2) :: input
+      |                                         1
+Error: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER

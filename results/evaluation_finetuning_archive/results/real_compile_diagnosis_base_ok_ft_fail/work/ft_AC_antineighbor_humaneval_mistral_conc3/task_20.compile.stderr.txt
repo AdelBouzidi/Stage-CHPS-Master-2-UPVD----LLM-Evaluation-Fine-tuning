@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc3/task_20.f90:23:22:
+
+   23 |       real(dp) :: diff
+      |                      1
+Error: Unexpected data declaration statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc3/task_20.f90:24:10:
+
+   24 |       diff = abs(numbers(i) - numbers(j))
+      |          1
+Error: Symbol ‘diff’ at (1) has no IMPLICIT type

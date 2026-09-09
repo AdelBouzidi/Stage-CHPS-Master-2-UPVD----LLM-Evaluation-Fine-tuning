@@ -1,0 +1,45 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:7:27:
+
+    7 |   result = starts_one_ends(n)
+      |                           1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:12:37:
+
+   12 |   integer function starts_one_ends(n)
+      |                                     1
+Error: PROGRAM attribute of ‘starts_one_ends’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:13:28:
+
+   13 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:14:20:
+
+   14 |     if (n == 1) then
+      |                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:15:22:
+
+   15 |       starts_one_ends = 1
+      |                      1
+Error: Symbol ‘starts_one_ends’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:16:8:
+
+   16 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:17:22:
+
+   17 |       starts_one_ends = 9 * 10**(n-1) + 8 * 10**(n-2)
+      |                      1
+Error: Symbol ‘starts_one_ends’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:18:7:
+
+   18 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_83.f90:19:5:
+
+   19 |   end function starts_one_ends
+      |     1
+Error: Expecting END PROGRAM statement at (1)

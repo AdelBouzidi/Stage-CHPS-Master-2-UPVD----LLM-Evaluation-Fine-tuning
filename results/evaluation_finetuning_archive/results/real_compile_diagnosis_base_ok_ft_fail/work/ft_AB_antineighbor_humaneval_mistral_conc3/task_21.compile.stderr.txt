@@ -1,0 +1,55 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:42:8:
+
+   42 |     if (range == 0.0_dp) then
+      |        1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:22:24:
+
+   22 |     print *, rescaled(i)
+      |                        ^
+Warning: ‘rescaled.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:6:38:
+
+    6 |   real(dp), allocatable :: rescaled(:)
+      |                                      ^
+note: ‘rescaled’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:22:12:
+
+   22 |     print *, rescaled(i)
+      |            ^
+Warning: ‘rescaled.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:6:38:
+
+    6 |   real(dp), allocatable :: rescaled(:)
+      |                                      ^
+note: ‘rescaled’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:22:24:
+
+   22 |     print *, rescaled(i)
+      |                        ^
+Warning: ‘rescaled.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:6:38:
+
+    6 |   real(dp), allocatable :: rescaled(:)
+      |                                      ^
+note: ‘rescaled’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:22:12:
+
+   22 |     print *, rescaled(i)
+      |            ^
+Warning: ‘rescaled.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:6:38:
+
+    6 |   real(dp), allocatable :: rescaled(:)
+      |                                      ^
+note: ‘rescaled’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:22:24:
+
+   22 |     print *, rescaled(i)
+      |                        ^
+Warning: ‘rescaled.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_21.f90:6:38:
+
+    6 |   real(dp), allocatable :: rescaled(:)
+      |                                      ^
+note: ‘rescaled’ declared here

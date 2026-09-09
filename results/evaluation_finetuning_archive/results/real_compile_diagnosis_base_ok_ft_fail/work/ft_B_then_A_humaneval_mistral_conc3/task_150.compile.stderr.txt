@@ -1,0 +1,65 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:9:18:
+
+    9 |   result = x_or_y(n, x, y)
+      |                  1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:14:34:
+
+   14 |   integer function x_or_y(n, x, y)
+      |                                  1
+Error: PROGRAM attribute of ‘x_or_y’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:15:34:
+
+   15 |     integer, intent(in) :: n, x, y
+      |                                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:16:22:
+
+   16 |     if (prime(n)) then
+      |                      1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:17:13:
+
+   17 |       x_or_y = x
+      |             1
+Error: Symbol ‘x_or_y’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:18:8:
+
+   18 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:19:13:
+
+   19 |       x_or_y = y
+      |             1
+Error: Symbol ‘x_or_y’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:20:7:
+
+   20 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:21:5:
+
+   21 |   end function x_or_y
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:29:10:
+
+   29 |       do i = 2, n-1
+      |          1
+Error: Symbol ‘i’ at (1) has no IMPLICIT type
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:25:12:
+
+   25 |     prime = .true.
+      |            1
+Error: Cannot convert LOGICAL(4) to INTEGER(4) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:27:14:
+
+   27 |       prime = .false.
+      |              1
+Error: Cannot convert LOGICAL(4) to INTEGER(4) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_150.f90:31:18:
+
+   31 |           prime = .false.
+      |                  1
+Error: Cannot convert LOGICAL(4) to INTEGER(4) at (1)

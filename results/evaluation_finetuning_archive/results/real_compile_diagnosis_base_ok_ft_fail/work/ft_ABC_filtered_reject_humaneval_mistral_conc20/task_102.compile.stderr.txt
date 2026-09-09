@@ -1,0 +1,85 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:10:22:
+
+   10 |   result = choose_num(x, y)
+      |                      1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:17:39:
+
+   17 |   function choose_num(x, y) result(res)
+      |                                       1
+Error: PROGRAM attribute of ‘choose_num’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:18:17:
+
+   18 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:19:31:
+
+   19 |     integer, intent(in) :: x, y
+      |                               1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:20:18:
+
+   20 |     integer :: res
+      |                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:22:19:
+
+   22 |     if (x > y) then
+      |                   1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:23:14:
+
+   23 |       res = -1
+      |              1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:24:8:
+
+   24 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:25:13:
+
+   25 |       res = y
+      |             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:26:32:
+
+   26 |       if (mod(res, 2) /= 0) then
+      |                                1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:27:21:
+
+   27 |         res = res - 1
+      |                     1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:28:9:
+
+   28 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:29:23:
+
+   29 |       if (res < x) then
+      |                       1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:30:16:
+
+   30 |         res = -1
+      |                1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:31:9:
+
+   31 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:32:7:
+
+   32 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_102.f90:33:5:
+
+   33 |   end function choose_num
+      |     1
+Error: Expecting END PROGRAM statement at (1)

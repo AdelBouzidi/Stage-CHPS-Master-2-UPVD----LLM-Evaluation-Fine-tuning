@@ -1,0 +1,163 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:19:34:
+
+   19 |   subroutine find_closest_elements(numbers_len, numbers, result1, result2)
+      |                                  1
+Error: PROGRAM attribute of ‘find_closest_elements’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:20:17:
+
+   20 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:21:38:
+
+   21 |     integer, intent(in) :: numbers_len
+      |                                      1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:22:48:
+
+   22 |     real(dp), intent(in) :: numbers(numbers_len)
+      |                                                1
+Error: Explicit shaped array with nonconstant bounds at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:23:45:
+
+   23 |     real(dp), intent(out) :: result1, result2
+      |                                             1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:24:19:
+
+   24 |     integer :: i, j
+      |                   1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:25:24:
+
+   25 |     real(dp) :: min_diff
+      |                        1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:26:20:
+
+   26 |     real(dp) :: diff
+      |                    1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:27:25:
+
+   27 |     integer :: idx1, idx2
+      |                         1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:29:29:
+
+   29 |     min_diff = huge(min_diff)
+      |                             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:30:12:
+
+   30 |     idx1 = 1
+      |            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:31:12:
+
+   31 |     idx2 = 2
+      |            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:33:29:
+
+   33 |     do i = 1, numbers_len - 1
+      |                             1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:34:31:
+
+   34 |       do j = i + 1, numbers_len
+      |                               1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:35:43:
+
+   35 |         diff = abs(numbers(i) - numbers(j))
+      |                                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:36:33:
+
+   36 |         if (diff < min_diff) then
+      |                                 1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:37:25:
+
+   37 |           min_diff = diff
+      |                         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:38:18:
+
+   38 |           idx1 = i
+      |                  1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:39:18:
+
+   39 |           idx2 = j
+      |                  1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:40:11:
+
+   40 |         end if
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:41:9:
+
+   41 |       end do
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:42:7:
+
+   42 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:44:43:
+
+   44 |     if (numbers(idx1) < numbers(idx2)) then
+      |                                           1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:45:29:
+
+   45 |       result1 = numbers(idx1)
+      |                             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:46:29:
+
+   46 |       result2 = numbers(idx2)
+      |                             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:47:8:
+
+   47 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:48:29:
+
+   48 |       result1 = numbers(idx2)
+      |                             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:49:29:
+
+   49 |       result2 = numbers(idx1)
+      |                             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:50:7:
+
+   50 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:51:5:
+
+   51 |   end subroutine find_closest_elements
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:13:68:
+
+    1 | program find_closest_elements
+      |                             2                                       
+......
+   13 |   call find_closest_elements(numbers_len, numbers, result1, result2)
+      |                                                                    1
+Error: Global name ‘find_closest_elements’ at (1) is already being used as a PROGRAM at (2)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_20.f90:13:68:
+
+   13 |   call find_closest_elements(numbers_len, numbers, result1, result2)
+      |                                                                    1
+Error: More actual than formal arguments in procedure call at (1)

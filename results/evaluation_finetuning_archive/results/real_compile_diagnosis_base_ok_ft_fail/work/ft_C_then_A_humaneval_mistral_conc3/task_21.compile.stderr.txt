@@ -1,0 +1,83 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:20:28:
+
+   20 |   subroutine rescale_to_unit(numbers_len, numbers, res)
+      |                            1
+Error: PROGRAM attribute of ‘rescale_to_unit’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:21:17:
+
+   21 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:22:38:
+
+   22 |     integer, intent(in) :: numbers_len
+      |                                      1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:23:48:
+
+   23 |     real(dp), intent(in) :: numbers(numbers_len)
+      |                                                1
+Error: Explicit shaped array with nonconstant bounds at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:24:45:
+
+   24 |     real(dp), intent(out) :: res(numbers_len)
+      |                                             1
+Error: Explicit shaped array with nonconstant bounds at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:25:32:
+
+   25 |     real(dp) :: min_val, max_val
+      |                                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:27:29:
+
+   27 |     min_val = minval(numbers)
+      |                             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:28:29:
+
+   28 |     max_val = maxval(numbers)
+      |                             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:30:32:
+
+   30 |     if (max_val == min_val) then
+      |                                1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:31:18:
+
+   31 |       res = 0.0_dp
+      |                  1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:32:8:
+
+   32 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:33:53:
+
+   33 |       res = (numbers - min_val) / (max_val - min_val)
+      |                                                     1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:34:7:
+
+   34 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:35:5:
+
+   35 |   end subroutine rescale_to_unit
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:14:49:
+
+    1 | program rescale_to_unit
+      |                       2                          
+......
+   14 |   call rescale_to_unit(numbers_len, numbers, res)
+      |                                                 1
+Error: Global name ‘rescale_to_unit’ at (1) is already being used as a PROGRAM at (2)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_21.f90:14:49:
+
+   14 |   call rescale_to_unit(numbers_len, numbers, res)
+      |                                                 1
+Error: More actual than formal arguments in procedure call at (1)

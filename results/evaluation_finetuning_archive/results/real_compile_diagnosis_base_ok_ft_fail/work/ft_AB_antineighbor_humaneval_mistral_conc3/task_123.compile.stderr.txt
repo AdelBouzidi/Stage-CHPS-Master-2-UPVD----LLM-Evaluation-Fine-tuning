@@ -1,0 +1,175 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:10:27:
+
+   10 |   result = get_odd_collatz(n)
+      |                           1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:16:41:
+
+   16 |   function get_odd_collatz(n) result(res)
+      |                                         1
+Error: PROGRAM attribute of ‘get_odd_collatz’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:17:17:
+
+   17 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:18:28:
+
+   18 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:19:34:
+
+   19 |     integer, allocatable :: res(:)
+      |                                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:20:22:
+
+   20 |     integer :: i, temp
+      |                      1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:21:24:
+
+   21 |     integer :: count = 0
+      |                        1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:24:12:
+
+   24 |     temp = n
+      |            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:25:23:
+
+   25 |     do while (temp > 0)
+      |                       1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:26:33:
+
+   26 |       if (mod(temp, 2) == 1) then
+      |                                 1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:27:25:
+
+   27 |         count = count + 1
+      |                         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:28:9:
+
+   28 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:29:25:
+
+   29 |       if (temp == 1) exit
+      |                         1
+Error: EXIT statement at (1) is not within a construct
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:30:33:
+
+   30 |       if (mod(temp, 2) == 0) then
+      |                                 1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:31:23:
+
+   31 |         temp = temp / 2
+      |                       1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:32:10:
+
+   32 |       else
+      |          1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:33:27:
+
+   33 |         temp = 3 * temp + 1
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:34:9:
+
+   34 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:35:7:
+
+   35 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:37:13:
+
+   37 |     allocate(res(count))
+      |             1
+Error: Allocate-object at (1) is neither a data pointer nor an allocatable variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:38:9:
+
+   38 |     i = 0
+      |         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:39:12:
+
+   39 |     temp = n
+      |            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:40:23:
+
+   40 |     do while (temp > 0)
+      |                       1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:41:33:
+
+   41 |       if (mod(temp, 2) == 1) then
+      |                                 1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:42:17:
+
+   42 |         i = i + 1
+      |                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:43:21:
+
+   43 |         res(i) = temp
+      |                     1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:44:9:
+
+   44 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:45:25:
+
+   45 |       if (temp == 1) exit
+      |                         1
+Error: EXIT statement at (1) is not within a construct
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:46:33:
+
+   46 |       if (mod(temp, 2) == 0) then
+      |                                 1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:47:23:
+
+   47 |         temp = temp / 2
+      |                       1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:48:10:
+
+   48 |       else
+      |          1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:49:27:
+
+   49 |         temp = 3 * temp + 1
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:50:9:
+
+   50 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:51:7:
+
+   51 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc3/task_123.f90:53:5:
+
+   53 |   end function get_odd_collatz
+      |     1
+Error: Expecting END PROGRAM statement at (1)

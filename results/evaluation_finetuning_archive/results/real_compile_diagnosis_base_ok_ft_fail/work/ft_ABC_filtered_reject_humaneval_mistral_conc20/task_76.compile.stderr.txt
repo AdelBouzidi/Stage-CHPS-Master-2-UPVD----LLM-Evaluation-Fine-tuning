@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_76.f90:38:35:
+
+   38 |       is_simple_power = (x == 2**i)
+      |                                   ^
+Warning: ‘i’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_76.f90:20:16:
+
+   20 |     integer :: i
+      |                ^
+note: ‘i’ was declared here

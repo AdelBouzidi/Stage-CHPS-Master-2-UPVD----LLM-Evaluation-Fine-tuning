@@ -1,0 +1,165 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:11:27:
+
+   11 |   result = is_simple_power(x, n)
+      |                           1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:17:47:
+
+   17 |   function is_simple_power(x, n) result(result)
+      |                                               1
+Error: PROGRAM attribute of ‘is_simple_power’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:18:17:
+
+   18 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:19:31:
+
+   19 |     integer, intent(in) :: x, n
+      |                               1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:20:21:
+
+   20 |     logical :: result
+      |                     1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:21:16:
+
+   21 |     integer :: k
+      |                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:24:20:
+
+   24 |     if (n <= 0) then
+      |                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:25:22:
+
+   25 |       result = .false.
+      |                      1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:26:12:
+
+   26 |       return
+      |            1
+Error: GNU Extension: RETURN statement in main program at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:27:7:
+
+   27 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:29:20:
+
+   29 |     if (x <= 0) then
+      |                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:30:22:
+
+   30 |       result = .false.
+      |                      1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:31:12:
+
+   31 |       return
+      |            1
+Error: GNU Extension: RETURN statement in main program at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:32:7:
+
+   32 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:34:20:
+
+   34 |     if (x == 1) then
+      |                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:35:21:
+
+   35 |       result = .true.
+      |                     1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:36:12:
+
+   36 |       return
+      |            1
+Error: GNU Extension: RETURN statement in main program at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:37:7:
+
+   37 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:39:20:
+
+   39 |     if (n == 1) then
+      |                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:40:22:
+
+   40 |       result = .false.
+      |                      1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:41:12:
+
+   41 |       return
+      |            1
+Error: GNU Extension: RETURN statement in main program at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:42:7:
+
+   42 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:45:20:
+
+   45 |     result = .false.
+      |                    1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:46:16:
+
+   46 |     do k = 1, 32
+      |                1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:47:25:
+
+   47 |       if (n**k == x) then
+      |                         1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:48:23:
+
+   48 |         result = .true.
+      |                       1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:49:12:
+
+   49 |         exit
+      |            1
+Error: EXIT statement at (1) is not within a construct
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:50:9:
+
+   50 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:51:24:
+
+   51 |       if (n**k > x) then
+      |                        1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:52:12:
+
+   52 |         exit
+      |            1
+Error: EXIT statement at (1) is not within a construct
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:53:9:
+
+   53 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:54:7:
+
+   54 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_76.f90:55:5:
+
+   55 |   end function is_simple_power
+      |     1
+Error: Expecting END PROGRAM statement at (1)

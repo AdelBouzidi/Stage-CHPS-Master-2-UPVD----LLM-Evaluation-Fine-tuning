@@ -1,0 +1,39 @@
+====================================================================================================
+GLOBAL REAL COMPILE SUMMARY
+====================================================================================================
+total cases       : 675
+compiled_ok       : 289
+compiled_failed   : 386
+
+FT status counts:
+  compile_err                              384
+  ineq                                     146
+  ok                                       99
+  runtime_err                              42
+  exception                                4
+
+Compile primary counts:
+  compile_ok                               289
+  intent_in_modified                       145
+  implicit_declaration                     83
+  empty_or_no_program                      58
+  compile_other                            31
+  invalid_operator_or_expression           26
+  c_like_signature_or_invalid_decl         20
+  syntax_error                             14
+  type_mismatch                            6
+  allocatable_shape_or_allocate            3
+
+Compile label counts:
+  compile_failed                           386
+  compile_ok                               289
+  intent_in_modified                       147
+  syntax_error                             142
+  implicit_declaration                     90
+  missing_kind_or_iso                      90
+  empty_or_no_program                      60
+  compile_other                            31
+  invalid_operator_or_expression           28
+  c_like_signature_or_invalid_decl         20
+  type_mismatch                            10
+  allocatable_shape_or_allocate            10

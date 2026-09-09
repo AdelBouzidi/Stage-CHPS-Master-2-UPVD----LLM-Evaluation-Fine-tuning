@@ -1,0 +1,20 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_18.f90:7:23:
+
+    7 |       read(*, *) string
+      |                       ^
+Warning: ‘.string’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_18.f90:1:27:
+
+    1 | program how_many_times_demo
+      |                           ^
+note: ‘.string’ was declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_18.f90:8:26:
+
+    8 |       read(*, *) substring
+      |                          ^
+Warning: ‘.substring’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_18.f90:1:27:
+
+    1 | program how_many_times_demo
+      |                           ^
+note: ‘.substring’ was declared here

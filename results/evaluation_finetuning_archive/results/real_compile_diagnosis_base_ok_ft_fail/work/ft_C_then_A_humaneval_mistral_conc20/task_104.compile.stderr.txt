@@ -1,0 +1,15 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_104.f90:28:28:
+
+   28 |     logical :: contains_even
+      |                            1
+Warning: Unused variable ‘contains_even’ declared at (1) [-Wunused-variable]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_104.f90:3:26:
+
+    3 |   integer, parameter :: dp = kind(1.0d0)
+      |                          1
+Warning: Unused parameter ‘dp’ declared at (1) [-Wunused-parameter]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc20/task_104.f90:7:14:
+
+    7 |   integer :: i
+      |              1
+Warning: Unused variable ‘i’ declared at (1) [-Wunused-variable]

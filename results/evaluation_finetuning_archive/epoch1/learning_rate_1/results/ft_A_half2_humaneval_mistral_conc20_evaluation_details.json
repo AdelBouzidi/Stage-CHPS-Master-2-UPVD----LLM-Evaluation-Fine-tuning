@@ -1,0 +1,1752 @@
+[
+  {
+    "index": 0,
+    "task_id": 0,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 1018,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 1,
+    "task_id": 1,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpzoal2l8r.f90:3:27:\n\n    3 |   character(len=*) :: input\n      |                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpzoal2l8r.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 733,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 2,
+    "task_id": 2,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpx6k3xsnw.f90:12:8:\n\n   12 |   print(*,*) result\n      |        1\nError: Syntax error in PRINT statement at (1)\n/tmp/tmpx6k3xsnw.f90:17:17:\n\n   17 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmpx6k3xsnw.f90:18:30:\n\n   18 |     real, intent(in) :: number\n      |                              1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpx6k3xsnw.f90:19:18:\n\n   19 |     real :: result\n      |                  1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpx6k3xsnw.f90:20:33:\n\n   20 |     result = number - int(number)\n      |                                 1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpx6k3xsnw.f90:21:5:\n\n   21 |   end function truncate_number\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpx6k3xsnw.f90:9:11:\n\n    9 |   result = truncate_number(number)\n      |           1\nError: Function ‘truncate_number’ at (1) has no IMPLICIT type\n",
+    "code_chars": 421,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 3,
+    "task_id": 3,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp3z7jk2xj.f90:10:25:\n\n   10 |   read(*,*) (operations(i), i=1,operations_len)\n      |                         1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "code_chars": 852,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 4,
+    "task_id": 4,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmptmq9eji0.f90:10:22:\n\n   10 |   read(*,*) (numbers(i), i=1,n)\n      |                      1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "code_chars": 387,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 5,
+    "task_id": 5,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpp_4jqoha.f90:31:13:\n\n   31 |     allocate(result(2*numbers_len - 1))\n      |             1\nError: Allocate-object at (1) must be ALLOCATABLE or a POINTER\n",
+    "code_chars": 922,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 6,
+    "task_id": 6,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0xf8a5f107d197 in ???\n#1  0xf8a5f107c07f in ???\n#2  0xf8a5f1226a5f in ???\n#3  0xc1f5f7d609b8 in MAIN__\n#4  0xc1f5f7d60adb in main\n",
+    "code_chars": 772,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 7,
+    "task_id": 7,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 13 of file /tmp/tmp9uwyvuse.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf9c27422d197 in ???\n#1  0xf9c27422def7 in ???\n#2  0xf9c27432236b in ???\n#3  0xf9c27431beaf in ???\n#4  0xf9c27431c8e3 in ???\n#5  0xb9c98d5d0bff in MAIN__\n#6  0xb9c98d5d0e0b in main\n",
+    "code_chars": 814,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 8,
+    "task_id": 8,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 12 of file /tmp/tmp98i5ajg7.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xef0d3f75d197 in ???\n#1  0xef0d3f75def7 in ???\n#2  0xef0d3f85236b in ???\n#3  0xef0d3f84beaf in ???\n#4  0xef0d3f84c8e3 in ???\n#5  0xab43b51c0b27 in MAIN__\n#6  0xab43b51c0c5b in main\n",
+    "code_chars": 530,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 9,
+    "task_id": 9,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 12 of file /tmp/tmphh53k0gb.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfc7d8233d197 in ???\n#1  0xfc7d8233def7 in ???\n#2  0xfc7d8243236b in ???\n#3  0xfc7d8242beaf in ???\n#4  0xfc7d8242c8e3 in ???\n#5  0xc41d752b0b27 in MAIN__\n#6  0xc41d752b0cbb in main\n",
+    "code_chars": 540,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 10,
+    "task_id": 10,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp4gs71v70.f90:3:27:\n\n    3 |   character(len=*) :: input\n      |                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp4gs71v70.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp4gs71v70.f90:6:26:\n\n    6 |   character(len=*) :: temp\n      |                          1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp4gs71v70.f90:23:28:\n\n   23 |     character(len=*) :: temp\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 729,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 11,
+    "task_id": 11,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpqicipopv.f90:3:23:\n\n    3 |   character(len=*) :: a, b\n      |                       1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpqicipopv.f90:3:26:\n\n    3 |   character(len=*) :: a, b\n      |                          1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpqicipopv.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 858,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 12,
+    "task_id": 12,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpqiu0mfq6.f90:33:38:\n\n   33 |         integer :: i, max_len, max_idx\n      |                                      1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpqiu0mfq6.f90:22:4:\n\n   22 |     function longest(strings_len, strings) result(res)\n      |    1\nError: Character-valued internal function ‘longest’ at (1) must not be assumed length\n/tmp/tmpqiu0mfq6.f90:11:28:\n\n   11 |         read(*,*) (strings(i), i=1,strings_len)\n      |                            1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n/tmp/tmpqiu0mfq6.f90:35:15:\n\n   35 |         max_idx = 1\n      |               1\nError: Symbol ‘max_idx’ at (1) has no IMPLICIT type\n/tmp/tmpqiu0mfq6.f90:34:15:\n\n   34 |         max_len = 0\n      |               1\nError: Symbol ‘max_len’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1105,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 13,
+    "task_id": 13,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp79r6akig.f90:25:12:\n\n   25 |       gcd = greatest_common_divisor(b, mod(a, b))\n      |            1\nError: Function ‘greatest_common_divisor’ at (1) cannot be called recursively, as it is not RECURSIVE\n",
+    "code_chars": 515,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 14,
+    "task_id": 14,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpgljy_fx_.f90:25:17:\n\n   25 |         allocate(character(len=n), dimension=n)\n      |                 1\nError: Allocate-object at (1) is neither a data pointer nor an allocatable variable\n/tmp/tmpgljy_fx_.f90:14:37:\n\n   14 |     print *, 'Prefixes:', (prefixes(i), i=1, size(prefixes))\n      |                                     1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n/tmp/tmpgljy_fx_.f90:4:36:\n\n    4 |     character(len=*) :: input_string\n      |                                    1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpgljy_fx_.f90:3:59:\n\n    3 |     character(len=*), dimension(:), allocatable :: prefixes\n      |                                                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpgljy_fx_.f90:25:31:\n\n   25 |         allocate(character(len=n), dimension=n)\n      |                               1\nError: Variable ‘n’ cannot appear in the expression at (1)\n",
+    "code_chars": 896,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 15,
+    "task_id": 15,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpdjce6xoj.f90:17:4:\n\n   17 |     function string_sequence(n) result(res)\n      |    1\nError: Character-valued internal function ‘string_sequence’ at (1) must not be assumed length\n/tmp/tmpdjce6xoj.f90:4:30:\n\n    4 |     character(len=*) :: result\n      |                              1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 1068,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 16,
+    "task_id": 16,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpibbzt1ar.f90:3:27:\n\n    3 |   character(len=*) :: input\n      |                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 763,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 17,
+    "task_id": 17,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpzqg3y4rm.f90:3:31:\n\n    3 |   character(len=*) :: input_str\n      |                               1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpzqg3y4rm.f90:9:25:\n\n    9 |   character(len=*) :: str\n      |                         1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 706,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 18,
+    "task_id": 18,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 976,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 19,
+    "task_id": 19,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp_z1z18kb.f90:3:60:\n\n    3 |   character(len=*), dimension(:), allocatable :: input_words\n      |                                                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp_z1z18kb.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp_z1z18kb.f90:6:26:\n\n    6 |   character(len=*) :: temp\n      |                          1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp_z1z18kb.f90:7:35:\n\n    7 |   character(len=*) :: word_list(10)\n      |                                   1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp_z1z18kb.f90:10:22:\n\n   10 |   word_list = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']\n      |                      1\nError: Different CHARACTER lengths (4/3) in array constructor at (1)\n",
+    "code_chars": 910,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 20,
+    "task_id": 20,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 910,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 21,
+    "task_id": 21,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0xe760a232d197 in ???\n#1  0xe760a232c07f in ???\n#2  0xe760a24d0a5f in ???\n#3  0xc9def5200dc8 in rescale_to_unit.0\n#4  0xc9def520101f in MAIN__\n#5  0xc9def52010ab in main\n",
+    "code_chars": 979,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 22,
+    "task_id": 22,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 12 of file /tmp/tmpa35h4u5h.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe5d8207ed197 in ???\n#1  0xe5d8207edef7 in ???\n#2  0xe5d8208e236b in ???\n#3  0xe5d8208e5893 in ???\n#4  0xe5d8208e599b in ???\n#5  0xc376cace0e4b in MAIN__\n#6  0xc376cace1137 in main\n",
+    "code_chars": 655,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 23,
+    "task_id": 23,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpggo372j1.f90:3:41:\n\n    3 |   character(len=*), dimension(1) :: input\n      |                                         1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 189,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 24,
+    "task_id": 24,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 489,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 25,
+    "task_id": 25,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "2",
+      [
+        2,
+        2
+      ]
+    ],
+    "code_chars": 896,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 26,
+    "task_id": 26,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 27,
+    "task_id": 27,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpi2wo4i4x.f90:17:3:\n\n   17 |   function flip_case(string) result\n      |   1\nError: Unclassifiable statement at (1)\n/tmp/tmpi2wo4i4x.f90:18:17:\n\n   18 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:19:42:\n\n   19 |     character(len=*), intent(in) :: string\n      |                                          1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:20:22:\n\n   20 |     character(len=len(string)) :: result\n      |                      1\nError: Symbol ‘string’ is used before it is typed at (1)\n/tmp/tmpi2wo4i4x.f90:21:16:\n\n   21 |     integer :: i\n      |                1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:22:28:\n\n   22 |     character(len=1) :: char\n      |                            1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:24:15:\n\n   24 |     result = ''\n      |               1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:25:25:\n\n   25 |     do i = 1, len(string)\n      |                         1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:26:22:\n\n   26 |       char = string(i:i)\n      |                      1\nError: Syntax error in argument list at (1)\n/tmp/tmpi2wo4i4x.f90:27:45:\n\n   27 |       if (char >= 'a' .and. char <= 'z') then\n      |                                             1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:28:40:\n\n   28 |         result = result // charchar - 32\n      |                                        1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:29:50:\n\n   29 |       else if (char >= 'A' .and. char <= 'Z') then\n      |                                                  1\nError: Unexpected ELSE IF statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:30:40:\n\n   30 |         result = result // charchar + 32\n      |                                        1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:31:10:\n\n   31 |       else\n      |          1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:32:31:\n\n   32 |         result = result // char\n      |                               1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpi2wo4i4x.f90:33:9:\n\n   33 |       end if\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpi2wo4i4x.f90:34:7:\n\n   34 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpi2wo4i4x.f90:35:5:\n\n   35 |   end function flip_case\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpi2wo4i4x.f90:3:27:\n\n    3 |   character(len=*) :: input\n      |                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpi2wo4i4x.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpi2wo4i4x.f90:10:11:\n\n   10 |   result = flip_case(input)\n      |           1\nError: Function ‘flip_case’ at (1) has no IMPLICIT type\n",
+    "code_chars": 790,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 28,
+    "task_id": 28,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 12 of file /tmp/tmpmaa826m6.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf04c7d15d197 in ???\n#1  0xf04c7d15def7 in ???\n#2  0xf04c7d25236b in ???\n#3  0xf04c7d24beaf in ???\n#4  0xf04c7d24c8e3 in ???\n#5  0xbfa04e100d83 in MAIN__\n#6  0xbfa04e101003 in main\n",
+    "code_chars": 526,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 29,
+    "task_id": 29,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "0",
+      []
+    ],
+    "code_chars": 730,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 30,
+    "task_id": 30,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 11 of file /tmp/tmpgk847qmm.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe300039ad197 in ???\n#1  0xe300039adef7 in ???\n#2  0xe30003aa236b in ???\n#3  0xe30003aa5893 in ???\n#4  0xe30003aa599b in ???\n#5  0xc748e4140b67 in MAIN__\n#6  0xc748e4140cdf in main\n",
+    "code_chars": 548,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 31,
+    "task_id": 31,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpez_mn37z.f90:30:34:\n\n   30 |       do i = 3, sqrt(real(n, kind=real(0.0)))\n      |                                  1\nError: ‘kind’ argument of ‘real’ intrinsic at (1) must be INTEGER\n",
+    "code_chars": 684,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 32,
+    "task_id": 32,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "0.54545454545454541",
+      1.0
+    ],
+    "code_chars": 894,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 33,
+    "task_id": 33,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpix483mug.f90:29:18:\n\n   29 |     integer :: idx\n      |                  1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpix483mug.f90:30:51:\n\n   30 |     integer, dimension(0:l_len/3) :: sorted_indices\n      |                                                   1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpix483mug.f90:31:50:\n\n   31 |     integer, dimension(0:l_len/3) :: sorted_values\n      |                                                  1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpix483mug.f90:33:10:\n\n   33 |     do idx = 1, l_len/3\n      |          1\nError: Symbol ‘idx’ at (1) has no IMPLICIT type\n/tmp/tmpix483mug.f90:35:20:\n\n   35 |        sorted_values(idx-1) = l(idx*3)\n      |                    1\nError: Symbol ‘sorted_values’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1461,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 34,
+    "task_id": 34,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 818,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 35,
+    "task_id": 35,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 401,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 36,
+    "task_id": 36,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 577,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 37,
+    "task_id": 37,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "Result:           1           2           3           5           4",
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "code_chars": 1017,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 38,
+    "task_id": 38,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp4u7k5qzp.f90:18:2:\n\n   18 |   function decode_cyclic(s) result(res)\n      |  1\nError: Character-valued internal function ‘decode_cyclic’ at (1) must not be assumed length\n/tmp/tmp4u7k5qzp.f90:3:54:\n\n    3 |   character(len=*), dimension(:), allocatable :: input\n      |                                                      1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp4u7k5qzp.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 813,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 39,
+    "task_id": 39,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp4ul8mmkb.f90:57:15:\n\n   57 |       do i = 3, sqrt(real(num), kind=real(0))\n      |               1\nError: Too many arguments in call to ‘sqrt’ at (1)\n",
+    "code_chars": 1185,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 40,
+    "task_id": 40,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 673,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 41,
+    "task_id": 41,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 219,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 42,
+    "task_id": 42,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmpf51gsom1.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf5be810ad197 in ???\n#1  0xf5be810adef7 in ???\n#2  0xf5be811a236b in ???\n#3  0xf5be811a5893 in ???\n#4  0xf5be811a599b in ???\n#5  0xab0210541117 in MAIN__\n#6  0xab021054132f in main\n",
+    "code_chars": 619,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 43,
+    "task_id": 43,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 538,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 44,
+    "task_id": 44,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpomjdk3hd.f90:10:13:\n\n   10 |     result = change_base(x, base)\n      |             1\nError: Function ‘change_base’ at (1) has no IMPLICIT type\n",
+    "code_chars": 283,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 45,
+    "task_id": 45,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 244,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 46,
+    "task_id": 46,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "18",
+      28
+    ],
+    "code_chars": 593,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 47,
+    "task_id": 47,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp96ptjo93.f90:17:8:\n\n   17 |   print(*,*) median\n      |        1\nError: Syntax error in PRINT statement at (1)\n/tmp/tmp96ptjo93.f90:21:20:\n\n   21 |   subroutine median(l_len, l, median)\n      |                    1\nError: Procedure ‘median’ at (1) has an explicit interface from a previous declaration\n/tmp/tmp96ptjo93.f90:22:17:\n\n   22 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:23:32:\n\n   23 |     integer, intent(in) :: l_len\n      |                                1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:24:32:\n\n   24 |     real(dp), intent(in) :: l(:)\n      |                                1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:25:35:\n\n   25 |     real(dp), intent(out) :: median\n      |                                   1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:26:25:\n\n   26 |     integer :: i, j, temp\n      |                         1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:27:25:\n\n   27 |     real(dp) :: sorted(:)\n      |                         1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:30:14:\n\n   30 |     sorted = l\n      |              1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:31:19:\n\n   31 |     do i = 1, l_len\n      |                   1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:32:23:\n\n   32 |       do j = i+1, l_len\n      |                       1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:33:39:\n\n   33 |         if (sorted(j) < sorted(i)) then\n      |                                       1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:34:26:\n\n   34 |           temp = sorted(i)\n      |                          1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:35:31:\n\n   35 |           sorted(i) = sorted(j)\n      |                               1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:36:26:\n\n   36 |           sorted(j) = temp\n      |                          1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:37:11:\n\n   37 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp96ptjo93.f90:38:9:\n\n   38 |       end do\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp96ptjo93.f90:39:7:\n\n   39 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp96ptjo93.f90:42:32:\n\n   42 |     if (mod(l_len, 2) == 1) then\n      |                                1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:43:34:\n\n   43 |       median = sorted((l_len+1)/2)\n      |                                  1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:44:8:\n\n   44 |     else\n      |        1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:45:61:\n\n   45 |       median = (sorted(l_len/2) + sorted(l_len/2+1)) / 2.0_dp\n      |                                                             1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp96ptjo93.f90:46:7:\n\n   46 |     end if\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp96ptjo93.f90:47:5:\n\n   47 |   end subroutine median\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp96ptjo93.f90:6:20:\n\n    6 |   real(dp) :: median\n      |                    1\n......\n   14 |   call median(l_len, l, median)\n      |                               2\nError: ‘median’ at (1) has a type, which is not consistent with the CALL at (2)\n",
+    "code_chars": 1017,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 48,
+    "task_id": 48,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 7 of file /tmp/tmp5byrt1k3.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfee40ee9d197 in ???\n#1  0xfee40ee9def7 in ???\n#2  0xfee40ef9236b in ???\n#3  0xfee40ef92a93 in ???\n#4  0xfee40ef8f10b in ???\n#5  0xfee40ef93bbb in ???\n#6  0xfee40ef949eb in ???\n#7  0xaaec3fac0c0f in MAIN__\n#8  0xaaec3fac0cb3 in main\n",
+    "code_chars": 719,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 49,
+    "task_id": 49,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp29qmu90w.f90:25:7:\n\n   25 |       res = (res * 2) mod p\n      |       1\nError: Unclassifiable statement at (1)\n",
+    "code_chars": 428,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 50,
+    "task_id": 50,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpf5k7cue4.f90:3:27:\n\n    3 |   character(len=*) :: input\n      |                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpf5k7cue4.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 751,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 51,
+    "task_id": 51,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpbrx9b7va.f90:3:29:\n\n    3 |     character(len=*) :: input\n      |                             1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpbrx9b7va.f90:4:30:\n\n    4 |     character(len=*) :: output\n      |                              1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 946,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 52,
+    "task_id": 52,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpklp0nw30.f90:21:3:\n\n   21 |   function below_threshold(l_len, l, t) result\n      |   1\nError: Unclassifiable statement at (1)\n/tmp/tmpklp0nw30.f90:22:17:\n\n   22 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmpklp0nw30.f90:23:35:\n\n   23 |     integer, intent(in) :: l_len, t\n      |                                   1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpklp0nw30.f90:24:35:\n\n   24 |     integer, intent(in) :: l(l_len)\n      |                                   1\nError: Explicit shaped array with nonconstant bounds at (1)\n/tmp/tmpklp0nw30.f90:25:21:\n\n   25 |     logical :: result\n      |                     1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpklp0nw30.f90:27:19:\n\n   27 |     result = .true.\n      |                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpklp0nw30.f90:28:19:\n\n   28 |     do i = 1, l_len\n      |                   1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpklp0nw30.f90:29:25:\n\n   29 |       if (l(i) >= t) then\n      |                         1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpklp0nw30.f90:30:24:\n\n   30 |         result = .false.\n      |                        1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpklp0nw30.f90:31:12:\n\n   31 |         exit\n      |            1\nError: EXIT statement at (1) is not within a construct\n/tmp/tmpklp0nw30.f90:32:9:\n\n   32 |       end if\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpklp0nw30.f90:33:7:\n\n   33 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpklp0nw30.f90:34:5:\n\n   34 |   end function below_threshold\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpklp0nw30.f90:14:11:\n\n   14 |   result = below_threshold(l_len, l, t)\n      |           1\nError: Function ‘below_threshold’ at (1) has no IMPLICIT type\n",
+    "code_chars": 631,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 53,
+    "task_id": 53,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 368,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 54,
+    "task_id": 54,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpsw5uxbml.f90:3:26:\n\n    3 |     character(len=*) :: s0, s1\n      |                          1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpsw5uxbml.f90:3:30:\n\n    3 |     character(len=*) :: s0, s1\n      |                              1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpsw5uxbml.f90:11:13:\n\n   11 |     result = same_chars(s0, s1)\n      |             1\nError: Function ‘same_chars’ at (1) has no IMPLICIT type\n",
+    "code_chars": 326,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 55,
+    "task_id": 55,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 457,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 56,
+    "task_id": 56,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "T",
+      false
+    ],
+    "code_chars": 662,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 57,
+    "task_id": 57,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmpnocgztn2.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf4d8f7b8d197 in ???\n#1  0xf4d8f7b8def7 in ???\n#2  0xf4d8f7c8236b in ???\n#3  0xf4d8f7c7bb33 in ???\n#4  0xf4d8f7c7c8e3 in ???\n#5  0xf4d8f7c81d5b in ???\n#6  0xbdcd31a80c6b in MAIN__\n#7  0xbdcd31a80d0f in main\n",
+    "code_chars": 815,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 58,
+    "task_id": 58,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 13 of file /tmp/tmpxjbq2col.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe144e92cd197 in ???\n#1  0xe144e92cdef7 in ???\n#2  0xe144e93c236b in ???\n#3  0xe144e93c5893 in ???\n#4  0xe144e93c599b in ???\n#5  0xc45f59370e8b in MAIN__\n#6  0xc45f59370f9b in main\n",
+    "code_chars": 1210,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 59,
+    "task_id": 59,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpa_5vqdsa.f90:26:16:\n\n   26 |                 n = n / i\n      |                1\nError: Dummy argument ‘n’ with INTENT(IN) in variable definition context (assignment) at (1)\n",
+    "code_chars": 700,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 60,
+    "task_id": 60,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 265,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 61,
+    "task_id": 61,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpyrou4wor.f90:6:11:\n\n    6 |   result = correct_bracketing(brackets)\n      |           1\nError: Function ‘correct_bracketing’ at (1) has no IMPLICIT type\n",
+    "code_chars": 175,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 62,
+    "task_id": 62,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 394,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 63,
+    "task_id": 63,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 758,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 64,
+    "task_id": 64,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpq6usm4g_.f90:3:34:\n\n    3 |   character(len=*) :: input_string\n      |                                  1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 849,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 65,
+    "task_id": 65,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 66,
+    "task_id": 66,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpgfkm4jha.f90:3:27:\n\n    3 |   character(len=*) :: input\n      |                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 448,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 67,
+    "task_id": 67,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpdyyodyaq.f90:13:15:\n\n   13 |     read(*, '(I0)') n\n      |               1\nError: Positive width required in format string at (1)\n/tmp/tmpdyyodyaq.f90:17:15:\n\n   17 |     read(s, '(I0, A, I0, A)') apples, oranges\n      |               1\nError: Positive width required in format string at (1)\n/tmp/tmpdyyodyaq.f90:4:25:\n\n    4 |     character(len=*) :: s\n      |                         1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 589,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 68,
+    "task_id": 68,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "2           2",
+      [
+        2,
+        1
+      ]
+    ],
+    "code_chars": 993,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 69,
+    "task_id": 69,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpr89ye88n.f90:28:10:\n\n   28 |       do j = 1, arr_len\n      |          1\nError: Symbol ‘j’ at (1) has no IMPLICIT type\n",
+    "code_chars": 806,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 70,
+    "task_id": 70,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "1           2           3           4",
+      [
+        1,
+        4,
+        2,
+        3
+      ]
+    ],
+    "code_chars": 1075,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 71,
+    "task_id": 71,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 479,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 72,
+    "task_id": 72,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpychm4g4q.f90:14:11:\n\n   14 |   result = will_it_fly(q_len, q, w)\n      |           1\nError: Function ‘will_it_fly’ at (1) has no IMPLICIT type\n",
+    "code_chars": 322,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 73,
+    "task_id": 73,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 457,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 74,
+    "task_id": 74,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 16 of file /tmp/tmpd2cp276b.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad integer for item 1 in list input\n\nError termination. Backtrace:\n#0  0xf3837002d197 in ???\n#1  0xf3837002def7 in ???\n#2  0xf3837011934b in ???\n#3  0xf3837011bb33 in ???\n#4  0xf3837011c8e3 in ???\n#5  0xc80600640c7b in MAIN__\n#6  0xc806006413c7 in main\n",
+    "code_chars": 1482,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 75,
+    "task_id": 75,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmplwve56ur.f90:62:13:\n\n   62 |     do i = 3, sqrt(real(n)) + 1, 2\n      |             1\nWarning: Deleted feature: End expression in DO loop at (1) must be integer\n/tmp/tmplwve56ur.f90:33:10:\n\n   33 |           a = a / i\n      |          1\nError: Dummy argument ‘a’ with INTENT(IN) in variable definition context (assignment) at (1)\n",
+    "code_chars": 1200,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 76,
+    "task_id": 76,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 905,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 77,
+    "task_id": 77,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 500,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 78,
+    "task_id": 78,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "Result:           1",
+      1
+    ],
+    "code_chars": 723,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 79,
+    "task_id": 79,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp2ruznsrs.f90:13:8:\n\n   13 |   print(*,'(A)') result\n      |        1\nError: Syntax error in PRINT statement at (1)\n/tmp/tmp2ruznsrs.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp2ruznsrs.f90:38:6:\n\n   38 |       decimal = decimal / 2\n      |      1\nError: Dummy argument ‘decimal’ with INTENT(IN) in variable definition context (assignment) at (1)\n",
+    "code_chars": 1062,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 80,
+    "task_id": 80,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp8n37p0hi.f90:10:11:\n\n   10 |   result = is_happy(s)\n      |           1\nError: Function ‘is_happy’ at (1) has no IMPLICIT type\n",
+    "code_chars": 202,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 81,
+    "task_id": 81,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpkz_ym1qa.f90:31:38:\n\n   31 |             else if (grades(i) >= 3.5) letter_grades(i) = 'A-'\n      |                                      1\nError: Syntax error in ELSE IF statement after (1)\n/tmp/tmpkz_ym1qa.f90:32:38:\n\n   32 |             else if (grades(i) >= 3.0) letter_grades(i) = 'B'\n      |                                      1\nError: Syntax error in ELSE IF statement after (1)\n/tmp/tmpkz_ym1qa.f90:33:38:\n\n   33 |             else if (grades(i) >= 2.0) letter_grades(i) = 'C'\n      |                                      1\nError: Syntax error in ELSE IF statement after (1)\n/tmp/tmpkz_ym1qa.f90:34:38:\n\n   34 |             else if (grades(i) >= 1.7) letter_grades(i) = 'C-'\n      |                                      1\nError: Syntax error in ELSE IF statement after (1)\n/tmp/tmpkz_ym1qa.f90:35:31:\n\n   35 |             else letter_grades(i) = 'D'\n      |                               1\nError: Invalid character(s) in ELSE statement after (1)\n",
+    "code_chars": 1260,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 82,
+    "task_id": 82,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpquhc3usy.f90:3:37:\n\n    3 |   character(len=*), dimension(1) :: s\n      |                                     1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpquhc3usy.f90:28:15:\n\n   28 |       do i = 2, sqrt(real(len))\n      |               1\nWarning: Deleted feature: End expression in DO loop at (1) must be integer\n",
+    "code_chars": 681,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 83,
+    "task_id": 83,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "19",
+      18
+    ],
+    "code_chars": 238,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 84,
+    "task_id": 84,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "011",
+      "1"
+    ],
+    "code_chars": 947,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 85,
+    "task_id": 85,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpxl363ei_.f90:10:20:\n\n   10 |     read(*,*) (lst(i), i=1, lst_len)\n      |                    1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "code_chars": 557,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 86,
+    "task_id": 86,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmppy80xs9r.f90:16:3:\n\n   16 |   while (i <= n) do\n      |   1\nError: Unclassifiable statement at (1)\n/tmp/tmppy80xs9r.f90:25:9:\n\n   25 |       end do\n      |         1\nError: Expecting END IF statement at (1)\n/tmp/tmppy80xs9r.f90:37:5:\n\n   37 |   end do\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmppy80xs9r.f90:55:10:\n\n   55 |           s(i:i) = s(j:j)\n      |          1\nError: Dummy argument ‘s’ with INTENT(IN) in variable definition context (assignment) at (1)\n/tmp/tmppy80xs9r.f90:56:10:\n\n   56 |           s(j:j) = c\n      |          1\nError: Dummy argument ‘s’ with INTENT(IN) in variable definition context (assignment) at (1)\n",
+    "code_chars": 1343,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 87,
+    "task_id": 87,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpfpt2tdaj.f90:44:21:\n\n   28 |   function get_row(rows, lst, x) result(n)\n      |  2                   \n......\n   44 |   subroutine get_row(rows, lst, x, row, col)\n      |                     1\nError: Procedure ‘get_row’ at (1) is already defined at (2)\n/tmp/tmpfpt2tdaj.f90:45:17:\n\n   45 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:46:31:\n\n   46 |     integer, intent(in) :: rows\n      |                               1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:47:38:\n\n   47 |     integer, intent(in) :: lst(rows,6)\n      |                                      1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:48:28:\n\n   48 |     integer, intent(in) :: x\n      |                            1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:49:42:\n\n   49 |     integer, intent(out) :: row(:), col(:)\n      |                                          1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:50:22:\n\n   50 |     integer :: i, j, n\n      |                      1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:51:9:\n\n   51 |     n = 0\n      |         1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:52:18:\n\n   52 |     do i = 1, rows\n      |                  1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:53:17:\n\n   53 |       do j = 1, 6\n      |                 1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:54:31:\n\n   54 |         if (lst(i,j) == x) then\n      |                               1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:55:19:\n\n   55 |           n = n + 1\n      |                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:56:11:\n\n   56 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpfpt2tdaj.f90:57:9:\n\n   57 |       end do\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpfpt2tdaj.f90:58:7:\n\n   58 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpfpt2tdaj.f90:59:13:\n\n   59 |     allocate(row(n), col(n))\n      |             1\nError: Allocate-object at (1) is neither a data pointer nor an allocatable variable\n/tmp/tmpfpt2tdaj.f90:60:9:\n\n   60 |     n = 0\n      |         1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:61:18:\n\n   61 |     do i = 1, rows\n      |                  1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:62:17:\n\n   62 |       do j = 1, 6\n      |                 1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:63:31:\n\n   63 |         if (lst(i,j) == x) then\n      |                               1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:64:19:\n\n   64 |           n = n + 1\n      |                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpfpt2tdaj.f90:67:11:\n\n   67 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpfpt2tdaj.f90:68:9:\n\n   68 |       end do\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpfpt2tdaj.f90:69:7:\n\n   69 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpfpt2tdaj.f90:70:5:\n\n   70 |   end subroutine get_row\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpfpt2tdaj.f90:28:2:\n\n   19 |   call get_row(rows, lst, x, row, col)\n      |                                      2\n......\n   28 |   function get_row(rows, lst, x) result(n)\n      |  1\nError: ‘get_row’ at (1) has a type, which is not consistent with the CALL at (2)\n",
+    "code_chars": 1463,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 88,
+    "task_id": 88,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 13 of file /tmp/tmp0srt_8ks.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xef3a76d6d197 in ???\n#1  0xef3a76d6def7 in ???\n#2  0xef3a76e6236b in ???\n#3  0xef3a76e65893 in ???\n#4  0xef3a76e6599b in ???\n#5  0xb09e128b0b67 in MAIN__\n#6  0xb09e128b0e27 in main\n",
+    "code_chars": 1144,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 89,
+    "task_id": 89,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpw29i_jbk.f90:3:27:\n\n    3 |   character(len=*) :: input\n      |                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpw29i_jbk.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpw29i_jbk.f90:10:11:\n\n   10 |   result = encrypt(input)\n      |           1\nError: Function ‘encrypt’ at (1) has no IMPLICIT type\n",
+    "code_chars": 262,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 90,
+    "task_id": 90,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpv3ve2hdc.f90:10:18:\n\n   10 |   read(*,*) (lst(i), i=1, lst_len)\n      |                  1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1024,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 91,
+    "task_id": 91,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "1",
+      2
+    ],
+    "code_chars": 931,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 92,
+    "task_id": 92,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 7 of file /tmp/tmp3v4w5ky0.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad integer for item 1 in list input\n\nError termination. Backtrace:\n#0  0xf6a044d9d197 in ???\n#1  0xf6a044d9def7 in ???\n#2  0xf6a044e8934b in ???\n#3  0xf6a044e8bb33 in ???\n#4  0xf6a044e8c8e3 in ???\n#5  0xbaba506b0b6f in MAIN__\n#6  0xbaba506b0c37 in main\n",
+    "code_chars": 478,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 93,
+    "task_id": 93,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpw01y8kk5.f90:13:11:\n\n   13 |   allocate(result(n))\n      |           1\nError: Allocate-object at (1) is neither a data pointer nor an allocatable variable\n/tmp/tmpw01y8kk5.f90:3:29:\n\n    3 |   character(len=*) :: message\n      |                             1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 840,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 94,
+    "task_id": 94,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpk1d3llvu.f90:36:28:\n\n   36 |   logical function is_prime(n)\n      |                            1\nError: Procedure ‘is_prime’ at (1) has an explicit interface from a previous declaration\n/tmp/tmpk1d3llvu.f90:37:28:\n\n   37 |     integer, intent(in) :: n\n      |                            1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:38:16:\n\n   38 |     integer :: i\n      |                1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:39:20:\n\n   39 |     if (n <= 1) then\n      |                    1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:40:24:\n\n   40 |       is_prime = .false.\n      |                        1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:41:25:\n\n   41 |     else if (n == 2) then\n      |                         1\nError: Unexpected ELSE IF statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:42:23:\n\n   42 |       is_prime = .true.\n      |                       1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:43:33:\n\n   43 |     else if (mod(n, 2) == 0) then\n      |                                 1\nError: Unexpected ELSE IF statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:44:24:\n\n   44 |       is_prime = .false.\n      |                        1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:45:8:\n\n   45 |     else\n      |        1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:46:23:\n\n   46 |       is_prime = .true.\n      |                       1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:47:36:\n\n   47 |       do i = 3, sqrt(real(n, dp)), 2\n      |                                    1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:48:32:\n\n   48 |         if (mod(n, i) == 0) then\n      |                                1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:49:28:\n\n   49 |           is_prime = .false.\n      |                            1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpk1d3llvu.f90:50:14:\n\n   50 |           exit\n      |              1\nError: EXIT statement at (1) is not within a construct\n/tmp/tmpk1d3llvu.f90:51:11:\n\n   51 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpk1d3llvu.f90:52:9:\n\n   52 |       end do\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpk1d3llvu.f90:53:7:\n\n   53 |     end if\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpk1d3llvu.f90:54:5:\n\n   54 |   end function is_prime\n      |     1\nError: Expecting END PROGRAM statement at (1)\n",
+    "code_chars": 1144,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 95,
+    "task_id": 95,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpka9ow6l0.f90:16:11:\n\n   16 |   result = check_dict_case(n_keys, dict_keys, dict_values)\n      |           1\nError: Function ‘check_dict_case’ at (1) has no IMPLICIT type\n",
+    "code_chars": 469,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 96,
+    "task_id": 96,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 1221,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 97,
+    "task_id": 97,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "-20",
+      20
+    ],
+    "code_chars": 464,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 98,
+    "task_id": 98,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpcgb4nzdn.f90:3:25:\n\n    3 |     character(len=*) :: s\n      |                         1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 523,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 99,
+    "task_id": 99,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpcf7hp26b.f90:33:31:\n\n   33 |       res = int_part + sign(1, num)\n      |                               1\nError: ‘b’ argument of ‘sign’ intrinsic at (1) must be the same type and kind as ‘a’\n/tmp/tmpcf7hp26b.f90:35:31:\n\n   35 |       res = int_part + sign(1, num)\n      |                               1\nError: ‘b’ argument of ‘sign’ intrinsic at (1) must be the same type and kind as ‘a’\n",
+    "code_chars": 815,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 100,
+    "task_id": 100,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /tmp/ccQ15DIL.o: in function `MAIN__':\ntmpbgy3cbcb.f90:(.text+0x7c): undefined reference to `make_a_pile_'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 171,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 101,
+    "task_id": 101,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpuvib3qbe.f90:3:54:\n\n    3 |   character(len=*), dimension(:), allocatable :: words\n      |                                                      1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 1105,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 102,
+    "task_id": 102,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 518,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 103,
+    "task_id": 103,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp5ngg8dpr.f90:52:6:\n\n   52 |       i = i / 2\n      |      1\nError: Dummy argument ‘i’ with INTENT(IN) in variable definition context (assignment) at (1)\n/tmp/tmp5ngg8dpr.f90:17:68:\n\n   17 |     result = nint(sum((/ (n+i, i=0, m-n) /)) / real(m - n + 1, kind=real))\n      |                                                                    1\nError: Intrinsic ‘real’ at (1) is not allowed as an actual argument\n/tmp/tmp5ngg8dpr.f90:17:51:\n\n   17 |     result = nint(sum((/ (n+i, i=0, m-n) /)) / real(m - n + 1, kind=real))\n      |                                                   1\nError: Generic function ‘real’ at (1) is not consistent with a specific intrinsic interface\n",
+    "code_chars": 1075,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 104,
+    "task_id": 104,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp6zzoiqr0.f90:40:34:\n\n   40 |   logical function has_even_digit(num)\n      |                                  1\nError: Procedure ‘has_even_digit’ at (1) has an explicit interface from a previous declaration\n/tmp/tmp6zzoiqr0.f90:41:30:\n\n   41 |     integer, intent(in) :: num\n      |                              1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:42:19:\n\n   42 |     integer :: temp\n      |                   1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:43:19:\n\n   43 |     temp = abs(num)\n      |                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:44:23:\n\n   44 |     do while (temp > 0)\n      |                       1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:45:130:\n\n   45 |       if (mod(temp, 10) == 0 .or. mod(temp, 10) == 2 .or. mod(temp, 10) == 4 .or. mod(temp, 10) == 6 .or. mod(temp, 10) == 8) then\n      |                                                                                                                                  1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:46:31:\n\n   46 |         has_even_digit = .true.\n      |                               1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:47:14:\n\n   47 |         return\n      |              1\nError: Unexpected RETURN statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:48:9:\n\n   48 |       end if\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp6zzoiqr0.f90:49:22:\n\n   49 |       temp = temp / 10\n      |                      1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:50:7:\n\n   50 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp6zzoiqr0.f90:51:28:\n\n   51 |     has_even_digit = .false.\n      |                            1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp6zzoiqr0.f90:52:5:\n\n   52 |   end function has_even_digit\n      |     1\nError: Expecting END PROGRAM statement at (1)\n",
+    "code_chars": 1142,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 105,
+    "task_id": 105,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpyfx34ync.f90:9:47:\n\n    9 |   character(len=5) :: words(9) = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']\n      |                                               1\nError: Different CHARACTER lengths (3/5) in array constructor at (1)\n/tmp/tmpyfx34ync.f90:45:16:\n\n   45 |     result(i) = words(filtered(i))\n      |                1\nError: Function ‘words’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1311,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 106,
+    "task_id": 106,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 634,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 107,
+    "task_id": 107,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "61          62",
+      [
+        8,
+        13
+      ]
+    ],
+    "code_chars": 959,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 108,
+    "task_id": 108,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "3",
+      0
+    ],
+    "code_chars": 856,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 109,
+    "task_id": 109,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpjs5icvlo.f90:10:9:\n\n   10 |   read *, arr_len\n      |         1\nError: Named constant ‘arr_len’ in variable definition context (item in READ) at (1)\n",
+    "code_chars": 619,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 110,
+    "task_id": 110,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpf1hwfmn7.f90:15:20:\n\n   15 |   result = exchange(lst1_len, lst1, lst2_len, lst2)\n      |                    1\nError: Symbol at (1) is not appropriate for an expression\n/tmp/tmpf1hwfmn7.f90:22:63:\n\n   22 |   function exchange(lst1_len, lst1, lst2_len, lst2) result(res)\n      |                                                               1\nError: PROGRAM attribute of ‘exchange’ conflicts with PROCEDURE attribute at (1)\n/tmp/tmpf1hwfmn7.f90:23:17:\n\n   23 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:24:45:\n\n   24 |     integer, intent(in) :: lst1_len, lst2_len\n      |                                             1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:25:43:\n\n   25 |     integer, intent(in) :: lst1(*), lst2(*)\n      |                                           1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:26:27:\n\n   26 |     character(len=3) :: res\n      |                           1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:27:36:\n\n   27 |     integer :: odd_count, even_count\n      |                                    1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:28:16:\n\n   28 |     integer :: i\n      |                1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:31:17:\n\n   31 |     odd_count = 0\n      |                 1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:32:22:\n\n   32 |     do i = 1, lst1_len\n      |                      1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:33:36:\n\n   33 |       if (mod(lst1(i), 2) /= 0) then\n      |                                    1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:34:33:\n\n   34 |         odd_count = odd_count + 1\n      |                                 1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:35:9:\n\n   35 |       end if\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpf1hwfmn7.f90:36:7:\n\n   36 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpf1hwfmn7.f90:39:18:\n\n   39 |     even_count = 0\n      |                  1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:40:22:\n\n   40 |     do i = 1, lst2_len\n      |                      1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:41:36:\n\n   41 |       if (mod(lst2(i), 2) == 0) then\n      |                                    1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:42:35:\n\n   42 |         even_count = even_count + 1\n      |                                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:43:9:\n\n   43 |       end if\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpf1hwfmn7.f90:44:7:\n\n   44 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpf1hwfmn7.f90:47:37:\n\n   47 |     if (even_count >= odd_count) then\n      |                                     1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:48:17:\n\n   48 |       res = 'YES'\n      |                 1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:49:8:\n\n   49 |     else\n      |        1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:50:16:\n\n   50 |       res = 'NO'\n      |                1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpf1hwfmn7.f90:51:7:\n\n   51 |     end if\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpf1hwfmn7.f90:53:5:\n\n   53 |   end function exchange\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpf1hwfmn7.f90:10:19:\n\n   10 |   read(*,*) (lst1(i), i=1, lst1_len)\n      |                   1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1226,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 111,
+    "task_id": 111,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmprtmq564y.f90:31:12:\n\n   31 |         do j = 1, n\n      |            1\nError: Symbol ‘j’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1527,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 112,
+    "task_id": 112,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpbhmy7fdp.f90:3:55:\n\n    3 |     character(len=*), dimension(:), allocatable :: s, c\n      |                                                       1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpbhmy7fdp.f90:4:30:\n\n    4 |     character(len=*) :: result\n      |                              1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpbhmy7fdp.f90:3:52:\n\n    3 |     character(len=*), dimension(:), allocatable :: s, c\n      |                                                    1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpbhmy7fdp.f90:27:39:\n\n   27 |         character(len=*) :: temp_result\n      |                                       1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 1691,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 113,
+    "task_id": 113,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp28w7__e_.f90:18:9:\n\n   18 |      do j = 1, len_trim(lst(i))\n      |         1\nError: Symbol ‘j’ at (1) has no IMPLICIT type\n/tmp/tmp28w7__e_.f90:23:181:\n\n   23 |      result = 'the number of odd elements ' // trim(adjustl(odd_count)) // 'n the str' // trim(adjustl(odd_count)) // 'ng ' // trim(adjustl(odd_count)) // 'of the ' // trim(adjustl(odd_count)) // 'nput.'\n      |                                                                                                                                                                                     1\nError: In call to ‘adjustl’ at (1), type mismatch in argument ‘string’; pass ‘INTEGER(4)’ to ‘CHARACTER(*,0)’\n/tmp/tmp28w7__e_.f90:23:140:\n\n   23 |      result = 'the number of odd elements ' // trim(adjustl(odd_count)) // 'n the str' // trim(adjustl(odd_count)) // 'ng ' // trim(adjustl(odd_count)) // 'of the ' // trim(adjustl(odd_count)) // 'nput.'\n      |                                                                                                                                            1\nError: In call to ‘adjustl’ at (1), type mismatch in argument ‘string’; pass ‘INTEGER(4)’ to ‘CHARACTER(*,0)’\n/tmp/tmp28w7__e_.f90:23:103:\n\n   23 |      result = 'the number of odd elements ' // trim(adjustl(odd_count)) // 'n the str' // trim(adjustl(odd_count)) // 'ng ' // trim(adjustl(odd_count)) // 'of the ' // trim(adjustl(odd_count)) // 'nput.'\n      |                                                                                                       1\nError: In call to ‘adjustl’ at (1), type mismatch in argument ‘string’; pass ‘INTEGER(4)’ to ‘CHARACTER(*,0)’\n/tmp/tmp28w7__e_.f90:23:60:\n\n   23 |      result = 'the number of odd elements ' // trim(adjustl(odd_count)) // 'n the str' // trim(adjustl(odd_count)) // 'ng ' // trim(adjustl(odd_count)) // 'of the ' // trim(adjustl(odd_count)) // 'nput.'\n      |                                                            1\nError: In call to ‘adjustl’ at (1), type mismatch in argument ‘string’; pass ‘INTEGER(4)’ to ‘CHARACTER(*,0)’\n",
+    "code_chars": 759,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 114,
+    "task_id": 114,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmpg82cyxh9.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Integer overflow while reading item 1\n\nError termination. Backtrace:\n#0  0xfb43981bd197 in ???\n#1  0xfb43981bdef7 in ???\n#2  0xfb43982a809f in ???\n#3  0xfb43982a9583 in ???\n#4  0xfb43982abb33 in ???\n#5  0xfb43982ac8e3 in ???\n#6  0xb32038390b43 in MAIN__\n#7  0xb32038390c77 in main\n",
+    "code_chars": 660,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 115,
+    "task_id": 115,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "6",
+      5
+    ],
+    "code_chars": 759,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 116,
+    "task_id": 116,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp9zfycw_0.f90:30:22:\n\n   30 |   function count_ones(n) result(count)\n      |                      1\nError: Procedure ‘count_ones’ at (1) has an explicit interface from a previous declaration\n/tmp/tmp9zfycw_0.f90:31:28:\n\n   31 |     integer, intent(in) :: n\n      |                            1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:32:20:\n\n   32 |     integer :: count\n      |                    1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:33:19:\n\n   33 |     integer :: temp\n      |                   1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:34:13:\n\n   34 |     count = 0\n      |             1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:35:12:\n\n   35 |     temp = n\n      |            1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:36:23:\n\n   36 |     do while (temp > 0)\n      |                       1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:37:33:\n\n   37 |       if (mod(temp, 2) == 1) then\n      |                                 1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:38:25:\n\n   38 |         count = count + 1\n      |                         1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:39:9:\n\n   39 |       end if\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp9zfycw_0.f90:40:21:\n\n   40 |       temp = temp / 2\n      |                     1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9zfycw_0.f90:41:7:\n\n   41 |     end do\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp9zfycw_0.f90:42:5:\n\n   42 |   end function count_ones\n      |     1\nError: Expecting END PROGRAM statement at (1)\n",
+    "code_chars": 948,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 117,
+    "task_id": 117,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpxoedcygm.f90:12:13:\n\n   12 |   read(*, '(I0)') n\n      |             1\nError: Positive width required in format string at (1)\n/tmp/tmpxoedcygm.f90:64:24:\n\n   64 |   function is_consonant(c) result(result)\n      |                        1\nError: Procedure ‘is_consonant’ at (1) has an explicit interface from a previous declaration\n/tmp/tmpxoedcygm.f90:65:17:\n\n   65 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:66:37:\n\n   66 |     character(len=1), intent(in) :: c\n      |                                     1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:67:21:\n\n   67 |     logical :: result\n      |                     1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:68:31:\n\n   68 |     character(len=1) :: lower_c\n      |                               1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:70:24:\n\n   70 |     lower_c = adjustl(c)\n      |                        1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:71:108:\n\n   71 |     if (lower_c == 'a' .or. lower_c == 'e' .or. lower_c == 'i' .or. lower_c == 'o' .or. lower_c == 'u') then\n      |                                                                                                            1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:72:22:\n\n   72 |       result = .false.\n      |                      1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:73:8:\n\n   73 |     else\n      |        1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:74:21:\n\n   74 |       result = .true.\n      |                     1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpxoedcygm.f90:75:7:\n\n   75 |     end if\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpxoedcygm.f90:76:5:\n\n   76 |   end function is_consonant\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpxoedcygm.f90:42:14:\n\n   42 |           do m = j, i-1\n      |              1\nError: Symbol ‘m’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1821,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 118,
+    "task_id": 118,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp4tsl84qp.f90:39:20:\n\n   39 |   function is_vowel(c) result(is_v)\n      |                    1\nError: Procedure ‘is_vowel’ at (1) has an explicit interface from a previous declaration\n/tmp/tmp4tsl84qp.f90:40:37:\n\n   40 |     character(len=1), intent(in) :: c\n      |                                     1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp4tsl84qp.f90:41:19:\n\n   41 |     logical :: is_v\n      |                   1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp4tsl84qp.f90:42:19:\n\n   42 |     select case (c)\n      |                   1\nError: Unexpected SELECT CASE statement in CONTAINS section at (1)\n/tmp/tmp4tsl84qp.f90:43:9:\n\n   43 |     case ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')\n      |         1\nError: Unexpected CASE statement at (1)\n/tmp/tmp4tsl84qp.f90:44:19:\n\n   44 |       is_v = .true.\n      |                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp4tsl84qp.f90:45:9:\n\n   45 |     case default\n      |         1\nError: Unexpected CASE statement at (1)\n/tmp/tmp4tsl84qp.f90:46:20:\n\n   46 |       is_v = .false.\n      |                    1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp4tsl84qp.f90:47:7:\n\n   47 |     end select\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp4tsl84qp.f90:48:5:\n\n   48 |   end function is_vowel\n      |     1\nError: Expecting END PROGRAM statement at (1)\n",
+    "code_chars": 1090,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 119,
+    "task_id": 119,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 14 of file /tmp/tmp6ri8xygu.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe7bde774d197 in ???\n#1  0xe7bde774def7 in ???\n#2  0xe7bde784236b in ???\n#3  0xe7bde783beaf in ???\n#4  0xe7bde783c8e3 in ???\n#5  0xaceda4660bff in MAIN__\n#6  0xaceda4660ffb in main\n",
+    "code_chars": 2181,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 120,
+    "task_id": 120,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0xe067b49ed197 in ???\n#1  0xe067b49ec07f in ???\n#2  0xe067b4b98a5f in ???\n#3  0xb320cbfb0fc8 in maximum.0\n#4  0xb320cbfb12bf in MAIN__\n#5  0xb320cbfb1467 in main\n",
+    "code_chars": 834,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 121,
+    "task_id": 121,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "1",
+      12
+    ],
+    "code_chars": 504,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 122,
+    "task_id": 122,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp4m6zjywv.f90:14:11:\n\n   14 |   result = add_elements(arr_len, arr, k)\n      |           1\nError: Function ‘add_elements’ at (1) has no IMPLICIT type\n",
+    "code_chars": 314,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 123,
+    "task_id": 123,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp0cj4fe6m.f90:7:11:\n\n    7 |   result = get_odd_collatz(n)\n      |           1\nError: Function ‘get_odd_collatz’ at (1) has no IMPLICIT type\n",
+    "code_chars": 161,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 124,
+    "task_id": 124,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 25 of file /tmp/tmp6vsmpxyn.f90\nFortran runtime error: Bad value during integer read\n\nError termination. Backtrace:\n#0  0xec04b690d197 in ???\n#1  0xec04b690def7 in ???\n#2  0xec04b69ff48b in ???\n#3  0xec04b6a03b5f in ???\n#4  0xec04b6a049eb in ???\n#5  0xaeeeda3a0b5f in valid_date.0\n#6  0xaeeeda3a0c83 in MAIN__\n#7  0xaeeeda3a0d0b in main\n",
+    "code_chars": 918,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 125,
+    "task_id": 125,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpmy_tw6fy.f90:4:29:\n\n    4 |     character(len=*) :: input\n      |                             1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpmy_tw6fy.f90:3:57:\n\n    3 |     character(len=*), dimension(:), allocatable :: result\n      |                                                         1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 462,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 126,
+    "task_id": 126,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpnsekdi4v.f90:10:18:\n\n   10 |   read(*,*) (lst(i), i=1, lst_len)\n      |                  1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "code_chars": 681,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 127,
+    "task_id": 127,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "YES",
+      "NO"
+    ],
+    "code_chars": 966,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 128,
+    "task_id": 128,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "1",
+      0
+    ],
+    "code_chars": 904,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 129,
+    "task_id": 129,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpsdgk3760.f90:7:20:\n\n    7 |   integer :: path(k)\n      |                    1\nError: Explicit shaped array with nonconstant bounds at (1)\n",
+    "code_chars": 753,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 130,
+    "task_id": 130,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpkf26yymc.f90:13:6:\n\n   13 |   do i = 4, n+1\n      |      1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "code_chars": 285,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 131,
+    "task_id": 131,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 548,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 132,
+    "task_id": 132,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "Result: T",
+      true
+    ],
+    "code_chars": 610,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 133,
+    "task_id": 133,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 396,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 134,
+    "task_id": 134,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpcld3o102.f90:17:3:\n\n   17 |   function check_if_last_char_is_a_letter(txt) result\n      |   1\nError: Unclassifiable statement at (1)\n/tmp/tmpcld3o102.f90:18:17:\n\n   18 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:19:39:\n\n   19 |     character(len=*), intent(in) :: txt\n      |                                       1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:20:21:\n\n   20 |     logical :: result\n      |                     1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:21:22:\n\n   21 |     integer :: len_txt\n      |                      1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:22:44:\n\n   22 |     character :: last_char, second_last_char\n      |                                            1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:24:27:\n\n   24 |     len_txt = len_trim(txt)\n      |                           1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:25:26:\n\n   25 |     if (len_txt == 0) then\n      |                          1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:26:22:\n\n   26 |       result = .false.\n      |                      1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:27:8:\n\n   27 |     else\n      |        1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:29:100:\n\n   29 |       if (last_char >= 'a' .and. last_char <= 'z' .or. last_char >= 'A' .and. last_char <= 'Z') then\n      |                                                                                                    1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:30:30:\n\n   30 |         if (len_txt == 1) then\n      |                              1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:31:25:\n\n   31 |           result = .true.\n      |                         1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:32:12:\n\n   32 |         else\n      |            1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:34:132:\n\n   34 |           if (second_last_char >= 'a' .and. second_last_char <= 'z' .or. second_last_char >= 'A' .and. second_last_char <= 'Z') then\n      |                                                                                                                                    1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:35:28:\n\n   35 |             result = .false.\n      |                            1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:36:14:\n\n   36 |           else\n      |              1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:37:27:\n\n   37 |             result = .true.\n      |                           1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:38:13:\n\n   38 |           end if\n      |             1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpcld3o102.f90:39:11:\n\n   39 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpcld3o102.f90:40:10:\n\n   40 |       else\n      |          1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:41:24:\n\n   41 |         result = .false.\n      |                        1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpcld3o102.f90:42:9:\n\n   42 |       end if\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpcld3o102.f90:43:7:\n\n   43 |     end if\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpcld3o102.f90:44:5:\n\n   44 |   end function check_if_last_char_is_a_letter\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpcld3o102.f90:10:11:\n\n   10 |   result = check_if_last_char_is_a_letter(txt)\n      |           1\nError: Function ‘check_if_last_char_is_a_letter’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1152,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 135,
+    "task_id": 135,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp10cl9c4f.f90:13:11:\n\n   13 |   result = can_arrange(arr_len, arr)\n      |           1\nError: Function ‘can_arrange’ at (1) has no IMPLICIT type\n",
+    "code_chars": 311,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 136,
+    "task_id": 136,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp61r9w4_k.f90:14:18:\n\n   14 |   a = -2147483648  ! Initialize to smallest possible integer\n      |                  1\nError: Integer too big for its kind at (1). This check can be disabled with the option ‘-fno-range-check’\n/tmp/tmp61r9w4_k.f90:26:23:\n\n   26 |   if (a == -2147483648) then\n      |                       1\nError: Integer too big for its kind at (1). This check can be disabled with the option ‘-fno-range-check’\n/tmp/tmp61r9w4_k.f90:28:6:\n\n   28 |   else\n      |      1\nError: Unexpected ELSE statement at (1)\n/tmp/tmp61r9w4_k.f90:30:5:\n\n   30 |   end if\n      |     1\nError: Expecting END PROGRAM statement at (1)\n",
+    "code_chars": 667,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 137,
+    "task_id": 137,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 9 of file /tmp/tmpzbeg2hah.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad real number in item 1 of list input\n\nError termination. Backtrace:\n#0  0xff831517d197 in ???\n#1  0xff831517def7 in ???\n#2  0xff831526adbf in ???\n#3  0xff831526bf93 in ???\n#4  0xff831526c8e3 in ???\n#5  0xbef882b50bb3 in MAIN__\n#6  0xbef882b50cd7 in main\n",
+    "code_chars": 338,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 138,
+    "task_id": 138,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 324,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 139,
+    "task_id": 139,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp4a36he0s.f90:27:16:\n\n   27 |             do j = 1, i\n      |                1\nError: Symbol ‘j’ at (1) has no IMPLICIT type\n",
+    "code_chars": 656,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 140,
+    "task_id": 140,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpqm4ucuy3.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 948,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 141,
+    "task_id": 141,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp2sly45ct.f90:32:22:\n\n   32 |       if (char /= '0': '9' .and. char /= 'A': 'Z' .and. char /= 'a': 'z' .and. char /= '_' .and. char /= '.') then\n      |                      1\nError: Syntax error in IF-expression at (1)\n/tmp/tmp2sly45ct.f90:34:9:\n\n   34 |       end if\n      |         1\nError: Expecting END DO statement at (1)\n/tmp/tmp2sly45ct.f90:3:31:\n\n    3 |   character(len=*) :: file_name\n      |                               1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 936,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 142,
+    "task_id": 142,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "Result:           6",
+      6
+    ],
+    "code_chars": 789,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 143,
+    "task_id": 143,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp9way9_1y.f90:58:20:\n\n   58 |   function is_prime(n) result(res)\n      |                    1\nError: Procedure ‘is_prime’ at (1) has an explicit interface from a previous declaration\n/tmp/tmp9way9_1y.f90:59:17:\n\n   59 |     implicit none\n      |                 1\nError: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:60:28:\n\n   60 |     integer, intent(in) :: n\n      |                            1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:61:18:\n\n   61 |     logical :: res\n      |                  1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:62:16:\n\n   62 |     integer :: i\n      |                1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:64:20:\n\n   64 |     if (n <= 1) then\n      |                    1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:65:19:\n\n   65 |       res = .false.\n      |                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:66:25:\n\n   66 |     else if (n == 2) then\n      |                         1\nError: Unexpected ELSE IF statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:67:18:\n\n   67 |       res = .true.\n      |                  1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:68:33:\n\n   68 |     else if (mod(n, 2) == 0) then\n      |                                 1\nError: Unexpected ELSE IF statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:69:19:\n\n   69 |       res = .false.\n      |                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:70:8:\n\n   70 |     else\n      |        1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:71:18:\n\n   71 |       res = .true.\n      |                  1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:72:43:\n\n   72 |       do i = 3, sqrt(real(n), kind=real(0))\n      |                                           1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:73:32:\n\n   73 |         if (mod(n, i) == 0) then\n      |                                1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:74:23:\n\n   74 |           res = .false.\n      |                       1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmp9way9_1y.f90:75:14:\n\n   75 |           exit\n      |              1\nError: EXIT statement at (1) is not within a construct\n/tmp/tmp9way9_1y.f90:76:11:\n\n   76 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp9way9_1y.f90:77:9:\n\n   77 |       end do\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp9way9_1y.f90:78:7:\n\n   78 |     end if\n      |       1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp9way9_1y.f90:79:5:\n\n   79 |   end function is_prime\n      |     1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmp9way9_1y.f90:18:2:\n\n   18 |   function words_in_sentence(sentence) result(res)\n      |  1\nError: Character-valued internal function ‘words_in_sentence’ at (1) must not be assumed length\n/tmp/tmp9way9_1y.f90:3:27:\n\n    3 |   character(len=*) :: input\n      |                           1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp9way9_1y.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmp9way9_1y.f90:45:12:\n\n   45 |         do j = 1, word_len\n      |            1\nError: Symbol ‘j’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1869,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 144,
+    "task_id": 144,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 13 of file /tmp/tmpa0uu5_fn.f90\nFortran runtime error: Bad value during integer read\n\nError termination. Backtrace:\n#0  0xef3987f9d197 in ???\n#1  0xef3987f9def7 in ???\n#2  0xef398808f48b in ???\n#3  0xef3988093b5f in ???\n#4  0xef39880949eb in ???\n#5  0xc1a247fc0bc7 in MAIN__\n#6  0xc1a247fc0d4f in main\n",
+    "code_chars": 602,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 145,
+    "task_id": 145,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "1\n          -1\n          11\n         -11\n         -12",
+      [
+        -1,
+        -11,
+        1,
+        -12,
+        11
+      ]
+    ],
+    "code_chars": 980,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 146,
+    "task_id": 146,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmpnymm8bjf.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xea39eee7d197 in ???\n#1  0xea39eee7def7 in ???\n#2  0xea39eef7236b in ???\n#3  0xea39eef6bb33 in ???\n#4  0xea39eef6c8e3 in ???\n#5  0xea39eef71d5b in ???\n#6  0xb2aea0eb0c83 in MAIN__\n#7  0xb2aea0eb0d27 in main\n",
+    "code_chars": 1085,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 147,
+    "task_id": 147,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "1",
+      4
+    ],
+    "code_chars": 599,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 148,
+    "task_id": 148,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmptjune761.f90:3:29:\n\n    3 |   character(len=*) :: planet1, planet2\n      |                             1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmptjune761.f90:3:38:\n\n    3 |   character(len=*) :: planet1, planet2\n      |                                      1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmptjune761.f90:4:28:\n\n    4 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmptjune761.f90:13:11:\n\n   13 |   result = bf(planet1, planet2)\n      |           1\nError: Function ‘bf’ at (1) has no IMPLICIT type\n",
+    "code_chars": 332,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 149,
+    "task_id": 149,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "a                                                                                                   aaa",
+      [
+        "aa"
+      ]
+    ],
+    "code_chars": 1265,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 150,
+    "task_id": 150,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpf8gobwlv.f90:42:34:\n\n   42 |       do i = 3, sqrt(real(n, kind=real(0)))\n      |                                  1\nError: ‘kind’ argument of ‘real’ intrinsic at (1) must be INTEGER\n",
+    "code_chars": 903,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 151,
+    "task_id": 151,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpkk88jwt8.f90:9:18:\n\n    9 |   read(*,*) (lst(i), i=1, lst_len)\n      |                  1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "code_chars": 790,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 152,
+    "task_id": 152,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0xe38c1ea3d197 in ???\n#1  0xe38c1ea3c07f in ???\n#2  0xe38c1ebe9a5f in ???\n#3  0xe38c1e903628 in ???\n#4  0xe38c1eb2bce3 in ???\n#5  0xe38c1eb2c8e3 in ???\n#6  0xb90a96590f27 in MAIN__\n#7  0xb90a965912fb in main\n",
+    "code_chars": 965,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 153,
+    "task_id": 153,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpuskd03m9.f90:52:5:\n\n   52 |     res = trim(class_name) || '.' || trim(strongest)\n      |     1\nError: Unclassifiable statement at (1)\n/tmp/tmpuskd03m9.f90:23:2:\n\n   23 |   function Strongest_Extension(class_name, extensions_len, extensions) result(res)\n      |  1\nError: Character-valued internal function ‘strongest_extension’ at (1) must not be assumed length\n/tmp/tmpuskd03m9.f90:3:32:\n\n    3 |   character(len=*) :: class_name\n      |                                1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpuskd03m9.f90:5:36:\n\n    5 |   character(len=*) :: extensions(10)\n      |                                    1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpuskd03m9.f90:6:28:\n\n    6 |   character(len=*) :: result\n      |                            1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmpuskd03m9.f90:39:10:\n\n   39 |       do j = 1, len_trim(extensions(i))\n      |          1\nError: Symbol ‘j’ at (1) has no IMPLICIT type\n/tmp/tmpuskd03m9.f90:32:33:\n\n   32 |     character(len=*) :: strongest\n      |                                 1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 1531,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 154,
+    "task_id": 154,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmphdszm3l8.f90:3:23:\n\n    3 |   character(len=*) :: a, b\n      |                       1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n/tmp/tmphdszm3l8.f90:3:26:\n\n    3 |   character(len=*) :: a, b\n      |                          1\nError: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER\n",
+    "code_chars": 479,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 155,
+    "task_id": 155,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "0           0",
+      [
+        1,
+        0
+      ]
+    ],
+    "code_chars": 955,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 156,
+    "task_id": 156,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp_2k474df.f90:13:8:\n\n   13 |   print(*,'(A)') result\n      |        1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 279,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 157,
+    "task_id": 157,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 361,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 158,
+    "task_id": 158,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpb2bwg48i.f90:19:8:\n\n   19 |   print(*,'(A)') result\n      |        1\nError: Syntax error in PRINT statement at (1)\n/tmp/tmpb2bwg48i.f90:11:6:\n\n   11 |   do i = 1, words_len\n      |      1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n/tmp/tmpb2bwg48i.f90:16:11:\n\n   16 |   result = find_max(words_len, words)\n      |           1\nError: Function ‘find_max’ at (1) has no IMPLICIT type\n",
+    "code_chars": 454,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 159,
+    "task_id": 159,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpps692qqj.f90:21:8:\n\n   21 |   print(*,*) result(1), result(2)\n      |        1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 432,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 160,
+    "task_id": 160,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "Result:          15",
+      37
+    ],
+    "code_chars": 1168,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 161,
+    "task_id": 161,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "iNPUT: aSdF",
+      "aSdF"
+    ],
+    "code_chars": 985,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 162,
+    "task_id": 162,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 163,
+    "task_id": 163,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 7 of file /tmp/tmpjhozt7k9.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad integer for item 1 in list input\n\nError termination. Backtrace:\n#0  0xfc166301d197 in ???\n#1  0xfc166301def7 in ???\n#2  0xfc166310934b in ???\n#3  0xfc166310bb33 in ???\n#4  0xfc166310c8e3 in ???\n#5  0xc4e9904e0f0f in MAIN__\n#6  0xc4e9904e108b in main\n",
+    "code_chars": 957,
+    "extraction_status": "ok",
+    "generation_error": null
+  }
+]

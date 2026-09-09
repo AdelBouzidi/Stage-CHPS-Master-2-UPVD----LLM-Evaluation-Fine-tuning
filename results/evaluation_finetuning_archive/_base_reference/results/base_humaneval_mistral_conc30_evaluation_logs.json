@@ -1,0 +1,288 @@
+{
+  "ineq": [
+    [
+      "",
+      [
+        "(()())",
+        "((()))",
+        "()",
+        "((())()())"
+      ]
+    ],
+    [
+      "01",
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      "0\n \n1\n \n2\n \n3",
+      "0 1 2 3"
+    ],
+    [
+      "0.545454562",
+      1.0
+    ],
+    [
+      "0\n           0\n           0\n           0\n           0\n         123",
+      [
+        0,
+        2,
+        3,
+        5,
+        9,
+        123
+      ]
+    ],
+    [
+      "",
+      "abc"
+    ],
+    [
+      "",
+      "22"
+    ],
+    [
+      "25",
+      28
+    ],
+    [
+      "",
+      "bcdf\nghjklm"
+    ],
+    [
+      "0           1           0",
+      "001"
+    ],
+    [
+      "db",
+      "db100000db"
+    ],
+    [
+      ".false.",
+      true
+    ],
+    [
+      "011",
+      "1"
+    ],
+    [
+      "4",
+      88
+    ],
+    [
+      "",
+      "lm"
+    ],
+    [
+      "1",
+      0
+    ],
+    [
+      "T",
+      false
+    ],
+    [
+      "0b1111001011",
+      "0b1111001010"
+    ],
+    [
+      "\u0001\u0000\u0000\u0000",
+      [
+        "bcd",
+        false
+      ]
+    ],
+    [
+      "Count: 6",
+      3
+    ],
+    [
+      "F",
+      true
+    ],
+    [
+      "YES",
+      "NO"
+    ],
+    [
+      "1\n           3\n           2\n           6",
+      [
+        1,
+        3,
+        2.0,
+        8.0
+      ]
+    ],
+    [
+      "T",
+      false
+    ],
+    [
+      "-2",
+      -1
+    ],
+    [
+      "857276416",
+      125411328000
+    ],
+    [
+      "F",
+      true
+    ],
+    [
+      "",
+      [
+        "Venus"
+      ]
+    ],
+    [
+      ".false.",
+      true
+    ]
+  ],
+  "runtime_err": [
+    "At line 15 of file /tmp/tmpzunm67w_.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe42c025dd197 in ???\n#1  0xe42c025ddef7 in ???\n#2  0xe42c026d236b in ???\n#3  0xe42c026cbeaf in ???\n#4  0xe42c026cc8e3 in ???\n#5  0xc9213c240b67 in MAIN__\n#6  0xc9213c240d83 in main\n",
+    "At line 17 of file /tmp/tmp1vh9sw27.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf8903849d197 in ???\n#1  0xf8903849def7 in ???\n#2  0xf8903859236b in ???\n#3  0xf8903858beaf in ???\n#4  0xf8903858c8e3 in ???\n#5  0xb1ee45260e4f in MAIN__\n#6  0xb1ee45260faf in main\n",
+    "At line 17 of file /tmp/tmppbm07ni_.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfa654aedd197 in ???\n#1  0xfa654aeddef7 in ???\n#2  0xfa654afd236b in ???\n#3  0xfa654afcbeaf in ???\n#4  0xfa654afcc8e3 in ???\n#5  0xb8894f380e8f in MAIN__\n#6  0xb8894f38105f in main\n",
+    "At line 15 of file /tmp/tmp_s5_nzqb.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf8d7987fd197 in ???\n#1  0xf8d7987fdef7 in ???\n#2  0xf8d7988f236b in ???\n#3  0xf8d7988ebeaf in ???\n#4  0xf8d7988ec8e3 in ???\n#5  0xb49ad99f0ec7 in MAIN__\n#6  0xb49ad99f1347 in main\n",
+    "At line 14 of file /tmp/tmpurfzumin.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf8646069d197 in ???\n#1  0xf8646069def7 in ???\n#2  0xf8646079236b in ???\n#3  0xf8646078beaf in ???\n#4  0xf8646078c8e3 in ???\n#5  0xaae8164f0c03 in MAIN__\n#6  0xaae8164f0e2b in main\n",
+    "At line 7 of file /tmp/tmp4fcci1y4.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xea774fc2d197 in ???\n#1  0xea774fc2def7 in ???\n#2  0xea774fd2236b in ???\n#3  0xea774fd1beaf in ???\n#4  0xea774fd1c8e3 in ???\n#5  0xb2eb89c70cdf in MAIN__\n#6  0xb2eb89c710af in main\n",
+    "\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0xf3fd4455d197 in ???\n#1  0xf3fd4455c07f in ???\n#2  0xf3fd44707a5f in ???\n#3  0xf3fd44423628 in ???\n#4  0xf3fd4464bffb in ???\n#5  0xf3fd4464c8e3 in ???\n#6  0xbd081b230c3f in MAIN__\n#7  0xbd081b230f83 in main\n",
+    "At line 11 of file /tmp/tmp_rrhcvhj.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf2d32fded197 in ???\n#1  0xf2d32fdedef7 in ???\n#2  0xf2d32fee236b in ???\n#3  0xf2d32fedbeaf in ???\n#4  0xf2d32fedc8e3 in ???\n#5  0xbb5a245b0c03 in MAIN__\n#6  0xbb5a245b0ddf in main\n",
+    "At line 8 of file /tmp/tmp8zz4l_83.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe8ab977dd197 in ???\n#1  0xe8ab977ddef7 in ???\n#2  0xe8ab978d236b in ???\n#3  0xe8ab978d344b in ???\n#4  0xe8ab978d575b in ???\n#5  0xe8ab978d599b in ???\n#6  0xc7a672990c5b in MAIN__\n#7  0xc7a672990e77 in main\n",
+    "At line 10 of file /tmp/tmp6o597ugx.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe58dc913d197 in ???\n#1  0xe58dc913def7 in ???\n#2  0xe58dc923236b in ???\n#3  0xe58dc9232a93 in ???\n#4  0xe58dc922f10b in ???\n#5  0xe58dc9233bbb in ???\n#6  0xe58dc92349eb in ???\n#7  0xaeb4f06e0b83 in MAIN__\n#8  0xaeb4f06e0cff in main\n",
+    "At line 11 of file /tmp/tmp4zjtgo9c.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf23b0098d197 in ???\n#1  0xf23b0098def7 in ???\n#2  0xf23b00a8236b in ???\n#3  0xf23b00a82a93 in ???\n#4  0xf23b00a7f10b in ???\n#5  0xf23b00a83bbb in ???\n#6  0xf23b00a849eb in ???\n#7  0xb6fc8d220d2f in MAIN__\n#8  0xb6fc8d221143 in main\n",
+    "At line 13 of file /tmp/tmpyz2tduvp.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf1a520a7d197 in ???\n#1  0xf1a520a7def7 in ???\n#2  0xf1a520b7236b in ???\n#3  0xf1a520b6beaf in ???\n#4  0xf1a520b6c8e3 in ???\n#5  0xc2f8bac50b6f in MAIN__\n#6  0xc2f8bac50d0b in main\n",
+    "At line 7 of file /tmp/tmpke4z8pdc.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe912bbfdd197 in ???\n#1  0xe912bbfddef7 in ???\n#2  0xe912bc0d236b in ???\n#3  0xe912bc0cbeaf in ???\n#4  0xe912bc0cc8e3 in ???\n#5  0xc4c191aa0ab3 in MAIN__\n#6  0xc4c191aa0b47 in main\n",
+    "At line 7 of file /tmp/tmp6lf5sw11.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xeb90c01bd197 in ???\n#1  0xeb90c01bdef7 in ???\n#2  0xeb90c02b236b in ???\n#3  0xeb90c02abeaf in ???\n#4  0xeb90c02ac8e3 in ???\n#5  0xbd2616010aef in MAIN__\n#6  0xbd2616010cf3 in main\n",
+    "At line 12 of file /tmp/tmpkf7hgruz.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xeb32bbdbd197 in ???\n#1  0xeb32bbdbdef7 in ???\n#2  0xeb32bbeb236b in ???\n#3  0xeb32bbeabeaf in ???\n#4  0xeb32bbeac8e3 in ???\n#5  0xb7fcc53e0c83 in MAIN__\n#6  0xb7fcc53e0def in main\n",
+    "At line 13 of file /tmp/tmp5e33ua90.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe56b7dc6d197 in ???\n#1  0xe56b7dc6def7 in ???\n#2  0xe56b7dd6236b in ???\n#3  0xe56b7dd5beaf in ???\n#4  0xe56b7dd5c8e3 in ???\n#5  0xaf7388720c43 in MAIN__\n#6  0xaf7388720e3b in main\n",
+    "At line 13 of file /tmp/tmph8xski7p.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf231fde0d197 in ???\n#1  0xf231fde0def7 in ???\n#2  0xf231fdf0236b in ???\n#3  0xf231fdefbeaf in ???\n#4  0xf231fdefc8e3 in ???\n#5  0xca084b720b27 in MAIN__\n#6  0xca084b720d0f in main\n",
+    "At line 16 of file /tmp/tmptco5h731.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xface3f4bd197 in ???\n#1  0xface3f4bdef7 in ???\n#2  0xface3f5b236b in ???\n#3  0xface3f5abeaf in ???\n#4  0xface3f5ac8e3 in ???\n#5  0xbd65d43c0e4f in MAIN__\n#6  0xbd65d43c0fa7 in main\n",
+    "\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0xf5ae6e9fd197 in ???\n#1  0xf5ae6e9fc07f in ???\n#2  0xf5ae6eba2a5f in ???\n#3  0xabcec7600ea8 in MAIN__\n#4  0xabcec76011e7 in main\n",
+    "At line 14 of file /tmp/tmpnat37jyv.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe426d16ad197 in ???\n#1  0xe426d16adef7 in ???\n#2  0xe426d17a236b in ???\n#3  0xe426d179beaf in ???\n#4  0xe426d179c8e3 in ???\n#5  0xc78d5f0b0b27 in MAIN__\n#6  0xc78d5f0b0d57 in main\n",
+    "At line 12 of file /tmp/tmph0qblbof.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf2eed87ad197 in ???\n#1  0xf2eed87adef7 in ???\n#2  0xf2eed88a236b in ???\n#3  0xf2eed88a5893 in ???\n#4  0xf2eed88a599b in ???\n#5  0xc4ed8f2b0ee7 in MAIN__\n#6  0xc4ed8f2b10cb in main\n",
+    "At line 14 of file /tmp/tmpl6zn6a9p.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xea983940d197 in ???\n#1  0xea983940def7 in ???\n#2  0xea983950236b in ???\n#3  0xea98394fbeaf in ???\n#4  0xea98394fc8e3 in ???\n#5  0xbf4185910b2b in MAIN__\n#6  0xbf4185910cfb in main\n",
+    "At line 18 of file /tmp/tmpxdq0wux3.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe2b70322d197 in ???\n#1  0xe2b70322def7 in ???\n#2  0xe2b70332236b in ???\n#3  0xe2b70331beaf in ???\n#4  0xe2b70331c8e3 in ???\n#5  0xbf31e0780e8f in MAIN__\n#6  0xbf31e0781127 in main\n",
+    "At line 8 of file /tmp/tmps1elr91l.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe606b78ed197 in ???\n#1  0xe606b78edef7 in ???\n#2  0xe606b79e236b in ???\n#3  0xe606b79e2a93 in ???\n#4  0xe606b79df10b in ???\n#5  0xe606b79e3bbb in ???\n#6  0xe606b79e49eb in ???\n#7  0xc89442aa0b03 in MAIN__\n#8  0xc89442aa0c27 in main\n",
+    "At line 18 of file /tmp/tmpd_a6rx8q.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf98340a9d197 in ???\n#1  0xf98340a9def7 in ???\n#2  0xf98340b9236b in ???\n#3  0xf98340b8beaf in ???\n#4  0xf98340b8c8e3 in ???\n#5  0xc43c84da0e4f in MAIN__\n#6  0xc43c84da0fcf in main\n",
+    "\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0xfae5736dd197 in ???\n#1  0xfae5736dc07f in ???\n#2  0xfae57388aa5f in ???\n#3  0xfae5735a3628 in ???\n#4  0xfae5737cbffb in ???\n#5  0xfae5737cc8e3 in ???\n#6  0xae12496f0af3 in MAIN__\n#7  0xae12496f0c3b in main\n",
+    "At line 16 of file /tmp/tmp46zhyu0k.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfb3f3f98d197 in ???\n#1  0xfb3f3f98def7 in ???\n#2  0xfb3f3fa8236b in ???\n#3  0xfb3f3fa7beaf in ???\n#4  0xfb3f3fa7c8e3 in ???\n#5  0xbf0ef4920b27 in MAIN__\n#6  0xbf0ef4920d47 in main\n",
+    "At line 14 of file /tmp/tmpx1ibjeq7.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf308ba7ed197 in ???\n#1  0xf308ba7edef7 in ???\n#2  0xf308ba8e236b in ???\n#3  0xf308ba8e5893 in ???\n#4  0xf308ba8e599b in ???\n#5  0xba29cd3b0c6f in MAIN__\n#6  0xba29cd3b0ffb in main\n",
+    "At line 10 of file /tmp/tmpy6b91h30.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe476c8efd197 in ???\n#1  0xe476c8efdef7 in ???\n#2  0xe476c8ff236b in ???\n#3  0xe476c8febf93 in ???\n#4  0xe476c8fec8e3 in ???\n#5  0xe476c8ff1d5b in ???\n#6  0xba1fe8bf0b87 in MAIN__\n#7  0xba1fe8bf0d17 in main\n",
+    "At line 9 of file /tmp/tmpyh3jpor0.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe444df70d197 in ???\n#1  0xe444df70def7 in ???\n#2  0xe444df80236b in ???\n#3  0xe444df802a93 in ???\n#4  0xe444df7ff10b in ???\n#5  0xe444df803bbb in ???\n#6  0xe444df8049eb in ???\n#7  0xc99979970ac3 in MAIN__\n#8  0xc99979970be7 in main\n",
+    "At line 16 of file /tmp/tmplq9a7386.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe000efa6d197 in ???\n#1  0xe000efa6def7 in ???\n#2  0xe000efb6236b in ???\n#3  0xe000efb5beaf in ???\n#4  0xe000efb5c8e3 in ???\n#5  0xb96994ea0b27 in MAIN__\n#6  0xb96994ea0ccb in main\n",
+    "At line 13 of file /tmp/tmpp1bh6l79.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xefc20bcdd197 in ???\n#1  0xefc20bcddef7 in ???\n#2  0xefc20bdd236b in ???\n#3  0xefc20bdcbeaf in ???\n#4  0xefc20bdcc8e3 in ???\n#5  0xc10c27930b7b in MAIN__\n#6  0xc10c27930ddf in main\n",
+    "At line 20 of file /tmp/tmpaid8m0_p.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad integer for item 1 in list input\n\nError termination. Backtrace:\n#0  0xf4a2d150d197 in ???\n#1  0xf4a2d150def7 in ???\n#2  0xf4a2d15f934b in ???\n#3  0xf4a2d15fbb33 in ???\n#4  0xf4a2d15fc8e3 in ???\n#5  0xb9b549480c53 in MAIN__\n#6  0xb9b549481003 in main\n",
+    "At line 8 of file /tmp/tmp_h5bb43c.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfc535173d197 in ???\n#1  0xfc535173def7 in ???\n#2  0xfc535183236b in ???\n#3  0xfc535182beaf in ???\n#4  0xfc535182c8e3 in ???\n#5  0xad8908030aaf in MAIN__\n#6  0xad8908030c5f in main\n",
+    "At line 14 of file /tmp/tmptl4mnkaa.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe01c2646d197 in ???\n#1  0xe01c2646def7 in ???\n#2  0xe01c2656236b in ???\n#3  0xe01c2655beaf in ???\n#4  0xe01c2655c8e3 in ???\n#5  0xc49e54ab0b67 in MAIN__\n#6  0xc49e54ab0f4f in main\n",
+    "At line 15 of file /tmp/tmpmf3tqd5_.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xefd3f07bd197 in ???\n#1  0xefd3f07bdef7 in ???\n#2  0xefd3f08b236b in ???\n#3  0xefd3f08abb33 in ???\n#4  0xefd3f08ac8e3 in ???\n#5  0xbb7aa90a0f07 in MAIN__\n#6  0xbb7aa90a13ab in main\n",
+    "At line 13 of file /tmp/tmp5vdbnpkw.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf20ab078d197 in ???\n#1  0xf20ab078def7 in ???\n#2  0xf20ab088236b in ???\n#3  0xf20ab087beaf in ???\n#4  0xf20ab087c8e3 in ???\n#5  0xc6556e9d0b67 in MAIN__\n#6  0xc6556e9d0ea3 in main\n",
+    "At line 23 of file /tmp/tmp155s89aw.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xee50fc1fd197 in ???\n#1  0xee50fc1fdef7 in ???\n#2  0xee50fc2f236b in ???\n#3  0xee50fc2ebeaf in ???\n#4  0xee50fc2ec8e3 in ???\n#5  0xc2d7a7430f77 in MAIN__\n#6  0xc2d7a7431127 in main\n",
+    "At line 8 of file /tmp/tmp8ecyfu0o.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe01a321bd197 in ???\n#1  0xe01a321bdef7 in ???\n#2  0xe01a322b236b in ???\n#3  0xe01a322b2a93 in ???\n#4  0xe01a322af10b in ???\n#5  0xe01a322b3bbb in ???\n#6  0xe01a322b49eb in ???\n#7  0xb66053640ac3 in MAIN__\n#8  0xb66053640c1f in main\n",
+    "At line 19 of file /tmp/tmp0bpqh3vv.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf2bd075cd197 in ???\n#1  0xf2bd075cdef7 in ???\n#2  0xf2bd076c236b in ???\n#3  0xf2bd076bbeaf in ???\n#4  0xf2bd076bc8e3 in ???\n#5  0xc0bac9320eab in MAIN__\n#6  0xc0bac9321063 in main\n",
+    "At line 13 of file /tmp/tmpomu1oak3.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf81c87ccd197 in ???\n#1  0xf81c87ccdef7 in ???\n#2  0xf81c87dc236b in ???\n#3  0xf81c87dbbeaf in ???\n#4  0xf81c87dbc8e3 in ???\n#5  0xc3d035250b27 in MAIN__\n#6  0xc3d035250dc3 in main\n",
+    "At line 13 of file /tmp/tmpsxf3sz4z.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf0fd4ce8d197 in ???\n#1  0xf0fd4ce8def7 in ???\n#2  0xf0fd4cf8236b in ???\n#3  0xf0fd4cf7beaf in ???\n#4  0xf0fd4cf7c8e3 in ???\n#5  0xc0bedf310b27 in MAIN__\n#6  0xc0bedf310c63 in main\n",
+    "\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0xf265ceaed197 in ???\n#1  0xf265ceaec07f in ???\n#2  0xf265cec93a5f in ???\n#3  0xf265ce9b3628 in ???\n#4  0xf265cebdbce3 in ???\n#5  0xf265cebdc8e3 in ???\n#6  0xc400cf320bfb in MAIN__\n#7  0xc400cf320dd3 in main\n",
+    "At line 15 of file /tmp/tmpjluj9eso.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfdb17b57d197 in ???\n#1  0xfdb17b57def7 in ???\n#2  0xfdb17b67236b in ???\n#3  0xfdb17b66beaf in ???\n#4  0xfdb17b66c8e3 in ???\n#5  0xbd12d1a30ba3 in MAIN__\n#6  0xbd12d1a30f87 in main\n",
+    "At line 10 of file /tmp/tmpi8_p0o3d.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xeab73af1d197 in ???\n#1  0xeab73af1def7 in ???\n#2  0xeab73b01236b in ???\n#3  0xeab73b00beaf in ???\n#4  0xeab73b00c8e3 in ???\n#5  0xb3004afa0d43 in MAIN__\n#6  0xb3004afa0eff in main\n",
+    "At line 14 of file /tmp/tmpi0xkmugi.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xff21a3ecd197 in ???\n#1  0xff21a3ecdef7 in ???\n#2  0xff21a3fc236b in ???\n#3  0xff21a3fbbeaf in ???\n#4  0xff21a3fbc8e3 in ???\n#5  0xbe6ce89c0e4f in MAIN__\n#6  0xbe6ce89c100f in main\n",
+    "At line 14 of file /tmp/tmpfi3eou8t.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf9a2c038d197 in ???\n#1  0xf9a2c038def7 in ???\n#2  0xf9a2c048236b in ???\n#3  0xf9a2c047beaf in ???\n#4  0xf9a2c047c8e3 in ???\n#5  0xc62c41b60b67 in MAIN__\n#6  0xc62c41b60ca7 in main\n",
+    "At line 7 of file /tmp/tmphamkg64z.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad real number in item 1 of list input\n\nError termination. Backtrace:\n#0  0xe7834b64d197 in ???\n#1  0xe7834b64def7 in ???\n#2  0xe7834b73adbf in ???\n#3  0xe7834b73bf93 in ???\n#4  0xe7834b73c8e3 in ???\n#5  0xc2596fcc0b33 in MAIN__\n#6  0xc2596fcc0c7f in main\n",
+    "At line 14 of file /tmp/tmp_5zec_3i.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe93823f4d197 in ???\n#1  0xe93823f4def7 in ???\n#2  0xe9382404236b in ???\n#3  0xe9382403beaf in ???\n#4  0xe9382403c8e3 in ???\n#5  0xbff9a1920b27 in MAIN__\n#6  0xbff9a1920d0b in main\n",
+    "At line 13 of file /tmp/tmphd1nmbjo.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfa40a117d197 in ???\n#1  0xfa40a117def7 in ???\n#2  0xfa40a127236b in ???\n#3  0xfa40a126beaf in ???\n#4  0xfa40a126c8e3 in ???\n#5  0xb3cead2a0b27 in MAIN__\n#6  0xb3cead2a0cf3 in main\n",
+    "At line 15 of file /tmp/tmp67unpsyr.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe9c18b5ad197 in ???\n#1  0xe9c18b5adef7 in ???\n#2  0xe9c18b6a236b in ???\n#3  0xe9c18b69beaf in ???\n#4  0xe9c18b69c8e3 in ???\n#5  0xc2e8e98b0b67 in MAIN__\n#6  0xc2e8e98b0d07 in main\n",
+    "At line 12 of file /tmp/tmpqlnfd3nt.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf3ae5d1bd197 in ???\n#1  0xf3ae5d1bdef7 in ???\n#2  0xf3ae5d2b236b in ???\n#3  0xf3ae5d2abeaf in ???\n#4  0xf3ae5d2ac8e3 in ???\n#5  0xbc8831380e97 in MAIN__\n#6  0xbc883138145f in main\n",
+    "At line 15 of file /tmp/tmprtjhm2dr.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe352a66fd197 in ???\n#1  0xe352a66fdef7 in ???\n#2  0xe352a67f236b in ???\n#3  0xe352a67ebeaf in ???\n#4  0xe352a67ec8e3 in ???\n#5  0xbc0655520c83 in MAIN__\n#6  0xbc0655520f83 in main\n",
+    "At line 11 of file /tmp/tmplmga0ged.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad integer for item 1 in list input\n\nError termination. Backtrace:\n#0  0xfa558a18d197 in ???\n#1  0xfa558a18def7 in ???\n#2  0xfa558a27934b in ???\n#3  0xfa558a27bb33 in ???\n#4  0xfa558a27c8e3 in ???\n#5  0xb9117cba0af3 in MAIN__\n#6  0xb9117cba0e4b in main\n",
+    "At line 10 of file /tmp/tmpv8ifo7tl.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad integer for item 1 in list input\n\nError termination. Backtrace:\n#0  0xfe06efc2d197 in ???\n#1  0xfe06efc2def7 in ???\n#2  0xfe06efd1934b in ???\n#3  0xfe06efd1bb33 in ???\n#4  0xfe06efd1c8e3 in ???\n#5  0xc4ffec940c97 in MAIN__\n#6  0xc4ffec941067 in main\n"
+  ],
+  "ok": [
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed",
+    "All tests passed"
+  ],
+  "exception": [
+    "'utf-8' codec can't decode byte 0xd3 in position 2: invalid continuation byte",
+    "'dict' object has no attribute 'encode'",
+    "'utf-8' codec can't decode byte 0xd3 in position 9: invalid continuation byte"
+  ],
+  "compile_err": [
+    "/tmp/tmpmlaoszez.f90:40:16:\n\n   40 |             do k = 1, group_length\n      |                1\nError: Symbol ‘k’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmpggilz2s5.f90:4:39:\n\n    4 |     integer, allocatable :: rolling_max(:)\n      |                                       1\nError: Symbol ‘rolling_max’ at (1) cannot have a type\n/tmp/tmpggilz2s5.f90:12:25:\n\n   12 |     allocate(rolling_max(n))\n      |                         1\nError: ‘rolling_max’ at (1) is not a variable\n/tmp/tmpggilz2s5.f90:20:16:\n\n   20 |     rolling_max(1) = numbers(1)\n      |                1\nError: ‘rolling_max’ at (1) is not a variable\n/tmp/tmpggilz2s5.f90:22:20:\n\n   22 |         rolling_max(i) = max(rolling_max(i-1), numbers(i))\n      |                    1\nError: ‘rolling_max’ at (1) is not a variable\n/tmp/tmpggilz2s5.f90:27:37:\n\n   27 |         write(*, '(I1)') rolling_max(i)\n      |                                     1\nError: Symbol at (1) is not appropriate for an expression\n/tmp/tmpggilz2s5.f90:32:27:\n\n   32 |     deallocate(rolling_max)\n      |                           1\nError: ‘rolling_max’ at (1) is not a variable\n",
+    "/tmp/tmpba5xib7q.f90:24:35:\n\n   24 |             gcd_result = gcd(y, x mod y)\n      |                                   1\nError: Syntax error in argument list at (1)\n",
+    "/tmp/tmp68jk5pdg.f90:4:45:\n\n    4 |     character(len=10) :: words(10) = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']\n      |                                             1\nError: Different CHARACTER lengths (4/3) in array constructor at (1)\n/tmp/tmp68jk5pdg.f90:29:15:\n\n   29 |             end_pos = input_str(i:i) == ' ' ? i - 1 : i\n      |               1\nError: Expecting END IF statement at (1)\n/tmp/tmp68jk5pdg.f90:37:31:\n\n   37 |             if (current_word == words(j)) then\n      |                               1\nError: Function ‘words’ at (1) has no IMPLICIT type\n/tmp/tmp68jk5pdg.f90:63:23:\n\n   63 |         write(*, '(A)') words(sorted_indices(i))\n      |                       1\nError: Function ‘words’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmpmdi4nxl7.f90:16:13:\n\n   16 |     allocate(counts(n))\n      |             1\nError: Allocate-object at (1) is neither a data pointer nor an allocatable variable\n/tmp/tmpmdi4nxl7.f90:29:19:\n\n   29 |         if (counts(i) == 1) then\n      |                   1\nError: Syntax error in IF-expression at (1)\n/tmp/tmpmdi4nxl7.f90:31:11:\n\n   31 |         end if\n      |           1\nError: Expecting END DO statement at (1)\n/tmp/tmpmdi4nxl7.f90:37:19:\n\n   37 |         if (counts(i) == 1) then\n      |                   1\nError: Syntax error in IF-expression at (1)\n/tmp/tmpmdi4nxl7.f90:40:11:\n\n   40 |         end if\n      |           1\nError: Expecting END DO statement at (1)\n/tmp/tmpmdi4nxl7.f90:49:22:\n\n   49 |     deallocate(counts)\n      |                      1\nError: Allocate-object at (1) is not a nonprocedure pointer nor an allocatable variable\n/tmp/tmpmdi4nxl7.f90:17:10:\n\n   17 |     counts = 0\n      |          1\nError: Symbol ‘counts’ at (1) has no IMPLICIT type; did you mean ‘count’?\n",
+    "/tmp/tmpqwmq84ry.f90:14:20:\n\n   14 |     integer :: count\n      |                    1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpqwmq84ry.f90:15:9:\n\n   15 |     count = n / 3\n      |         1\nError: Symbol ‘count’ at (1) has no IMPLICIT type\n",
+    "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "/tmp/tmpyjwrxa1g.f90:27:19:\n\n   27 |         counts(int(c, kind=1)) = counts(int(c, kind=1)) + 1\n      |                   1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n/tmp/tmpyjwrxa1g.f90:27:44:\n\n   27 |         counts(int(c, kind=1)) = counts(int(c, kind=1)) + 1\n      |                                            1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n/tmp/tmpyjwrxa1g.f90:33:23:\n\n   33 |         if (counts(int(c, kind=1)) == 0) then\n      |                       1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n/tmp/tmpyjwrxa1g.f90:38:19:\n\n   38 |         counts(int(c, kind=1)) = counts(int(c, kind=1)) - 1\n      |                   1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n/tmp/tmpyjwrxa1g.f90:38:44:\n\n   38 |         counts(int(c, kind=1)) = counts(int(c, kind=1)) - 1\n      |                                            1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n",
+    "/tmp/tmp4d0na8ju.f90:9:10:\n\n    9 |     write *, sum\n      |          1\nError: Syntax error in WRITE statement at (1)\n",
+    "/tmp/tmpfvd4q5uj.f90:20:12:\n\n   20 |         do i = 3, n\n      |            1\nError: Symbol ‘i’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmpgteduuhm.f90:29:48:\n\n   29 |                 apples = apples * 10 + input_int(input_string(i:i))\n      |                                                1\nError: Function ‘input_int’ at (1) has no IMPLICIT type\n/tmp/tmpgteduuhm.f90:48:50:\n\n   48 |                 oranges = oranges * 10 + input_int(input_string(i:i))\n      |                                                  1\nError: Function ‘input_int’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmp20at_4sj.f90:12:15:\n\n   12 |     read(*, *) ((lst(i), i = 1, n))\n      |               1\nError: Expecting variable in READ statement at (1)\n/tmp/tmp20at_4sj.f90:22:16:\n\n   22 |         if (i % 2 == 1) then\n      |                1\nError: Unexpected ‘%’ for nonderived-type variable ‘i’ at (1)\n/tmp/tmp20at_4sj.f90:34:12:\n\n   34 |         else\n      |            1\nError: Unexpected ELSE statement at (1)\n/tmp/tmp20at_4sj.f90:46:11:\n\n   46 |         end if\n      |           1\nError: Expecting END DO statement at (1)\n",
+    "/tmp/tmp3dk_4dk9.f90:3:32:\n\n    3 |     integer, intent(in) :: q_len\n      |                                1\nError: Symbol at (1) is not a DUMMY variable\n/tmp/tmp3dk_4dk9.f90:4:28:\n\n    4 |     integer, intent(in) :: w\n      |                            1\nError: Symbol at (1) is not a DUMMY variable\n/tmp/tmp3dk_4dk9.f90:12:11:\n\n   12 |     read *, q_len\n      |           1\nError: Dummy argument ‘q_len’ with INTENT(IN) in variable definition context (item in READ) at (1)\n/tmp/tmp3dk_4dk9.f90:19:11:\n\n   19 |     read *, w\n      |           1\nError: Dummy argument ‘w’ with INTENT(IN) in variable definition context (item in READ) at (1)\n",
+    "/tmp/tmp6bzv93z_.f90:33:20:\n\n   33 |         write (*, '(T)') '.true.'\n      |                    1\nError: Positive width required with T descriptor in format string at (1)\n/tmp/tmp6bzv93z_.f90:35:20:\n\n   35 |         write (*, '(T)') '.false.'\n      |                    1\nError: Positive width required with T descriptor in format string at (1)\n",
+    "/tmp/tmp3_a0uw19.f90:13:15:\n\n   13 |     is_prime = .true.\n      |               1\nWarning: Extension: Conversion from LOGICAL(4) to INTEGER(4) at (1)\n/tmp/tmp3_a0uw19.f90:15:19:\n\n   15 |         is_prime = .false.\n      |                   1\nWarning: Extension: Conversion from LOGICAL(4) to INTEGER(4) at (1)\n/tmp/tmp3_a0uw19.f90:19:27:\n\n   19 |                 is_prime = .false.\n      |                           1\nWarning: Extension: Conversion from LOGICAL(4) to INTEGER(4) at (1)\n/tmp/tmp3_a0uw19.f90:26:8:\n\n   26 |     if (is_prime) then\n      |        1\nError: IF clause at (1) requires a scalar LOGICAL expression\n",
+    "/tmp/tmppp9v6nwo.f90:18:34:\n\n   18 |             encoded(i:i) = char(c - 'a' + 'A')\n      |                                  1\nError: Operands of binary numeric operator ‘-’ at (1) are CHARACTER(1)/CHARACTER(1)\n/tmp/tmppp9v6nwo.f90:20:34:\n\n   20 |             encoded(i:i) = char(c - 'A' + 'a')\n      |                                  1\nError: Operands of binary numeric operator ‘-’ at (1) are CHARACTER(1)/CHARACTER(1)\n",
+    "/tmp/tmp6l2jlgo_.f90:69:25:\n\n   64 |             do j = 3, int(sqrt(real(n)), kind=real(0))\n      |                                                      2\n......\n   69 |                 j = j + 2\n      |                         1\nError: Variable ‘j’ at (1) cannot be redefined inside loop beginning at (2)\n/tmp/tmp6l2jlgo_.f90:3:34:\n\n    3 |     integer, intent(in) :: lst_len\n      |                                  1\nError: Symbol at (1) is not a DUMMY variable\n/tmp/tmp6l2jlgo_.f90:64:46:\n\n   64 |             do j = 3, int(sqrt(real(n)), kind=real(0))\n      |                                              1\nError: ‘kind’ argument of ‘int’ intrinsic at (1) must be INTEGER\n/tmp/tmp6l2jlgo_.f90:12:14:\n\n   12 |     read(*, *) lst_len\n      |              1\nError: Dummy argument ‘lst_len’ with INTENT(IN) in variable definition context (item in READ) at (1)\n",
+    "/tmp/tmpcp6q54g1.f90:39:12:\n\n   39 |         do k = 2, j - 1\n      |            1\nError: Symbol ‘k’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmplm81ekv3.f90:10:5:\n\n   10 |     unit_a = abs(a) mod 10\n      |     1\nError: Unclassifiable statement at (1)\n",
+    "/tmp/tmp3smyipcm.f90:14:13:\n\n   14 |     result = nearest(number)\n      |             1\nError: Missing actual argument ‘s’ in call to ‘nearest’ at (1)\n",
+    "/tmp/tmpg0ka2dyh.f90:8:49:\n\n    8 |     character(len=9) :: names(9) = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']\n      |                                                 1\nError: Different CHARACTER lengths (3/5) in array constructor at (1)\n/tmp/tmpg0ka2dyh.f90:47:20:\n\n   47 |         result(i) = names(filtered(i))\n      |                    1\nError: Function ‘names’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmps8o38f93.f90:29:24:\n\n   29 |     function sum_digits(num) result(sum)\n      |                        1\nError: Procedure ‘sum_digits’ at (1) has an explicit interface from a previous declaration\n/tmp/tmps8o38f93.f90:30:34:\n\n   30 |         integer, intent(in) :: num\n      |                                  1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:31:61:\n\n   31 |         integer :: sum, temp, digit, first_digit, digit_count\n      |                                                             1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:33:15:\n\n   33 |         sum = 0\n      |               1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:34:23:\n\n   34 |         temp = abs(num)\n      |                       1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:36:27:\n\n   36 |         if (temp == 0) then\n      |                           1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:37:19:\n\n   37 |             sum = 0\n      |                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:38:18:\n\n   38 |             return\n      |                  1\nError: Unexpected RETURN statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:39:11:\n\n   39 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmps8o38f93.f90:42:23:\n\n   42 |         digit_count = 0\n      |                       1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:43:23:\n\n   43 |         first_digit = 0\n      |                       1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:44:23:\n\n   44 |         temp = abs(num)\n      |                       1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:45:27:\n\n   45 |         do while (temp > 0)\n      |                           1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:46:33:\n\n   46 |             digit = mod(temp, 10)\n      |                                 1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:47:28:\n\n   47 |             temp = temp / 10\n      |                            1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:48:41:\n\n   48 |             digit_count = digit_count + 1\n      |                                         1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:49:11:\n\n   49 |         end do\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmps8o38f93.f90:52:23:\n\n   52 |         temp = abs(num)\n      |                       1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:53:27:\n\n   53 |         do while (temp > 0)\n      |                           1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:54:33:\n\n   54 |             digit = mod(temp, 10)\n      |                                 1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:55:29:\n\n   55 |             sum = sum + digit\n      |                             1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:56:28:\n\n   56 |             temp = temp / 10\n      |                            1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:57:11:\n\n   57 |         end do\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmps8o38f93.f90:60:25:\n\n   60 |         if (num < 0) then\n      |                         1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:61:35:\n\n   61 |             sum = sum - first_digit\n      |                                   1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmps8o38f93.f90:62:11:\n\n   62 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmps8o38f93.f90:63:7:\n\n   63 |     end function sum_digits\n      |       1\nError: Expecting END PROGRAM statement at (1)\n",
+    "/tmp/tmp58lznnc0.f90:22:44:\n\n   22 |             letter_counts(int(letter) - int('a') + 1) = letter_counts(int(letter) - int('a') + 1) + 1\n      |                                            1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n/tmp/tmp58lznnc0.f90:22:30:\n\n   22 |             letter_counts(int(letter) - int('a') + 1) = letter_counts(int(letter) - int('a') + 1) + 1\n      |                              1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n/tmp/tmp58lznnc0.f90:22:88:\n\n   22 |             letter_counts(int(letter) - int('a') + 1) = letter_counts(int(letter) - int('a') + 1) + 1\n      |                                                                                        1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n/tmp/tmp58lznnc0.f90:22:74:\n\n   22 |             letter_counts(int(letter) - int('a') + 1) = letter_counts(int(letter) - int('a') + 1) + 1\n      |                                                                          1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n/tmp/tmp58lznnc0.f90:39:52:\n\n   39 |             output_letters(output_count) = char(int('a') + i - 1)\n      |                                                    1\nError: ‘a’ argument of ‘int’ intrinsic at (1) must have a numeric type\n",
+    "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "/tmp/tmptnrrr0b5.f90:60:26:\n\n   60 |     function is_consonant(c) result(is_con)\n      |                          1\nError: Procedure ‘is_consonant’ at (1) has an explicit interface from a previous declaration\n/tmp/tmptnrrr0b5.f90:61:29:\n\n   61 |         character(len=1) :: c\n      |                             1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:62:25:\n\n   62 |         logical :: is_con\n      |                         1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:63:35:\n\n   63 |         character(len=1) :: lower_c\n      |                                   1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:64:23:\n\n   64 |         integer :: code\n      |                       1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:66:37:\n\n   66 |         lower_c = char(ichar(c) + 32)\n      |                                     1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:67:29:\n\n   67 |         code = ichar(lower_c)\n      |                             1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:69:61:\n\n   69 |         if (code >= ichar('a') .and. code <= ichar('z')) then\n      |                                                             1\nError: Unexpected block IF statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:70:123:\n\n   70 |             is_con = .not. (lower_c == 'a' .or. lower_c == 'e' .or. lower_c == 'i' .or. lower_c == 'o' .or. lower_c == 'u')\n      |                                                                                                                           1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:71:12:\n\n   71 |         else\n      |            1\nError: Unexpected ELSE statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:72:28:\n\n   72 |             is_con = .false.\n      |                            1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmptnrrr0b5.f90:73:11:\n\n   73 |         end if\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmptnrrr0b5.f90:74:7:\n\n   74 |     end function is_consonant\n      |       1\nError: Expecting END PROGRAM statement at (1)\n",
+    "/tmp/tmpp45t5e4q.f90:19:72:\n\n   19 |         if (current == 'a' .or. current == 'e' .or. current == 'i' .or.\n      |                                                                        1\nError: Syntax error in expression at (1)\n/tmp/tmpp45t5e4q.f90:20:23:\n\n   20 |             current == 'o' .or. current == 'u' .or.\n      |                       1\nError: Invalid character in name at (1)\n/tmp/tmpp45t5e4q.f90:21:23:\n\n   21 |             current == 'A' .or. current == 'E' .or. current == 'I' .or.\n      |                       1\nError: Invalid character in name at (1)\n/tmp/tmpp45t5e4q.f90:22:23:\n\n   22 |             current == 'O' .or. current == 'U') then\n      |                       1\nError: Invalid character in name at (1)\n/tmp/tmpp45t5e4q.f90:27:74:\n\n   27 |                 if (word(i-1:i-1) /= 'a' .and. word(i-1:i-1) /= 'e' .and.\n      |                                                                          1\nError: Syntax error in expression at (1)\n/tmp/tmpp45t5e4q.f90:34:78:\n\n   34 |                     if (word(i+1:i+1) /= 'a' .and. word(i+1:i+1) /= 'e' .and.\n      |                                                                              1\nError: Syntax error in expression at (1)\n/tmp/tmpp45t5e4q.f90:45:19:\n\n   45 |                 end if\n      |                   1\nError: Expecting END DO statement at (1)\n/tmp/tmpp45t5e4q.f90:46:15:\n\n   46 |             end if\n      |               1\nError: Expecting END DO statement at (1)\n/tmp/tmpp45t5e4q.f90:47:11:\n\n   47 |         end if\n      |           1\nError: Expecting END DO statement at (1)\n",
+    "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "/tmp/tmpu9tdj05b.f90:56:19:\n\n   56 |         if (year % 4 == 0 .and. (year % 100 /= 0 .or. year % 400 == 0)) then\n      |                   1\nError: Unexpected ‘%’ for nonderived-type variable ‘year’ at (1)\n/tmp/tmpu9tdj05b.f90:67:7:\n\n   67 |     end if\n      |       1\nError: Expecting END PROGRAM statement at (1)\n",
+    "/tmp/tmpeialk636.f90:6:41:\n\n    6 |     integer :: sum_magnitudes, prod_signs, result\n      |                                         1\nError: Symbol ‘prod_signs’ at (1) cannot have a type\n/tmp/tmpeialk636.f90:29:15:\n\n   29 |     prod_signs = 1\n      |               1\nError: ‘prod_signs’ at (1) is not a variable\n/tmp/tmpeialk636.f90:32:23:\n\n   32 |             prod_signs = prod_signs * 1\n      |                       1\nError: ‘prod_signs’ at (1) is not a variable\n/tmp/tmpeialk636.f90:34:23:\n\n   34 |             prod_signs = prod_signs * -1\n      |                       1\nError: ‘prod_signs’ at (1) is not a variable\n/tmp/tmpeialk636.f90:39:40:\n\n   39 |     result = sum_magnitudes * prod_signs\n      |                                        1\nError: Symbol at (1) is not appropriate for an expression\n/tmp/tmpeialk636.f90:42:19:\n\n   42 |     print *, result\n      |                   1\nError: Symbol ‘result’ at (1) has no IMPLICIT type\n/tmp/tmpeialk636.f90:23:18:\n\n   23 |     sum_magnitudes = 0\n      |                  1\nError: Symbol ‘sum_magnitudes’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmpzsj31qmx.f90:26:16:\n\n   26 |     min_sum = 10**18\n      |                1\nError: Result of exponentiation at (1) exceeds the range of INTEGER(4)\n",
+    "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "/tmp/tmplk24ynkj.f90:20:30:\n\n   20 |     largest_neg = -2147483648  ! Initialize to minimum possible\n      |                              1\nError: Integer too big for its kind at (1). This check can be disabled with the option ‘-fno-range-check’\n",
+    "/tmp/tmp0kpvz5kv.f90:18:9:\n\n   18 |         do while (i + k <= n .and. text(i+k) == ' ')\n      |         1\nError: Unclassifiable statement at (1)\n/tmp/tmp0kpvz5kv.f90:32:11:\n\n   32 |         end do\n      |           1\nError: Expecting END IF statement at (1)\n/tmp/tmp0kpvz5kv.f90:33:7:\n\n   33 |     end do\n      |       1\nError: Expecting END IF statement at (1)\n/tmp/tmp0kpvz5kv.f90:38:3:\n\n   38 | end program fix_spaces\n      |   1\nError: Expecting END IF statement at (1)\nf951: Error: Unexpected end of file in ‘/tmp/tmp0kpvz5kv.f90’\n",
+    "/tmp/tmp95iagpoq.f90:20:192:\n\n   20 |                 case ('a':'z', 'A':'Z', '0':'9', '.', '_', '-', '@', '#', '$', '%', '&', '*', '+', '=', '?', ':', ';', '<', '>', ',', '(', ')', '[', ']', '{', '}', '|', '~', '^', '`', '\\'', '\"')\n      |                                                                                                                                                                                                1\nError: Syntax error in CASE specification at (1)\n",
+    "/tmp/tmpvpt5iqu0.f90:36:7:\n\n   36 |     end do\n      |       1\nError: Expecting END IF statement at (1)\n/tmp/tmpvpt5iqu0.f90:46:8:\n\n   46 | contains\n      |        1\nError: Unexpected CONTAINS statement at (1)\n/tmp/tmpvpt5iqu0.f90:50:32:\n\n   50 |         integer, intent(in) :: n\n      |                                1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpvpt5iqu0.f90:51:29:\n\n   51 |         logical :: prime_flag\n      |                             1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpvpt5iqu0.f90:52:20:\n\n   52 |         integer :: i\n      |                    1\nError: Symbol ‘i’ at (1) already has basic type of INTEGER\n/tmp/tmpvpt5iqu0.f90:69:7:\n\n   69 |     end function is_prime\n      |       1\nError: Expecting END IF statement at (1)\n/tmp/tmpvpt5iqu0.f90:71:3:\n\n   71 | end program words_in_sentence\n      |   1\nError: Expecting END IF statement at (1)\nf951: Error: Unexpected end of file in ‘/tmp/tmpvpt5iqu0.f90’\n",
+    "/tmp/tmpizkvtmcc.f90:20:28:\n\n   20 |     integer :: digit_sums(n)\n      |                            1\nError: Explicit shaped array with nonconstant bounds at (1)\n/tmp/tmpizkvtmcc.f90:22:8:\n\n   22 |         digit_sums(i) = 0\n      |        1\nError: Function ‘digit_sums’ at (1) has no IMPLICIT type\n/tmp/tmpizkvtmcc.f90:25:12:\n\n   25 |             digit_sums(i) = digit_sums(i) + mod(temp_val, 10)\n      |            1\nError: Function ‘digit_sums’ at (1) has no IMPLICIT type\n/tmp/tmpizkvtmcc.f90:25:28:\n\n   25 |             digit_sums(i) = digit_sums(i) + mod(temp_val, 10)\n      |                            1\nError: Function ‘digit_sums’ at (1) has no IMPLICIT type\n/tmp/tmpizkvtmcc.f90:33:31:\n\n   33 |             if (digit_sums(j) > digit_sums(j+1)) then\n      |                               1\nError: Function ‘digit_sums’ at (1) has no IMPLICIT type\n/tmp/tmpizkvtmcc.f90:33:16:\n\n   33 |             if (digit_sums(j) > digit_sums(j+1)) then\n      |                1\nError: Function ‘digit_sums’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmp6kothby4.f90:13:13:\n\n   13 |     allocate(character(len=100), dimension=n) :: strings\n      |             1\nError: Allocate-object at (1) is neither a data pointer nor an allocatable variable\n/tmp/tmp6kothby4.f90:21:35:\n\n   21 |         if (len_trim(strings(i)) % 2 == 1) then\n      |                                   1\nError: Symbol ‘len_trim’ at (1) has no IMPLICIT type\n/tmp/tmp6kothby4.f90:23:11:\n\n   23 |         end if\n      |           1\nError: Expecting END DO statement at (1)\n/tmp/tmp6kothby4.f90:27:13:\n\n   27 |     allocate(character(len=100), dimension=n-odd_count) :: filtered\n      |             1\nError: Allocate-object at (1) is neither a data pointer nor an allocatable variable\n/tmp/tmp6kothby4.f90:30:35:\n\n   30 |         if (len_trim(strings(i)) % 2 == 0) then\n      |                                   1\nError: Symbol ‘len_trim’ at (1) has no IMPLICIT type\n/tmp/tmp6kothby4.f90:33:11:\n\n   33 |         end if\n      |           1\nError: Expecting END DO statement at (1)\n/tmp/tmp6kothby4.f90:43:27:\n\n   43 |                 temp_idx = filtered(i)\n      |                           1\nError: Cannot convert CHARACTER(100) to INTEGER(4) at (1)\n/tmp/tmp6kothby4.f90:45:30:\n\n   45 |                 filtered(j) = temp_len\n      |                              1\nError: Cannot convert INTEGER(4) to CHARACTER(100) at (1)\n",
+    "/tmp/tmp3opbira0.f90:12:14:\n\n   12 |     read(*, '(I)') n\n      |              1\nError: Nonnegative width required in format string at (1)\n",
+    "/tmp/tmpftzij34e.f90:15:93:\n\n   15 |     integer, parameter :: values(13) = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]\n      |                                                                                             1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpftzij34e.f90:16:54:\n\n   16 |     character(len=1), parameter :: symbols(13) = ['m', 'cm', 'd', 'cd', 'c', 'xc', 'l', 'xl', 'x', 'ix', 'v', 'iv', 'i']\n      |                                                      1\nError: Different CHARACTER lengths (1/2) in array constructor at (1)\n/tmp/tmpftzij34e.f90:20:32:\n\n   20 |             temp = temp - values(i)\n      |                                1\nError: Function ‘values’ at (1) has no IMPLICIT type\n/tmp/tmpftzij34e.f90:21:34:\n\n   21 |             roman = trim(roman) // symbols(i)\n      |                                  1\nError: Function ‘symbols’ at (1) has no IMPLICIT type\n/tmp/tmpftzij34e.f90:19:25:\n\n   19 |         do while (temp >= values(i))\n      |                         1\nError: Function ‘values’ at (1) has no IMPLICIT type\n",
+    "/tmp/tmprgck71p4.f90:31:35:\n\n   31 |                 output(i:i) = char(c + 32)\n      |                                   1\nError: Operands of binary numeric operator ‘+’ at (1) are CHARACTER(1)/INTEGER(4)\n/tmp/tmprgck71p4.f90:33:35:\n\n   33 |                 output(i:i) = char(c - 32)\n      |                                   1\nError: Operands of binary numeric operator ‘-’ at (1) are CHARACTER(1)/INTEGER(4)\n",
+    "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n"
+  ]
+}

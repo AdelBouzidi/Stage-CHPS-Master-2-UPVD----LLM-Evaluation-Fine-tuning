@@ -1,0 +1,53 @@
+program factorize_demo
+  implicit none
+  integer :: n
+  integer, allocatable :: factors(:)
+  
+  ! Read input
+  read(*,*) n
+  
+  ! Call the factorize function
+  factors = factorize(n)
+  
+  ! Output the result
+  print *, factors
+contains
+
+  function factorize(n) result(factors)
+    implicit none
+    integer, intent(in) :: n
+    integer, allocatable :: factors(:)
+    integer :: i, count
+    integer :: temp
+    
+    if (n <= 1) then
+      allocate(factors(0))
+      return
+    end if
+    
+    count = 0
+    temp = n
+    do i = 2, n
+      if (mod(temp, i) == 0) then
+        count = count + 1
+        temp = temp / i
+      else
+        exit
+      end if
+    end do
+    
+    allocate(factors(count))
+    count = 0
+    temp = n
+    do i = 2, n
+      if (mod(temp, i) == 0) then
+        count = count + 1
+        factors(count) = i
+        temp = temp / i
+      else
+        exit
+      end if
+    end do
+  end function factorize
+
+end program factorize_demo

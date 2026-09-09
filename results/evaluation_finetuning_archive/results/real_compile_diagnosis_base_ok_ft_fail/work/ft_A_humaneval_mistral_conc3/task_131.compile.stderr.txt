@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc3/task_131.f90:16:2:
+
+   16 |   function digits(n) result(res)
+      |  1
+Warning: ‘digits’ declared at (1) may shadow the intrinsic of the same name.  In order to call the intrinsic, explicit INTRINSIC declarations may be required. [-Wintrinsic-shadow]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc3/task_131.f90:33:6:
+
+   33 |       n = n / 10
+      |      1
+Error: Dummy argument ‘n’ with INTENT(IN) in variable definition context (assignment) at (1)

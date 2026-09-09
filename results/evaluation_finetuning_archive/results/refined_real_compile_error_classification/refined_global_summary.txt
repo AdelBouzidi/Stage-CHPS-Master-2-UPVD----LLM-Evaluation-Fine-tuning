@@ -1,0 +1,49 @@
+====================================================================================================
+REFINED REAL COMPILE / EVAL FAILURE CLASSIFICATION
+====================================================================================================
+total cases: 675
+
+Refined primary counts:
+  compiled_but_wrong_answer                     142
+  intent_in_modified                            113
+  compiled_ok_other_failure                     101
+  undeclared_variable                           77
+  empty_code_or_no_program                      58
+  compiled_but_runtime_error                    42
+  compile_other                                 35
+  assumed_length_character_local                28
+  invalid_operator_or_expression                25
+  syntax_error_other                            13
+  print_parentheses_syntax                      11
+  type_mismatch_or_intrinsic_misuse             6
+  declaration_after_executable                  6
+  print_statement_syntax                        5
+  compiled_but_evaluator_exception              4
+  allocatable_or_shape_error                    3
+  bad_contains_or_program_structure             3
+  c_like_procedure_signature                    2
+  missing_iso_fortran_env_kind                  1
+
+Refined label counts:
+  compile_failed                                386
+  compiled_ok                                   289
+  wrong_answer_or_output_mismatch               142
+  intent_in_modified                            113
+  ft_status_ok                                  97
+  implicit_declaration                          78
+  empty_or_no_main                              58
+  runtime_error_after_compile                   42
+  compile_other                                 35
+  assumed_length_character_local                28
+  invalid_operator_or_expression                25
+  syntax_error_other                            13
+  print_parentheses_syntax                      11
+  type_mismatch_or_intrinsic_misuse             6
+  declaration_after_executable                  6
+  print_statement_syntax                        5
+  evaluator_exception_after_compile             4
+  ft_status_compile_err                         4
+  allocatable_or_shape_error                    3
+  bad_contains_or_program_structure             3
+  c_like_procedure_signature                    2
+  missing_iso_fortran_env_kind                  1

@@ -1,0 +1,217 @@
+# Failure case: ft_C_humaneval_mistral_conc3 / task 21
+
+- Base status: `ok`
+
+- FT status: `runtime_err`
+
+- Primary cause: `static_stdin_read`
+
+- Labels: `static_stdin_read, status_runtime_err`
+
+
+## Prompt
+
+```text
+Write a Fortran90 program that given an array of numbers (of at least two elements), applies a linear transform to that array, such that the smallest number will become 0 and the largest will become 1.
+```
+
+
+## FT stderr / error
+
+```text
+
+```
+
+
+## FT stdout
+
+```text
+
+```
+
+
+## Expected output
+
+```text
+
+```
+
+
+## Static feature differences base -> FT
+
+```json
+{
+  "uses_allocatable": {
+    "base": true,
+    "ft": false
+  },
+  "uses_allocate": {
+    "base": true,
+    "ft": false
+  },
+  "uses_assumed_shape": {
+    "base": true,
+    "ft": false
+  },
+  "uses_hardcoded_scalars": {
+    "base": true,
+    "ft": false
+  },
+  "uses_print_star": {
+    "base": false,
+    "ft": true
+  },
+  "uses_write_star": {
+    "base": true,
+    "ft": false
+  }
+}
+```
+
+
+## Base generated code
+
+```fortran
+program rescale_to_unit
+    implicit none
+    integer :: n_input, i
+    real, allocatable :: numbers(:), rescaled(:)
+    real :: min_val, max_val
+    
+    ! Read input
+    read(*,*) n_input
+    allocate(numbers(n_input))
+    read(*,*) numbers
+    
+    ! Find min and max
+    min_val = numbers(1)
+    max_val = numbers(1)
+    do i = 2, n_input
+        if (numbers(i) < min_val) min_val = numbers(i)
+        if (numbers(i) > max_val) max_val = numbers(i)
+    end do
+    
+    ! Apply linear transform
+    if (max_val == min_val) then
+        rescaled = 0.0
+    else
+        rescaled = (numbers - min_val) / (max_val - min_val)
+    end if
+    
+    ! Output result
+    do i = 1, n_input
+        write(*, '(F8.3)') rescaled(i)
+    end do
+    
+    deallocate(numbers)
+end program rescale_to_unit
+```
+
+
+## FT generated code
+
+```fortran
+program rescale_to_unit
+  implicit none
+  integer :: n
+  real :: numbers(100)
+  real :: min_val, max_val
+  integer :: i
+
+  ! Read the number of elements
+  read(*,*) n
+
+  ! Read the array elements
+  do i = 1, n
+    read(*,*) numbers(i)
+  end do
+
+  ! Find min and max
+  min_val = numbers(1)
+  max_val = numbers(1)
+  do i = 2, n
+    if (numbers(i) < min_val) min_val = numbers(i)
+    if (numbers(i) > max_val) max_val = numbers(i)
+  end do
+
+  ! Apply linear transform and output
+  do i = 1, n
+    if (max_val == min_val) then
+      print*, 0.0
+    else
+      print*, (numbers(i) - min_val) / (max_val - min_val)
+    end if
+  end do
+
+end program rescale_to_unit
+```
+
+
+## Unified diff base vs FT
+
+```diff
+--- base_code
++++ ft_code
+@@ -1,33 +1,33 @@
+ program rescale_to_unit
+-    implicit none
+-    integer :: n_input, i
+-    real, allocatable :: numbers(:), rescaled(:)
+-    real :: min_val, max_val
+-    
+-    ! Read input
+-    read(*,*) n_input
+-    allocate(numbers(n_input))
+-    read(*,*) numbers
+-    
+-    ! Find min and max
+-    min_val = numbers(1)
+-    max_val = numbers(1)
+-    do i = 2, n_input
+-        if (numbers(i) < min_val) min_val = numbers(i)
+-        if (numbers(i) > max_val) max_val = numbers(i)
+-    end do
+-    
+-    ! Apply linear transform
++  implicit none
++  integer :: n
++  real :: numbers(100)
++  real :: min_val, max_val
++  integer :: i
++
++  ! Read the number of elements
++  read(*,*) n
++
++  ! Read the array elements
++  do i = 1, n
++    read(*,*) numbers(i)
++  end do
++
++  ! Find min and max
++  min_val = numbers(1)
++  max_val = numbers(1)
++  do i = 2, n
++    if (numbers(i) < min_val) min_val = numbers(i)
++    if (numbers(i) > max_val) max_val = numbers(i)
++  end do
++
++  ! Apply linear transform and output
++  do i = 1, n
+     if (max_val == min_val) then
+-        rescaled = 0.0
++      print*, 0.0
+     else
+-        rescaled = (numbers - min_val) / (max_val - min_val)
++      print*, (numbers(i) - min_val) / (max_val - min_val)
+     end if
+-    
+-    ! Output result
+-    do i = 1, n_input
+-        write(*, '(F8.3)') rescaled(i)
+-    end do
+-    
+-    deallocate(numbers)
++  end do
++
+ end program rescale_to_unit
+```

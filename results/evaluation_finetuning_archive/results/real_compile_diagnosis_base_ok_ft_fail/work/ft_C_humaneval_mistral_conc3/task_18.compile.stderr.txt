@@ -1,0 +1,20 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_18.f90:3:42:
+
+    3 |     character(len=*), intent(in) :: string, substring
+      |                                          1
+Error: Symbol at (1) is not a DUMMY variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_18.f90:3:53:
+
+    3 |     character(len=*), intent(in) :: string, substring
+      |                                                     1
+Error: Symbol at (1) is not a DUMMY variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_18.f90:7:18:
+
+    7 |     read(*, '(A)') string
+      |                  1
+Error: Dummy argument ‘string’ with INTENT(IN) in variable definition context (item in READ) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_humaneval_mistral_conc3/task_18.f90:8:18:
+
+    8 |     read(*, '(A)') substring
+      |                  1
+Error: Dummy argument ‘substring’ with INTENT(IN) in variable definition context (item in READ) at (1)

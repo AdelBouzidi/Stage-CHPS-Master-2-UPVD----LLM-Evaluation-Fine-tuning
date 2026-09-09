@@ -1,0 +1,65 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:12:25:
+
+   12 |   result = triangle_area(a, b, c)
+      |                         1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:23:46:
+
+   23 |   function triangle_area(a, b, c) result(area)
+      |                                              1
+Error: PROGRAM attribute of ‘triangle_area’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:24:17:
+
+   24 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:25:31:
+
+   25 |     real, intent(in) :: a, b, c
+      |                               1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:26:16:
+
+   26 |     real :: area
+      |                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:27:13:
+
+   27 |     real :: s
+      |             1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:30:56:
+
+   30 |     if (a + b <= c .or. a + c <= b .or. b + c <= a) then
+      |                                                        1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:31:17:
+
+   31 |       area = -1.0
+      |                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:32:8:
+
+   32 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:33:27:
+
+   33 |       s = (a + b + c) / 2.0
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:34:50:
+
+   34 |       area = sqrt(s * (s - a) * (s - b) * (s - c))
+      |                                                  1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:35:7:
+
+   35 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_71.f90:36:5:
+
+   36 |   end function triangle_area
+      |     1
+Error: Expecting END PROGRAM statement at (1)

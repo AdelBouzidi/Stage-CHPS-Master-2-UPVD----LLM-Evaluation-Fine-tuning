@@ -1,0 +1,40 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_104.f90:35:28:
+
+   35 |       contains_even_digit = .false.
+      |                            1
+Error: Cannot convert LOGICAL(4) to INTEGER(4) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_104.f90:39:32:
+
+   39 |           contains_even_digit = .true.
+      |                                1
+Error: Cannot convert LOGICAL(4) to INTEGER(4) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_104.f90:42:8:
+
+   42 |         x(i) = x(i) / 10
+      |        1
+Error: Dummy argument ‘x’ with INTENT(IN) in variable definition context (assignment) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_104.f90:44:15:
+
+   44 |       if (.not. contains_even_digit) then
+      |               1
+Error: Operand of .not. operator at (1) is INTEGER(4)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_104.f90:56:28:
+
+   56 |       contains_even_digit = .false.
+      |                            1
+Error: Cannot convert LOGICAL(4) to INTEGER(4) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_104.f90:60:32:
+
+   60 |           contains_even_digit = .true.
+      |                                1
+Error: Cannot convert LOGICAL(4) to INTEGER(4) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_104.f90:63:8:
+
+   63 |         x(i) = x(i) / 10
+      |        1
+Error: Dummy argument ‘x’ with INTENT(IN) in variable definition context (assignment) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_104.f90:65:15:
+
+   65 |       if (.not. contains_even_digit) then
+      |               1
+Error: Operand of .not. operator at (1) is INTEGER(4)

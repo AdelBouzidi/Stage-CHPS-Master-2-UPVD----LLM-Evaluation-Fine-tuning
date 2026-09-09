@@ -1,0 +1,45 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:12:50:
+
+   12 |   logical function right_angle_triangle ( integer a, integer b, integer c )
+      |                                                  1
+Error: Expected formal argument list in function definition at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:13:17:
+
+   13 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:14:76:
+
+   14 |     if ( a*a + b*b == c*c .or. a*a + c*c == b*b .or. b*b + c*c == a*a ) then
+      |                                                                            1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:15:28:
+
+   15 |        right_angle_triangle = .true.
+      |                            1
+Error: Symbol ‘right_angle_triangle’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:16:8:
+
+   16 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:17:28:
+
+   17 |        right_angle_triangle = .false.
+      |                            1
+Error: Symbol ‘right_angle_triangle’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:18:7:
+
+   18 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:19:5:
+
+   19 |   end function right_angle_triangle
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_157.f90:7:8:
+
+    7 |   res = right_angle_triangle ( a, b, c )
+      |        1
+Error: Function ‘right_angle_triangle’ at (1) has no IMPLICIT type

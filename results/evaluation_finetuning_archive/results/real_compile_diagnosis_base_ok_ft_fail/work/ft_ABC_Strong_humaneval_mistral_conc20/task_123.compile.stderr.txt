@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_123.f90:13:8:
+
+   13 |   print(*,'(i0)') result
+      |        1
+Error: Syntax error in PRINT statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_123.f90:26:25:
+
+   26 |         allocate(temp_arr(size(temp_arr)+1))
+      |                         1
+Error: ‘temp_arr’ must not appear in the array specification at (1) in the same ALLOCATE statement where it is itself allocated

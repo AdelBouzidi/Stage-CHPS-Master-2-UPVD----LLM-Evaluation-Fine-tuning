@@ -1,0 +1,33 @@
+# Qwen27 evaluation summary — epoch1 learning_rate_1
+
+Results dir: `qwen27/epoch1/learning_rate_1/results`
+Number of evaluation summaries: **15**
+
+## Detected metric columns
+
+- `ok` → `counter.ok`
+- `total` → `metrics.total`
+- `pass_at_1` → `metrics.pass_at_1`
+- `compile_rate` → `metrics.compilation_rate`
+- `execution_rate` → `metrics.execution_success_rate`
+- `correctness_rate` → `metrics.output_correctness_rate`
+
+## Ranking table
+
+| run_name | family | counter.ok | metrics.total | metrics.pass_at_1 | metrics.compilation_rate | metrics.execution_success_rate | metrics.output_correctness_rate | counter.compile_err | execution_time_limit | metrics.compile_err | metrics.ok |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A | baseline_ft_A | 62 | 164 | 0.3780487804878049 | 0.6707317073170732 | 0.4329268292682927 | 0.3780487804878049 | 54 | 10 | 54 | 62 |
+| ABC_filtered_accept_C | filtered_accept_subset | 56 | 164 | 0.34146341463414637 | 0.5792682926829268 | 0.4024390243902439 | 0.34146341463414637 | 69 | 10 | 69 | 56 |
+| ABC_filtered_accept_A | filtered_accept_subset | 55 | 164 | 0.3353658536585366 | 0.5182926829268293 | 0.38414634146341464 | 0.3353658536585366 | 79 | 10 | 79 | 55 |
+| AB_antineighbor | baseline_ft_AB | 55 | 164 | 0.3353658536585366 | 0.5609756097560976 | 0.39634146341463417 | 0.3353658536585366 | 72 | 10 | 72 | 55 |
+| ABC_filtered_reject | filtered_reject | 54 | 164 | 0.32926829268292684 | 0.5426829268292683 | 0.39634146341463417 | 0.32926829268292684 | 75 | 10 | 75 | 54 |
+| ABC_filtered_accept | filtered_accept_all | 53 | 164 | 0.3231707317073171 | 0.573170731707317 | 0.4024390243902439 | 0.3231707317073171 | 70 | 10 | 70 | 53 |
+| ABC_filtered_manual | filtered_manual | 53 | 164 | 0.3231707317073171 | 0.5609756097560976 | 0.42073170731707316 | 0.3231707317073171 | 72 | 10 | 72 | 53 |
+| ABC_source_numericalhub | source_subset | 52 | 164 | 0.3170731707317073 | 0.524390243902439 | 0.3780487804878049 | 0.3170731707317073 | 78 | 10 | 78 | 52 |
+| ABC_filtered_accept_AC_shuffle | filtered_accept_subset | 48 | 164 | 0.2926829268292683 | 0.6402439024390244 | 0.40853658536585363 | 0.2926829268292683 | 59 | 10 | 59 | 48 |
+| ABC_source_burkardt | source_subset | 48 | 164 | 0.2926829268292683 | 0.5060975609756098 | 0.3719512195121951 | 0.2926829268292683 | 81 | 10 | 81 | 48 |
+| ABC_source_fortran_lang | source_subset | 46 | 164 | 0.2804878048780488 | 0.5 | 0.35365853658536583 | 0.2804878048780488 | 82 | 10 | 82 | 46 |
+| ABC_filtered_accept_AB_shuffle | filtered_accept_subset | 41 | 164 | 0.25 | 0.5975609756097561 | 0.4695121951219512 | 0.25 | 66 | 10 | 66 | 41 |
+| ABC_filtered_accept_B | filtered_accept_subset | 41 | 164 | 0.25 | 0.47560975609756095 | 0.31097560975609756 | 0.25 | 86 | 10 | 86 | 41 |
+| ABC_filtered_accept_BC_shuffle | filtered_accept_subset | 39 | 164 | 0.23780487804878048 | 0.49390243902439024 | 0.3170731707317073 | 0.23780487804878048 | 83 | 10 | 83 | 39 |
+| ABC_dedup_BC | abc_dedup_bc | 32 | 164 | 0.1951219512195122 | 0.7804878048780488 | 0.6585365853658537 | 0.1951219512195122 | 36 | 10 | 36 | 32 |

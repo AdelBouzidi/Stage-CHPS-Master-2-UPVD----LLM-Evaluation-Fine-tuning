@@ -1,0 +1,65 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:12:18:
+
+   12 |   result = x_or_y(n, x, y)
+      |                  1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:19:38:
+
+   19 |   function x_or_y(n, x, y) result(res)
+      |                                      1
+Error: PROGRAM attribute of ‘x_or_y’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:20:17:
+
+   20 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:21:34:
+
+   21 |     integer, intent(in) :: n, x, y
+      |                                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:22:18:
+
+   22 |     integer :: res
+      |                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:23:16:
+
+   23 |     integer :: i
+      |                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:26:25:
+
+   26 |     if (is_prime(n)) then
+      |                         1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:27:13:
+
+   27 |       res = x
+      |             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:28:8:
+
+   28 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:29:13:
+
+   29 |       res = y
+      |             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:30:7:
+
+   30 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:31:5:
+
+   31 |   end function x_or_y
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_150.f90:34:17:
+
+   34 |     implicit none
+      |                 1
+Error: Duplicate IMPLICIT NONE statement at (1)

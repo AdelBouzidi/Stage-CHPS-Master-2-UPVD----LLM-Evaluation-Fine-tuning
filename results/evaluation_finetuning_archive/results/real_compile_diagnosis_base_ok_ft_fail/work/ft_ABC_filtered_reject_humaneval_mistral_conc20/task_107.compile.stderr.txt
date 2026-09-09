@@ -1,0 +1,8 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_107.f90:24:26:
+
+   16 |   do i = 1, n
+      |             2             
+......
+   24 |     do i = len(str), 1, -1
+      |                          1
+Error: Variable ‘i’ at (1) cannot be redefined inside loop beginning at (2)

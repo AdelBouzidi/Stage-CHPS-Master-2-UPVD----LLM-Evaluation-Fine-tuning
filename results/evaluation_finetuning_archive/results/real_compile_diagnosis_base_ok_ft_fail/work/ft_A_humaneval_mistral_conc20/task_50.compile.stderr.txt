@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_50.f90:3:27:
+
+    3 |   character(len=*) :: input
+      |                           1
+Error: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_50.f90:4:37:
+
+    4 |   character(len=len(input)) :: result
+      |                                     1
+Error: ‘result’ at (1) must have constant character length in this context

@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_21.f90:37:8:
+
+   37 |     if (max_val == min_val) then
+      |        1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_half2_humaneval_mistral_conc20/task_21.f90:7:14:
+
+    7 |   integer :: i
+      |              1
+Warning: Unused variable ‘i’ declared at (1) [-Wunused-variable]

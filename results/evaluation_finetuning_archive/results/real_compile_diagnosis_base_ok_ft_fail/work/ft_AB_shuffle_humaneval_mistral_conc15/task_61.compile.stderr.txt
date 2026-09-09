@@ -1,0 +1,90 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:6:30:
+
+    6 |   result = correct_bracketing(input)
+      |                              1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:11:47:
+
+   11 |   logical function correct_bracketing(brackets)
+      |                                               1
+Error: PROGRAM attribute of ‘correct_bracketing’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:12:17:
+
+   12 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:13:44:
+
+   13 |     character(len=*), intent(in) :: brackets
+      |                                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:14:33:
+
+   14 |     integer :: open_count, i, len
+      |                                 1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:15:26:
+
+   15 |     character(len=1) :: ch
+      |                          1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:17:18:
+
+   17 |     open_count = 0
+      |                  1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:18:28:
+
+   18 |     len = len_trim(brackets)
+      |                            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:20:17:
+
+   20 |     do i = 1, len
+      |                 1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:21:22:
+
+   21 |       ch = brackets(i:i)
+      |                      1
+Error: Syntax error in argument list at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:22:25:
+
+   22 |       if (ch == '(') then
+      |                         1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:23:35:
+
+   23 |         open_count = open_count + 1
+      |                                   1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:24:30:
+
+   24 |       else if (ch == ')') then
+      |                              1
+Error: Unexpected ELSE IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:25:35:
+
+   25 |         open_count = open_count - 1
+      |                                   1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:26:9:
+
+   26 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:27:7:
+
+   27 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:29:23:
+
+   29 |     correct_bracketing = (open_count == 0)
+      |                       1
+Error: Symbol ‘correct_bracketing’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_61.f90:30:5:
+
+   30 |   end function correct_bracketing
+      |     1
+Error: Expecting END PROGRAM statement at (1)

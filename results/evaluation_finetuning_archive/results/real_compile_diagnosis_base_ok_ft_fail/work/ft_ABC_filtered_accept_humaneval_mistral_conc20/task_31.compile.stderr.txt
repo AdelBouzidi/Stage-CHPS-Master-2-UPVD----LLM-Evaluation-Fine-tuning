@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_31.f90:31:51:
+
+   31 |       do i = 3, int(sqrt(real(n, kind=real(0, kind=n))))
+      |                                                   1
+Error: Parameter ‘n’ at (1) has not been declared or is a variable, which does not reduce to a constant expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_31.f90:31:51:
+
+   31 |       do i = 3, int(sqrt(real(n, kind=real(0, kind=n))))
+      |                                                   1
+Error: ‘kind’ argument of ‘real’ intrinsic at (1) must be a constant

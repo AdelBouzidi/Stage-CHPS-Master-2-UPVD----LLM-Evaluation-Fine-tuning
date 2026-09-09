@@ -1,0 +1,50 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:6:27:
+
+    6 |   result = starts_one_ends(n)
+      |                           1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:9:37:
+
+    9 |   integer function starts_one_ends(n)
+      |                                     1
+Error: PROGRAM attribute of ‘starts_one_ends’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:10:17:
+
+   10 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:11:28:
+
+   11 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:12:20:
+
+   12 |     if (n == 1) then
+      |                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:13:23:
+
+   13 |        starts_one_ends = 1
+      |                       1
+Error: Symbol ‘starts_one_ends’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:14:8:
+
+   14 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:15:23:
+
+   15 |        starts_one_ends = 9 * 10**(n-2) + 10**(n-1)
+      |                       1
+Error: Symbol ‘starts_one_ends’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:16:7:
+
+   16 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc20/task_83.f90:17:5:
+
+   17 |   end function starts_one_ends
+      |     1
+Error: Expecting END PROGRAM statement at (1)

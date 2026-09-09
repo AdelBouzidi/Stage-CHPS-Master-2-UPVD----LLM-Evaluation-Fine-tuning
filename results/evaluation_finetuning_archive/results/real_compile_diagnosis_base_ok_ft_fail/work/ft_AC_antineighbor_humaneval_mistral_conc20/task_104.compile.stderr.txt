@@ -1,0 +1,20 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc20/task_104.f90:64:35:
+
+   64 |   function sort(arr) result(sorted)
+      |                                   1
+Error: Array ‘sorted’ at (1) cannot have a deferred shape
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc20/task_104.f90:34:20:
+
+   34 |       do j = 1, len(x(i))
+      |                    1
+Error: ‘string’ argument of ‘len’ intrinsic at (1) must be CHARACTER
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc20/task_104.f90:45:13:
+
+   45 |     allocate(result(n))
+      |             1
+Error: Allocate-object at (1) must be ALLOCATABLE or a POINTER
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc20/task_104.f90:49:20:
+
+   49 |       do j = 1, len(x(i))
+      |                    1
+Error: ‘string’ argument of ‘len’ intrinsic at (1) must be CHARACTER

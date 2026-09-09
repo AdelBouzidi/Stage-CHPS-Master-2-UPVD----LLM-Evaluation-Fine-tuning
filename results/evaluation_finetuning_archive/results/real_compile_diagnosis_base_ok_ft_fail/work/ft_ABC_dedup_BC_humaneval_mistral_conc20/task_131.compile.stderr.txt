@@ -1,0 +1,110 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:9:18:
+
+    9 |   result = digits(n)
+      |                  1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:16:32:
+
+   16 |   function digits(n) result(res)
+      |                                1
+Error: PROGRAM attribute of ‘digits’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:17:17:
+
+   17 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:18:28:
+
+   18 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:19:18:
+
+   19 |     integer :: res
+      |                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:20:26:
+
+   20 |     integer :: temp, digit
+      |                          1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:21:22:
+
+   21 |     logical :: has_odd
+      |                      1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:23:11:
+
+   23 |     res = 1
+      |           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:24:12:
+
+   24 |     temp = n
+      |            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:25:21:
+
+   25 |     has_odd = .false.
+      |                     1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:26:23:
+
+   26 |     do while (temp > 0)
+      |                       1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:27:27:
+
+   27 |       digit = mod(temp, 10)
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:28:34:
+
+   28 |       if (mod(digit, 2) == 1) then
+      |                                  1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:29:25:
+
+   29 |         res = res * digit
+      |                         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:30:24:
+
+   30 |         has_odd = .true.
+      |                        1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:31:9:
+
+   31 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:32:22:
+
+   32 |       temp = temp / 10
+      |                      1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:33:7:
+
+   33 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:35:27:
+
+   35 |     if (.not. has_odd) then
+      |                           1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:36:13:
+
+   36 |       res = 0
+      |             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:37:7:
+
+   37 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_dedup_BC_humaneval_mistral_conc20/task_131.f90:38:5:
+
+   38 |   end function digits
+      |     1
+Error: Expecting END PROGRAM statement at (1)

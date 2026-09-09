@@ -1,0 +1,70 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:6:32:
+
+    6 |     result = correct_bracketing(brackets)
+      |                                1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:9:49:
+
+    9 |     logical function correct_bracketing(brackets)
+      |                                                 1
+Error: PROGRAM attribute of ‘correct_bracketing’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:10:48:
+
+   10 |         character(len=*), intent(in) :: brackets
+      |                                                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:11:27:
+
+   11 |         integer :: i, count
+      |                           1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:12:17:
+
+   12 |         count = 0
+      |                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:13:31:
+
+   13 |         do i = 1, len(brackets)
+      |                               1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:14:42:
+
+   14 |             if (brackets(i:i) == '(') then
+      |                                          1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:15:33:
+
+   15 |                 count = count + 1
+      |                                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:16:47:
+
+   16 |             else if (brackets(i:i) == ')') then
+      |                                               1
+Error: Unexpected ELSE IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:17:33:
+
+   17 |                 count = count - 1
+      |                                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:18:15:
+
+   18 |             end if
+      |               1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:19:11:
+
+   19 |         end do
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:20:27:
+
+   20 |         correct_bracketing = (count == 0)
+      |                           1
+Error: Symbol ‘correct_bracketing’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_61.f90:21:7:
+
+   21 |     end function correct_bracketing
+      |       1
+Error: Expecting END PROGRAM statement at (1)

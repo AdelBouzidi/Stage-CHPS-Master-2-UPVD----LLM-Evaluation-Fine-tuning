@@ -1,0 +1,65 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:22:21:
+
+   22 |   subroutine solution(lst_len, lst, result)
+      |                     1
+Error: PROGRAM attribute of ‘solution’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:23:34:
+
+   23 |     integer, intent(in) :: lst_len
+      |                                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:24:39:
+
+   24 |     integer, intent(in) :: lst(lst_len)
+      |                                       1
+Error: Explicit shaped array with nonconstant bounds at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:25:34:
+
+   25 |     integer, intent(out) :: result
+      |                                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:26:16:
+
+   26 |     integer :: i
+      |                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:28:14:
+
+   28 |     result = 0
+      |              1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:29:21:
+
+   29 |     do i = 1, lst_len
+      |                     1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:30:60:
+
+   30 |       if (mod(i - 1, 2) == 0 .and. mod(lst(i), 2) == 1) then
+      |                                                            1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:31:32:
+
+   31 |         result = result + lst(i)
+      |                                1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:32:9:
+
+   32 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:33:7:
+
+   33 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:34:5:
+
+   34 |   end subroutine solution
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_burkardt_humaneval_mistral_conc20/task_121.f90:12:6:
+
+   12 |   do i = 1, lst_len
+      |      1
+Error: Symbol ‘i’ at (1) has no IMPLICIT type

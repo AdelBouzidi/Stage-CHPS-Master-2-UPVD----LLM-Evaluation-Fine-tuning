@@ -1,0 +1,20 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_104.f90:27:19:
+
+   27 |     integer :: i, j, n, temp
+      |                   1
+Warning: Unused variable ‘j’ declared at (1) [-Wunused-variable]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_104.f90:3:26:
+
+    3 |   integer, parameter :: dp = kind(1.0d0)
+      |                          1
+Warning: Unused parameter ‘dp’ declared at (1) [-Wunused-parameter]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_104.f90:7:14:
+
+    7 |   integer :: i, n
+      |              1
+Warning: Unused variable ‘i’ declared at (1) [-Wunused-variable]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_104.f90:7:17:
+
+    7 |   integer :: i, n
+      |                 1
+Warning: Unused variable ‘n’ declared at (1) [-Wunused-variable]

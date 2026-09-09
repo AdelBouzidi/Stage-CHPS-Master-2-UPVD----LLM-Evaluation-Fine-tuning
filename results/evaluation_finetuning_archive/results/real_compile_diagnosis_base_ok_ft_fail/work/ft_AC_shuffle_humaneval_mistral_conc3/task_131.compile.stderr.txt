@@ -1,0 +1,100 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:9:18:
+
+    9 |   result = digits(n)
+      |                  1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:16:32:
+
+   16 |   function digits(n) result(res)
+      |                                1
+Error: PROGRAM attribute of ‘digits’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:17:17:
+
+   17 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:18:28:
+
+   18 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:19:18:
+
+   19 |     integer :: res
+      |                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:20:29:
+
+   20 |     integer :: i, digit, temp
+      |                             1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:22:11:
+
+   22 |     res = 0
+      |           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:23:12:
+
+   23 |     temp = n
+      |            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:24:23:
+
+   24 |     do while (temp > 0)
+      |                       1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:25:27:
+
+   25 |       digit = mod(temp, 10)
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:26:34:
+
+   26 |       if (mod(digit, 2) == 1) then
+      |                                  1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:27:26:
+
+   27 |         if (res == 0) then
+      |                          1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:28:21:
+
+   28 |           res = digit
+      |                     1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:29:12:
+
+   29 |         else
+      |            1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:30:27:
+
+   30 |           res = res * digit
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:31:11:
+
+   31 |         end if
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:32:9:
+
+   32 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:33:22:
+
+   33 |       temp = temp / 10
+      |                      1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:34:7:
+
+   34 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_131.f90:36:5:
+
+   36 |   end function digits
+      |     1
+Error: Expecting END PROGRAM statement at (1)

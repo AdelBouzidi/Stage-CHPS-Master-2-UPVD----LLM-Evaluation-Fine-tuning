@@ -1,0 +1,15 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc20/task_155.f90:16:16:
+
+   16 |         digit = mod(num, 10)
+      |                1
+Error: Cannot convert INTEGER(4) to CHARACTER(1) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc20/task_155.f90:17:12:
+
+   17 |         if (digit /= 0) then
+      |            1
+Error: Operands of comparison operator ‘/=’ at (1) are CHARACTER(1)/INTEGER(4)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc20/task_155.f90:18:20:
+
+   18 |             if (mod(digit, 2) == 0) then
+      |                    1
+Error: ‘a’ argument of ‘mod’ intrinsic at (1) must be INTEGER or REAL

@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_2.f90:22:27:
+
+   22 |     res = number - int_part
+      |                           ^
+Warning: ‘int_part’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_2.f90:21:23:
+
+   21 |     integer :: int_part
+      |                       ^
+note: ‘int_part’ was declared here

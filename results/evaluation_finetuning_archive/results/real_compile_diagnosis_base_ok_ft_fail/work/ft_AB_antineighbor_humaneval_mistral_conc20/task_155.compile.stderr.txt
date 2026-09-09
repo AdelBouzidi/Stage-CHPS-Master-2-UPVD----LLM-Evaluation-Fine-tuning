@@ -1,0 +1,35 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_155.f90:17:5:
+
+   17 |     digit = num_str(i:i)
+      |     1
+Error: Unclassifiable statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_155.f90:30:2:
+
+   30 |   function iand(a, b) result(res)
+      |  1
+Warning: ‘iand’ declared at (1) may shadow the intrinsic of the same name.  In order to call the intrinsic, explicit INTRINSIC declarations may be required. [-Wintrinsic-shadow]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_155.f90:36:2:
+
+   36 |   function iachar(c) result(res)
+      |  1
+Warning: ‘iachar’ declared at (1) may shadow the intrinsic of the same name.  In order to call the intrinsic, explicit INTRINSIC declarations may be required. [-Wintrinsic-shadow]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_155.f90:16:6:
+
+   16 |   do i = 1, len(num_str)
+      |      1
+Error: Symbol ‘i’ at (1) has no IMPLICIT type
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_155.f90:15:15:
+
+   15 |   write(num_str, '(I0)') abs(num)
+      |               1
+Error: Symbol ‘num_str’ at (1) has no IMPLICIT type
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_155.f90:39:10:
+
+   39 |     res = iachar(c(1:1))
+      |          1
+Error: Function ‘iachar’ at (1) cannot be called recursively, as it is not RECURSIVE
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_antineighbor_humaneval_mistral_conc20/task_155.f90:33:10:
+
+   33 |     res = iand(a, b)
+      |          1
+Error: Function ‘iand’ at (1) cannot be called recursively, as it is not RECURSIVE

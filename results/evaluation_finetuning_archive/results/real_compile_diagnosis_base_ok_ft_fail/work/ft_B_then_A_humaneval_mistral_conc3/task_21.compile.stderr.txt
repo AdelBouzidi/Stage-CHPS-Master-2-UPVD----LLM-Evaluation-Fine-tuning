@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_21.f90:14:38:
+
+   14 |             rescale = rescale_to_unit(numbers_len, numbers)
+      |                                      1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_B_then_A_humaneval_mistral_conc3/task_21.f90:12:12:
+
+   12 |             numbers = (/ 1.0, 2.0, 3.0, 4.0, 5.0 /)
+      |            1
+Error: Different shape for array assignment at (1) on dimension 1 (10 and 5)

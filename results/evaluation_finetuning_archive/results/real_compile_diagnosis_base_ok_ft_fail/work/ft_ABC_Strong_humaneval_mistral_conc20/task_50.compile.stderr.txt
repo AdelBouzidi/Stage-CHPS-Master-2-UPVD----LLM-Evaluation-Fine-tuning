@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_50.f90:5:19:
+
+    5 |   read *, input_str
+      |                   ^
+Warning: ‘.input_str’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_50.f90:29:29:
+
+   29 |   end subroutine decode_shift
+      |                             ^
+note: ‘.input_str’ was declared here

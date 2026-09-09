@@ -1,0 +1,1684 @@
+[
+  {
+    "index": 0,
+    "task_id": 0,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 634,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 1,
+    "task_id": 1,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 30 of file /tmp/tmpgmv_znbe.f90\nFortran runtime error: Attempting to allocate already allocated variable 'groups'\n\nError termination. Backtrace:\n#0  0xe90fdc90d197 in ???\n#1  0xe90fdc90def7 in ???\n#2  0xb555a5b0128f in MAIN__\n#3  0xb555a5b01723 in main\n",
+    "code_chars": 1600,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 2,
+    "task_id": 2,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 176,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 3,
+    "task_id": 3,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmp_b_4rqo6.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xec65da58d197 in ???\n#1  0xec65da58def7 in ???\n#2  0xec65da68236b in ???\n#3  0xec65da685893 in ???\n#4  0xec65da68599b in ???\n#5  0xb3e51baf0e67 in MAIN__\n#6  0xb3e51baf0ffb in main\n",
+    "code_chars": 523,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 4,
+    "task_id": 4,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 5,
+    "task_id": 5,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 12 of file /tmp/tmpi38p49mr.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfe200f38d197 in ???\n#1  0xfe200f38def7 in ???\n#2  0xfe200f48236b in ???\n#3  0xfe200f47beaf in ???\n#4  0xfe200f47c8e3 in ???\n#5  0xb349a4ac0e87 in MAIN__\n#6  0xb349a4ac11e7 in main\n",
+    "code_chars": 586,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 6,
+    "task_id": 6,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 1956,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 7,
+    "task_id": 7,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 11 of file /tmp/tmp5er1x72a.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe720ad30d197 in ???\n#1  0xe720ad30def7 in ???\n#2  0xe720ad40236b in ???\n#3  0xe720ad3fbeaf in ???\n#4  0xe720ad3fc8e3 in ???\n#5  0xb59ef71c0f47 in MAIN__\n#6  0xb59ef71c11fb in main\n",
+    "code_chars": 692,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 8,
+    "task_id": 8,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 499,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 9,
+    "task_id": 9,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 15 of file /tmp/tmpx6m2sjtt.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf0753ef2d197 in ???\n#1  0xf0753ef2def7 in ???\n#2  0xf0753f02236b in ???\n#3  0xf0753f025893 in ???\n#4  0xf0753f02599b in ???\n#5  0xaeb19a5a0f8b in MAIN__\n#6  0xaeb19a5a110b in main\n",
+    "code_chars": 658,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 10,
+    "task_id": 10,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpijw36_cm.f90:38:26:\n\n   38 |       character(len=100), function reverse_str(str)\n      |                          1\nError: Invalid character in name at (1)\n/tmp/tmpijw36_cm.f90:39:43:\n\n   39 |         character(len=*), intent(in) :: str\n      |                                           1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpijw36_cm.f90:40:23:\n\n   40 |         integer :: n, j\n      |                       1\nError: Unexpected data declaration statement in CONTAINS section at (1)\n/tmp/tmpijw36_cm.f90:41:25:\n\n   41 |         n = len_trim(str)\n      |                         1\nError: Unexpected assignment statement in CONTAINS section at (1)\n/tmp/tmpijw36_cm.f90:42:19:\n\n   42 |         do j = 1, n\n      |                   1\nError: Unexpected DO statement in CONTAINS section at (1)\n/tmp/tmpijw36_cm.f90:44:11:\n\n   44 |         end do\n      |           1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpijw36_cm.f90:46:9:\n\n   46 |       end function reverse_str\n      |         1\nError: Expecting END PROGRAM statement at (1)\n/tmp/tmpijw36_cm.f90:15:38:\n\n   15 |             result_str = result_str // reverse_str(prefix)\n      |                                      1\nError: Function ‘reverse_str’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1263,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 11,
+    "task_id": 11,
+    "status": "exception",
+    "score": 0,
+    "details": "'utf-8' codec can't decode byte 0xa0 in position 10: invalid start byte",
+    "code_chars": 308,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 12,
+    "task_id": 12,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 595,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 13,
+    "task_id": 13,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 276,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 14,
+    "task_id": 14,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 5 of file /tmp/tmpwbu1c3nq.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe0326becd197 in ???\n#1  0xe0326becdef7 in ???\n#2  0xe0326bfc236b in ???\n#3  0xe0326bfc2a93 in ???\n#4  0xe0326bfbf10b in ???\n#5  0xe0326bfc3bbb in ???\n#6  0xe0326bfc49eb in ???\n#7  0xcaa4dbc50b07 in MAIN__\n#8  0xcaa4dbc50c13 in main\n",
+    "code_chars": 253,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 15,
+    "task_id": 15,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 16,
+    "task_id": 16,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 8 of file /tmp/tmp40xl16re.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf093c4d4d197 in ???\n#1  0xf093c4d4def7 in ???\n#2  0xf093c4e4236b in ???\n#3  0xf093c4e42a93 in ???\n#4  0xf093c4e3f10b in ???\n#5  0xf093c4e43bbb in ???\n#6  0xf093c4e449eb in ???\n#7  0xc453cb880b83 in MAIN__\n#8  0xc453cb880cfb in main\n",
+    "code_chars": 591,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 17,
+    "task_id": 17,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmp4aw13anc.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe13d1587d197 in ???\n#1  0xe13d1587def7 in ???\n#2  0xe13d1597236b in ???\n#3  0xe13d15972a93 in ???\n#4  0xe13d1596f10b in ???\n#5  0xe13d15973bbb in ???\n#6  0xe13d159749eb in ???\n#7  0xc9026d690c0b in MAIN__\n#8  0xc9026d69102b in main\n",
+    "code_chars": 1148,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 18,
+    "task_id": 18,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 620,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 19,
+    "task_id": 19,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 20,
+    "task_id": 20,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 743,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 21,
+    "task_id": 21,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 660,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 22,
+    "task_id": 22,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 16 of file /tmp/tmpk7a3h5ia.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfdb67016d197 in ???\n#1  0xfdb67016def7 in ???\n#2  0xfdb67026236b in ???\n#3  0xfdb67025beaf in ???\n#4  0xfdb67025c8e3 in ???\n#5  0xc5cc97a70c3f in MAIN__\n#6  0xc5cc97a7110f in main\n",
+    "code_chars": 1619,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 23,
+    "task_id": 23,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 5 of file /tmp/tmpbxea9sjm.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf8780b02d197 in ???\n#1  0xf8780b02def7 in ???\n#2  0xf8780b12236b in ???\n#3  0xf8780b122a93 in ???\n#4  0xf8780b11f10b in ???\n#5  0xf8780b123bbb in ???\n#6  0xf8780b1249eb in ???\n#7  0xae727e750b03 in MAIN__\n#8  0xae727e750bb7 in main\n",
+    "code_chars": 234,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 24,
+    "task_id": 24,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 241,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 25,
+    "task_id": 25,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 631,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 26,
+    "task_id": 26,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmpthmboutn.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe1a8920bd197 in ???\n#1  0xe1a8920bdef7 in ???\n#2  0xe1a8921b236b in ???\n#3  0xe1a8921b5893 in ???\n#4  0xe1a8921b599b in ???\n#5  0xad8fc1ce0e67 in MAIN__\n#6  0xad8fc1ce10bf in main\n",
+    "code_chars": 659,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 27,
+    "task_id": 27,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 7 of file /tmp/tmpmbs3i9gl.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe7976036d197 in ???\n#1  0xe7976036def7 in ???\n#2  0xe7976046236b in ???\n#3  0xe79760462a93 in ???\n#4  0xe7976045f10b in ???\n#5  0xe79760463bbb in ???\n#6  0xe797604649eb in ???\n#7  0xb24e6a1b0b03 in MAIN__\n#8  0xb24e6a1b0cdb in main\n",
+    "code_chars": 671,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 28,
+    "task_id": 28,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmphtuw5891.f90:3:10:\n\n    3 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:4:6:\n\n    4 |     *   *Variables:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:5:10:\n\n    5 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:10:10:\n\n   10 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:11:10:\n\n   11 |         *Wait, Fortran 90 string handling:*\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:21:6:\n\n   21 |     *   *Input Reading:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:22:10:\n\n   22 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:28:10:\n\n   28 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:29:10:\n\n   29 |         *Correction:* The example input shows `3 \\n a b c`.\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:30:12:\n\n   30 |         If I use `read(*, *) strings_len`, it consumes the integer.\n      |            1\nError: Missing ‘(’ in IF-expression at (1)\n/tmp/tmphtuw5891.f90:35:10:\n\n   35 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:41:10:\n\n   41 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:44:6:\n\n   44 |     *   *Concatenation Logic:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:45:10:\n\n   45 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:50:10:\n\n   50 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:51:10:\n\n   51 |         *Note:* `trim` is important to remove trailing blanks from fixed-length character variables.\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:53:6:\n\n   53 |     *   *Output:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:54:10:\n\n   54 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:56:10:\n\n   56 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:58:6:\n\n   58 |     *   *Refinement:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:60:12:\n\n   60 |         If I run this interactively, it works.\n      |            1\nError: Missing ‘(’ in IF-expression at (1)\n/tmp/tmphtuw5891.f90:61:12:\n\n   61 |         If I pipe input, it works.\n      |            1\nError: Missing ‘(’ in IF-expression at (1)\n/tmp/tmphtuw5891.f90:63:10:\n\n   63 |         `print *, result` usually adds a newline, which is standard.\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:65:6:\n\n   65 |     *   *Fortran 90 Compatibility:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:66:10:\n\n   66 |         `allocate` with type specification is F90.\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:67:10:\n\n   67 |         `//` operator is F90.\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:68:10:\n\n   68 |         `trim` is intrinsic.\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:69:10:\n\n   69 |         `implicit none` is required.\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:71:6:\n\n   71 |     *   *Edge Cases:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:72:12:\n\n   72 |         If `strings_len` is 0? The loop won't run, result is empty string.\n      |            1\nError: Missing ‘(’ in IF-expression at (1)\n/tmp/tmphtuw5891.f90:73:12:\n\n   73 |         If strings contain spaces? The input format says \"elements separated by whitespaces\". So individual strings shouldn't contain spaces based on the example `a b c`. If they did, list-directed input would split them. Given the example `a b c` -> `abc`, simple tokens are expected.\n      |            1\nError: Missing ‘(’ in IF-expression at (1)\n/tmp/tmphtuw5891.f90:75:6:\n\n   75 |     *   *Code Construction:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:76:10:\n\n   76 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmphtuw5891.f90:77:35:\n\n   77 |         program concatenate_strings\n      |                                   1\nError: PROGRAM attribute of ‘concatenate_strings’ conflicts with PROGRAM attribute at (1)\n/tmp/tmphtuw5891.f90:78:21:\n\n   78 |         implicit none\n      |                     1\nError: Duplicate IMPLICIT NONE statement at (1)\n/tmp/tmphtuw5891.f90:79:30:\n\n   79 |         integer :: strings_len\n      |                              1\nError: Symbol ‘strings_len’ at (1) already has basic type of INTEGER\n/tmp/tmphtuw5891.f90:80:20:\n\n   80 |         integer :: i\n      |                    1\nError: Symbol ‘i’ at (1) already has basic type of INTEGER\n/tmp/tmphtuw5891.f90:81:50:\n\n   81 |         character(len=100), allocatable :: strings(:)\n      |                                                  1\nError: Symbol ‘strings’ at (1) already has basic type of CHARACTER\n/tmp/tmphtuw5891.f90:82:36:\n\n   82 |         character(len=100) :: result\n      |                                    1\nError: Symbol ‘result’ at (1) already has basic type of CHARACTER\n",
+    "code_chars": 3529,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 29,
+    "task_id": 29,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 11 of file /tmp/tmp00z41h57.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfab89c9bd197 in ???\n#1  0xfab89c9bdef7 in ???\n#2  0xfab89cab236b in ???\n#3  0xfab89caabeaf in ???\n#4  0xfab89caac8e3 in ???\n#5  0xc6a5c4db0f87 in MAIN__\n#6  0xc6a5c4db12a3 in main\n",
+    "code_chars": 816,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 30,
+    "task_id": 30,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmph6epawh6.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf64e32aed197 in ???\n#1  0xf64e32aedef7 in ???\n#2  0xf64e32be236b in ???\n#3  0xf64e32be5893 in ???\n#4  0xf64e32be599b in ???\n#5  0xb4648d180f0b in MAIN__\n#6  0xb4648d18128b in main\n",
+    "code_chars": 695,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 31,
+    "task_id": 31,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 529,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 32,
+    "task_id": 32,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 33,
+    "task_id": 33,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 12 of file /tmp/tmp2rinr2yo.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf545745bd197 in ???\n#1  0xf545745bdef7 in ???\n#2  0xf545746b236b in ???\n#3  0xf545746abeaf in ???\n#4  0xf545746ac8e3 in ???\n#5  0xc5c6cadc0eb3 in MAIN__\n#6  0xc5c6cadc14c7 in main\n",
+    "code_chars": 1490,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 34,
+    "task_id": 34,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 978,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 35,
+    "task_id": 35,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpcla42wrk.f90:1:8:\n\n    1 | Program name: max_element.\n      |        1\nError: Invalid form of PROGRAM statement at (1)\n/tmp/tmpcla42wrk.f90:2:13:\n\n    2 |     Implicit none: present.\n      |             1\nError: Syntax error in IMPLICIT statement at (1)\n",
+    "code_chars": 115,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 36,
+    "task_id": 36,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 426,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 37,
+    "task_id": 37,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpkzp1o6il.f90:53:12:\n\n   53 |       print(*,*) (l(i), i=1,n)\n      |            1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 1354,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 38,
+    "task_id": 38,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 39,
+    "task_id": 39,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 894,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 40,
+    "task_id": 40,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 647,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 41,
+    "task_id": 41,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 185,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 42,
+    "task_id": 42,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 9 of file /tmp/tmpmn7ff9ah.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xfcf83d14d197 in ???\n#1  0xfcf83d14def7 in ???\n#2  0xfcf83d24236b in ???\n#3  0xfcf83d245893 in ???\n#4  0xfcf83d24599b in ???\n#5  0xc0d74e811013 in MAIN__\n#6  0xc0d74e81121f in main\n",
+    "code_chars": 328,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 43,
+    "task_id": 43,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 512,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 44,
+    "task_id": 44,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 791,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 45,
+    "task_id": 45,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 203,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 46,
+    "task_id": 46,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 47,
+    "task_id": 47,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp1vshnql6.f90:37:9:\n\n   37 |    print(*,*) median_val\n      |         1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 779,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 48,
+    "task_id": 48,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp923k94pf.f90:3:8:\n\n    3 |       ...\n      |        1\nError: Invalid character in name at (1)\n",
+    "code_chars": 87,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 49,
+    "task_id": 49,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "0",
+      2
+    ],
+    "code_chars": 192,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 50,
+    "task_id": 50,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "",
+      "abc"
+    ],
+    "code_chars": 367,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 51,
+    "task_id": 51,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 52,
+    "task_id": 52,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 515,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 53,
+    "task_id": 53,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpeq9za6kx.f90:7:12:\n\n    7 |       print(*,'(I0)') result\n      |            1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 183,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 54,
+    "task_id": 54,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 55,
+    "task_id": 55,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 389,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 56,
+    "task_id": 56,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 705,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 57,
+    "task_id": 57,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 58,
+    "task_id": 58,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /tmp/cc3UnGxy.o: in function `MAIN__':\ntmpjtumoiox.f90:(.text+0x418): undefined reference to `bubble_sort_'\n/usr/bin/ld: tmpjtumoiox.f90:(.text+0x420): undefined reference to `bubble_sort_'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 1742,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 59,
+    "task_id": 59,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 541,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 60,
+    "task_id": 60,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp6fhj099t.f90:9:12:\n\n    9 |       print(*,*) total\n      |            1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 204,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 61,
+    "task_id": 61,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 693,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 62,
+    "task_id": 62,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 502,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 63,
+    "task_id": 63,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 555,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 64,
+    "task_id": 64,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 667,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 65,
+    "task_id": 65,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 974,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 66,
+    "task_id": 66,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "STOP 1\n",
+    "code_chars": 543,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 67,
+    "task_id": 67,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 68,
+    "task_id": 68,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 814,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 69,
+    "task_id": 69,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 875,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 70,
+    "task_id": 70,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 71,
+    "task_id": 71,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 391,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 72,
+    "task_id": 72,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 605,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 73,
+    "task_id": 73,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 340,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 74,
+    "task_id": 74,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 75,
+    "task_id": 75,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 854,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 76,
+    "task_id": 76,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 77,
+    "task_id": 77,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 557,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 78,
+    "task_id": 78,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 7 of file /tmp/tmpm68i__b2.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xee913e99d197 in ???\n#1  0xee913e99def7 in ???\n#2  0xee913ea9236b in ???\n#3  0xee913ea92a93 in ???\n#4  0xee913ea8f10b in ???\n#5  0xee913ea93bbb in ???\n#6  0xee913ea949eb in ???\n#7  0xc9feeca10b03 in MAIN__\n#8  0xc9feeca10c93 in main\n",
+    "code_chars": 471,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 79,
+    "task_id": 79,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "db0                                                                                                   db",
+      "db0db"
+    ],
+    "code_chars": 563,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 80,
+    "task_id": 80,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 510,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 81,
+    "task_id": 81,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 82,
+    "task_id": 82,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 7 of file /tmp/tmpor_xue72.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe1a9890dd197 in ???\n#1  0xe1a9890ddef7 in ???\n#2  0xe1a9891d236b in ???\n#3  0xe1a9891d2a93 in ???\n#4  0xe1a9891cf10b in ???\n#5  0xe1a9891d3bbb in ???\n#6  0xe1a9891d49eb in ???\n#7  0xbfe18b530b03 in MAIN__\n#8  0xbfe18b530cc7 in main\n",
+    "code_chars": 686,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 83,
+    "task_id": 83,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp86hrskid.f90:11:12:\n\n   11 |       print(*,*) result\n      |            1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 258,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 84,
+    "task_id": 84,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 85,
+    "task_id": 85,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 86,
+    "task_id": 86,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 87,
+    "task_id": 87,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 88,
+    "task_id": 88,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpdv71kg_c.f90:1:1:\n\n    1 | fortran\n      | 1\nError: Unclassifiable statement at (1)\n",
+    "code_chars": 1697,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 89,
+    "task_id": 89,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "jei{je{ijei{k",
+      "jeiajeaijeiak"
+    ],
+    "code_chars": 331,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 90,
+    "task_id": 90,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 453,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 91,
+    "task_id": 91,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "1",
+      2
+    ],
+    "code_chars": 1362,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 92,
+    "task_id": 92,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "T",
+      false
+    ],
+    "code_chars": 695,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 93,
+    "task_id": 93,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "",
+      "tgst"
+    ],
+    "code_chars": 682,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 94,
+    "task_id": 94,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 1375,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 95,
+    "task_id": 95,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 96,
+    "task_id": 96,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 97,
+    "task_id": 97,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "-20",
+      20
+    ],
+    "code_chars": 198,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 98,
+    "task_id": 98,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 99,
+    "task_id": 99,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpf99mlbd_.f90:21:8:\n\n   21 |   print(*,*) result\n      |        1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 443,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 100,
+    "task_id": 100,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 279,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 101,
+    "task_id": 101,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 102,
+    "task_id": 102,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpd56fxjpv.f90:15:8:\n\n   15 |   print(*,*) result\n      |        1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 289,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 103,
+    "task_id": 103,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpnfv5fnb3.f90:39:10:\n\n   39 |           val = val / 2\n      |          1\nError: Dummy argument ‘val’ with INTENT(IN) in variable definition context (assignment) at (1)\n",
+    "code_chars": 1123,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 104,
+    "task_id": 104,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 105,
+    "task_id": 105,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 106,
+    "task_id": 106,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 751,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 107,
+    "task_id": 107,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 708,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 108,
+    "task_id": 108,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 109,
+    "task_id": 109,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      ".false.",
+      true
+    ],
+    "code_chars": 942,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 110,
+    "task_id": 110,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 111,
+    "task_id": 111,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 112,
+    "task_id": 112,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "T",
+      [
+        "",
+        true
+      ]
+    ],
+    "code_chars": 951,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 113,
+    "task_id": 113,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 114,
+    "task_id": 114,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 11 of file /tmp/tmpmgmya4__.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Integer overflow while reading item 1\n\nError termination. Backtrace:\n#0  0xf1902e15d197 in ???\n#1  0xf1902e15def7 in ???\n#2  0xf1902e24809f in ???\n#3  0xf1902e249583 in ???\n#4  0xf1902e24bb33 in ???\n#5  0xf1902e24c8e3 in ???\n#6  0xf1902e251d5b in ???\n#7  0xb53679fb0e5f in MAIN__\n#8  0xb53679fb0fd3 in main\n",
+    "code_chars": 447,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 115,
+    "task_id": 115,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 116,
+    "task_id": 116,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 117,
+    "task_id": 117,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 118,
+    "task_id": 118,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 579,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 119,
+    "task_id": 119,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 120,
+    "task_id": 120,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 569,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 121,
+    "task_id": 121,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmptf25ahg_.f90:19:8:\n\n   19 |   print(*,*) sum_val\n      |        1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 361,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 122,
+    "task_id": 122,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 572,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 123,
+    "task_id": 123,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpcum3a_nm.f90:25:26:\n\n   25 |       integer :: current_n\n      |                          1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpcum3a_nm.f90:30:37:\n\n   30 |       integer, allocatable :: odds(:)\n      |                                     1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpcum3a_nm.f90:31:25:\n\n   31 |       integer :: num_odds\n      |                         1\nError: Unexpected data declaration statement at (1)\n/tmp/tmpcum3a_nm.f90:33:15:\n\n   33 |       allocate(odds(1000)) ! Pre-allocate enough space\n      |               1\nError: Allocate-object at (1) is neither a data pointer nor an allocatable variable\n/tmp/tmpcum3a_nm.f90:26:15:\n\n   26 |       current_n = n\n      |               1\nError: Symbol ‘current_n’ at (1) has no IMPLICIT type\n/tmp/tmpcum3a_nm.f90:32:14:\n\n   32 |       num_odds = 0\n      |              1\nError: Symbol ‘num_odds’ at (1) has no IMPLICIT type\n/tmp/tmpcum3a_nm.f90:53:23:\n\n   53 |           if (odds(i) > odds(i+1)) then\n      |                       1\nError: Function ‘odds’ at (1) has no IMPLICIT type\n/tmp/tmpcum3a_nm.f90:53:14:\n\n   53 |           if (odds(i) > odds(i+1)) then\n      |              1\nError: Function ‘odds’ at (1) has no IMPLICIT type\n/tmp/tmpcum3a_nm.f90:54:19:\n\n   54 |             temp = odds(i)\n      |                   1\nError: Function ‘odds’ at (1) has no IMPLICIT type\n/tmp/tmpcum3a_nm.f90:55:12:\n\n   55 |             odds(i) = odds(i+1)\n      |            1\nError: Function ‘odds’ at (1) has no IMPLICIT type\n/tmp/tmpcum3a_nm.f90:55:22:\n\n   55 |             odds(i) = odds(i+1)\n      |                      1\nError: Function ‘odds’ at (1) has no IMPLICIT type\n/tmp/tmpcum3a_nm.f90:56:12:\n\n   56 |             odds(i+1) = temp\n      |            1\nError: Function ‘odds’ at (1) has no IMPLICIT type\n/tmp/tmpcum3a_nm.f90:64:16:\n\n   64 |       print *, (odds(i), i=1, num_odds)\n      |                1\nError: Function ‘odds’ at (1) has no IMPLICIT type\n",
+    "code_chars": 2008,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 124,
+    "task_id": 124,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpawaysdg9.f90:9:7:\n\n    9 |       len_trim = len_trim(date_str)\n      |       1\nError: Unclassifiable statement at (1)\n",
+    "code_chars": 1252,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 125,
+    "task_id": 125,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 126,
+    "task_id": 126,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 10 of file /tmp/tmpjipt8svn.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf7fa0e0ad197 in ???\n#1  0xf7fa0e0adef7 in ???\n#2  0xf7fa0e1a236b in ???\n#3  0xf7fa0e1a5893 in ???\n#4  0xf7fa0e1a599b in ???\n#5  0xb3aec7eb0e67 in MAIN__\n#6  0xb3aec7eb1007 in main\n",
+    "code_chars": 536,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 127,
+    "task_id": 127,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 128,
+    "task_id": 128,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 129,
+    "task_id": 129,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 130,
+    "task_id": 130,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 131,
+    "task_id": 131,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 481,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 132,
+    "task_id": 132,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 133,
+    "task_id": 133,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 364,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 134,
+    "task_id": 134,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 135,
+    "task_id": 135,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpazatm2aa.f90:20:12:\n\n   20 |       print(*,*) result\n      |            1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 437,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 136,
+    "task_id": 136,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 13 of file /tmp/tmpx3mbkd6k.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xe9986033d197 in ???\n#1  0xe9986033def7 in ???\n#2  0xe9986043236b in ???\n#3  0xe99860435893 in ???\n#4  0xe9986043599b in ???\n#5  0xc48fd3df0ee7 in MAIN__\n#6  0xc48fd3df1287 in main\n",
+    "code_chars": 1160,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 137,
+    "task_id": 137,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 5 of file /tmp/tmp3d4dvxfp.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad real number in item 1 of list input\n\nError termination. Backtrace:\n#0  0xf9bcac20d197 in ???\n#1  0xf9bcac20def7 in ???\n#2  0xf9bcac2fadbf in ???\n#3  0xf9bcac2fbf93 in ???\n#4  0xf9bcac2fc8e3 in ???\n#5  0xba0235290b33 in MAIN__\n#6  0xba0235290c7f in main\n",
+    "code_chars": 257,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 138,
+    "task_id": 138,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 336,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 139,
+    "task_id": 139,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 323,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 140,
+    "task_id": 140,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 141,
+    "task_id": 141,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "Ye",
+      "Yes"
+    ],
+    "code_chars": 487,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 142,
+    "task_id": 142,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 143,
+    "task_id": 143,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 144,
+    "task_id": 144,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp1srgic56.f90:9:11:\n\n    9 |       read(trim(x(1:pos-1)), *) n1\n      |           1\nError: UNIT specification at (1) must be an INTEGER expression or a CHARACTER variable\n/tmp/tmp1srgic56.f90:10:11:\n\n   10 |       read(trim(x(pos+1:)), *) d1\n      |           1\nError: UNIT specification at (1) must be an INTEGER expression or a CHARACTER variable\n/tmp/tmp1srgic56.f90:12:11:\n\n   12 |       read(trim(n(1:pos-1)), *) n2\n      |           1\nError: UNIT specification at (1) must be an INTEGER expression or a CHARACTER variable\n/tmp/tmp1srgic56.f90:13:11:\n\n   13 |       read(trim(n(pos+1:)), *) d2\n      |           1\nError: UNIT specification at (1) must be an INTEGER expression or a CHARACTER variable\n",
+    "code_chars": 545,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 145,
+    "task_id": 145,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 146,
+    "task_id": 146,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 9 of file /tmp/tmp28gn1xv3.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xec8a344ed197 in ???\n#1  0xec8a344edef7 in ???\n#2  0xec8a345e236b in ???\n#3  0xec8a345e5893 in ???\n#4  0xec8a345e599b in ???\n#5  0xc3dcddf70e27 in MAIN__\n#6  0xc3dcddf70fc7 in main\n",
+    "code_chars": 725,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 147,
+    "task_id": 147,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 498,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 148,
+    "task_id": 148,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpyo8ixnwn.f90:8:29:\n\n    8 |       planets = (/ 'Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune' /)\n      |                             1\nError: Different CHARACTER lengths (7/5) in array constructor at (1)\n",
+    "code_chars": 1075,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 149,
+    "task_id": 149,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmp5js32x30.f90:3:10:\n\n    3 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:4:6:\n\n    4 |     *   *Variables:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:5:10:\n\n    5 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:10:10:\n\n   10 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:11:6:\n\n   11 |     *   *Input:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:12:10:\n\n   12 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:18:10:\n\n   18 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:19:6:\n\n   19 |     *   *Filtering:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:21:10:\n\n   21 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:34:10:\n\n   34 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:35:6:\n\n   35 |     *   *Sorting:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:38:10:\n\n   38 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:43:42:\n\n   43 |                 character(len=100) :: temp\n      |                                          1\nError: Unexpected data declaration statement at (1)\n/tmp/tmp5js32x30.f90:50:10:\n\n   50 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:51:6:\n\n   51 |     *   *Output:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:52:10:\n\n   52 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:58:10:\n\n   58 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:59:6:\n\n   59 |     *   *Cleanup:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:60:10:\n\n   60 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:63:10:\n\n   63 |         ```\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:64:6:\n\n   64 |     *   *End:*\n      |      1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:65:10:\n\n   65 |         ```fortran\n      |          1\nError: Invalid character in name at (1)\n/tmp/tmp5js32x30.f90:44:20:\n\n   44 |                 temp = result(i)\n      |                    1\nError: Symbol ‘temp’ at (1) has no IMPLICIT type\n",
+    "code_chars": 1964,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 150,
+    "task_id": 150,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 572,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 151,
+    "task_id": 151,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 152,
+    "task_id": 152,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 496,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 153,
+    "task_id": 153,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 18 of file /tmp/tmprvie3jvm.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xec23c694d197 in ???\n#1  0xec23c694def7 in ???\n#2  0xec23c6a4236b in ???\n#3  0xec23c6a3beaf in ???\n#4  0xec23c6a3c8e3 in ???\n#5  0xc2e62259104b in MAIN__\n#6  0xc2e62259142b in main\n",
+    "code_chars": 1063,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 154,
+    "task_id": 154,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      ".false.",
+      true
+    ],
+    "code_chars": 692,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 155,
+    "task_id": 155,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 156,
+    "task_id": 156,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpt5bzo_ux.f90:7:58:\n\n    7 |       character(len=2), dimension(13) :: symbols = (/ 'm', 'cm', 'd', 'cd', 'c', 'xc', 'l', 'xl', 'x', 'ix', 'v', 'iv', 'i' /)\n      |                                                          1\nError: Different CHARACTER lengths (1/2) in array constructor at (1)\n/tmp/tmpt5bzo_ux.f90:13:34:\n\n   13 |           result = trim(result) // symbols(i)\n      |                                  1\nError: Function ‘symbols’ at (1) has no IMPLICIT type\n",
+    "code_chars": 618,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 157,
+    "task_id": 157,
+    "status": "ok",
+    "score": 1,
+    "details": "All tests passed",
+    "code_chars": 373,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 158,
+    "task_id": 158,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 12 of file /tmp/tmpk3o7f031.f90 (unit = 5, file = 'stdin')\nFortran runtime error: End of file\n\nError termination. Backtrace:\n#0  0xf80b3a08d197 in ???\n#1  0xf80b3a08def7 in ???\n#2  0xf80b3a18236b in ???\n#3  0xf80b3a17beaf in ???\n#4  0xf80b3a17c8e3 in ???\n#5  0xb4d6aa0a0fab in MAIN__\n#6  0xb4d6aa0a139f in main\n",
+    "code_chars": 1220,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 159,
+    "task_id": 159,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/tmp/tmpt7oljwiy.f90:18:8:\n\n   18 |   print(*,*) result(1), result(2)\n      |        1\nError: Syntax error in PRINT statement at (1)\n",
+    "code_chars": 375,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 160,
+    "task_id": 160,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 161,
+    "task_id": 161,
+    "status": "ineq",
+    "score": 0,
+    "details": [
+      "iNPUT: aSdF",
+      "aSdF"
+    ],
+    "code_chars": 1038,
+    "extraction_status": "ok",
+    "generation_error": null
+  },
+  {
+    "index": 162,
+    "task_id": 162,
+    "status": "compile_err",
+    "score": 0,
+    "details": "/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/14/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1c): undefined reference to `main'\n/usr/bin/ld: (.text+0x20): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+    "code_chars": 0,
+    "extraction_status": "warning",
+    "generation_error": null
+  },
+  {
+    "index": 163,
+    "task_id": 163,
+    "status": "runtime_err",
+    "score": 0,
+    "details": "At line 9 of file /tmp/tmpzw8e68bh.f90 (unit = 5, file = 'stdin')\nFortran runtime error: Bad integer for item 1 in list input\n\nError termination. Backtrace:\n#0  0xea4447d6d197 in ???\n#1  0xea4447d6def7 in ???\n#2  0xea4447e5934b in ???\n#3  0xea4447e5bb33 in ???\n#4  0xea4447e5c8e3 in ???\n#5  0xb03253e70c57 in MAIN__\n#6  0xb03253e70fcb in main\n",
+    "code_chars": 611,
+    "extraction_status": "ok",
+    "generation_error": null
+  }
+]

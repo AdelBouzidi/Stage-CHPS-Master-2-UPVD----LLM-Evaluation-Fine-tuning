@@ -1,0 +1,80 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:9:21:
+
+    9 |   result = fizz_buzz(n)
+      |                     1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:16:31:
+
+   16 |   integer function fizz_buzz(n)
+      |                               1
+Error: PROGRAM attribute of ‘fizz_buzz’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:17:28:
+
+   17 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:18:23:
+
+   18 |     integer :: i, count
+      |                       1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:19:32:
+
+   19 |     character(len=10) :: num_str
+      |                                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:21:13:
+
+   21 |     count = 0
+      |             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:22:17:
+
+   22 |     do i = 1, n-1
+      |                 1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:23:52:
+
+   23 |       if (mod(i, 11) == 0 .or. mod(i, 13) == 0) then
+      |                                                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:24:27:
+
+   24 |         num_str = i_char(i)
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:25:41:
+
+   25 |         if (index(num_str, '7') > 0) then
+      |                                         1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:26:27:
+
+   26 |           count = count + 1
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:27:11:
+
+   27 |         end if
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:28:9:
+
+   28 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:29:7:
+
+   29 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:30:14:
+
+   30 |     fizz_buzz = count
+      |              1
+Error: Symbol ‘fizz_buzz’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_36.f90:31:5:
+
+   31 |   end function fizz_buzz
+      |     1
+Error: Expecting END PROGRAM statement at (1)

@@ -1,0 +1,1419 @@
+{
+  "ft_ABC_Strong_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 24,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_Strong_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_Strong_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 19,
+      "ineq": 2,
+      "ok": 2,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 15,
+      "status_compile_err": 4,
+      "static_c_like_signature": 1,
+      "static_possible_zero_indexing": 1,
+      "status_runtime_err": 1,
+      "static_output_labels": 1,
+      "static_assumed_shape_needs_interface": 1
+    },
+    "error_label_counts": {
+      "status_compile_err": 19,
+      "static_stdin_read": 18,
+      "static_modifies_intent_in_possible": 16,
+      "status_ineq": 2,
+      "status_ok": 2,
+      "static_c_like_signature": 1,
+      "static_possible_zero_indexing": 1,
+      "status_runtime_err": 1,
+      "static_output_labels": 1,
+      "static_assumed_shape_needs_interface": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 22,
+      "uses_implicit_none": 22,
+      "has_debug_words": 20,
+      "uses_read_stdin": 18,
+      "uses_hardcoded_scalars": 17,
+      "has_contains": 16,
+      "modifies_intent_in_possible": 16,
+      "uses_print_star": 13,
+      "uses_allocatable": 7,
+      "uses_allocate": 7,
+      "uses_assumed_shape": 5,
+      "uses_write_star": 2,
+      "uses_hardcoded_arrays": 2,
+      "uses_c_like_signature": 1,
+      "uses_array_index_0_literal": 1,
+      "has_labels_in_output": 1
+    }
+  },
+  "ft_ABC_Strong_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 28,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_Strong_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_Strong_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 24,
+      "runtime_err": 2,
+      "ineq": 2
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 16,
+      "status_compile_err": 5,
+      "static_possible_zero_indexing": 2,
+      "static_assumed_shape_needs_interface": 2,
+      "static_c_like_signature": 1,
+      "status_runtime_err": 1,
+      "static_output_labels": 1
+    },
+    "error_label_counts": {
+      "status_compile_err": 24,
+      "static_stdin_read": 20,
+      "static_modifies_intent_in_possible": 14,
+      "status_runtime_err": 2,
+      "status_ineq": 2,
+      "static_possible_zero_indexing": 2,
+      "static_assumed_shape_needs_interface": 2,
+      "static_output_labels": 2,
+      "static_c_like_signature": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 25,
+      "uses_implicit_none": 25,
+      "has_debug_words": 22,
+      "uses_read_stdin": 20,
+      "uses_hardcoded_scalars": 19,
+      "has_contains": 16,
+      "uses_print_star": 15,
+      "modifies_intent_in_possible": 14,
+      "uses_allocatable": 9,
+      "uses_allocate": 9,
+      "uses_assumed_shape": 7,
+      "uses_write_star": 3,
+      "uses_array_index_0_literal": 2,
+      "has_labels_in_output": 2,
+      "uses_hardcoded_arrays": 2,
+      "uses_c_like_signature": 1
+    }
+  },
+  "ft_ABC_dedup_BC_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 18,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_dedup_BC_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_dedup_BC_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ineq": 7,
+      "compile_err": 7,
+      "ok": 4
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 6,
+      "static_assumed_shape_needs_interface": 3,
+      "static_output_labels": 2,
+      "static_possible_zero_indexing": 2,
+      "status_ineq": 2,
+      "status_compile_err": 2,
+      "status_ok": 1
+    },
+    "error_label_counts": {
+      "static_modifies_intent_in_possible": 13,
+      "static_stdin_read": 10,
+      "status_ineq": 7,
+      "status_compile_err": 7,
+      "status_ok": 4,
+      "static_output_labels": 3,
+      "static_assumed_shape_needs_interface": 3,
+      "static_possible_zero_indexing": 2
+    },
+    "static_feature_true_counts": {
+      "has_program": 18,
+      "uses_implicit_none": 18,
+      "uses_print_star": 18,
+      "uses_hardcoded_scalars": 17,
+      "has_debug_words": 15,
+      "has_contains": 14,
+      "modifies_intent_in_possible": 13,
+      "uses_read_stdin": 10,
+      "uses_allocatable": 5,
+      "uses_allocate": 5,
+      "uses_assumed_shape": 5,
+      "has_labels_in_output": 3,
+      "uses_array_index_0_literal": 1,
+      "uses_index_0_loop": 1
+    }
+  },
+  "ft_ABC_filtered_accept_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 20,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_filtered_accept_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_filtered_accept_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 12,
+      "ineq": 5,
+      "runtime_err": 3
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 17,
+      "status_compile_err": 2,
+      "static_assumed_shape_needs_interface": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 18,
+      "static_modifies_intent_in_possible": 14,
+      "status_compile_err": 12,
+      "status_ineq": 5,
+      "status_runtime_err": 3,
+      "static_assumed_shape_needs_interface": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 20,
+      "uses_implicit_none": 20,
+      "uses_hardcoded_scalars": 19,
+      "uses_print_star": 18,
+      "uses_read_stdin": 18,
+      "has_debug_words": 16,
+      "has_contains": 15,
+      "modifies_intent_in_possible": 14,
+      "uses_allocatable": 7,
+      "uses_assumed_shape": 7,
+      "uses_allocate": 5,
+      "uses_write_star": 2,
+      "uses_hardcoded_arrays": 1
+    }
+  },
+  "ft_ABC_filtered_manual_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 35,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_filtered_manual_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_filtered_manual_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 35
+    },
+    "primary_cause_counts": {
+      "status_compile_err": 35
+    },
+    "error_label_counts": {
+      "status_compile_err": 35
+    },
+    "static_feature_true_counts": {}
+  },
+  "ft_ABC_filtered_reject_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 24,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_filtered_reject_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_filtered_reject_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 19,
+      "ineq": 4,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 17,
+      "status_compile_err": 4,
+      "static_assumed_shape_needs_interface": 3
+    },
+    "error_label_counts": {
+      "static_stdin_read": 20,
+      "status_compile_err": 19,
+      "static_modifies_intent_in_possible": 9,
+      "status_ineq": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 24,
+      "uses_implicit_none": 24,
+      "has_debug_words": 20,
+      "uses_read_stdin": 20,
+      "uses_print_star": 16,
+      "uses_hardcoded_scalars": 14,
+      "has_contains": 12,
+      "modifies_intent_in_possible": 9,
+      "uses_write_star": 8,
+      "uses_allocatable": 5,
+      "uses_assumed_shape": 5,
+      "uses_allocate": 4
+    }
+  },
+  "ft_ABC_source_burkardt_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 14,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_source_burkardt_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_source_burkardt_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ok": 4,
+      "ineq": 4,
+      "compile_err": 3,
+      "runtime_err": 2,
+      "exception": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 9,
+      "static_assumed_shape_needs_interface": 3,
+      "status_ok": 1,
+      "status_ineq": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 11,
+      "static_modifies_intent_in_possible": 7,
+      "status_ok": 4,
+      "status_ineq": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "status_compile_err": 3,
+      "status_runtime_err": 2,
+      "static_output_labels": 2,
+      "status_exception": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 14,
+      "uses_implicit_none": 14,
+      "uses_hardcoded_scalars": 14,
+      "uses_read_stdin": 11,
+      "has_contains": 8,
+      "has_debug_words": 8,
+      "uses_print_star": 7,
+      "modifies_intent_in_possible": 7,
+      "uses_write_star": 7,
+      "uses_allocatable": 6,
+      "uses_allocate": 6,
+      "uses_assumed_shape": 6,
+      "has_labels_in_output": 2
+    }
+  },
+  "ft_ABC_source_fortran_lang_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 8,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_source_fortran_lang_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_source_fortran_lang_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "runtime_err": 3,
+      "ok": 3,
+      "ineq": 1,
+      "compile_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 3,
+      "static_assumed_shape_needs_interface": 3,
+      "status_ineq": 1,
+      "status_ok": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 3,
+      "status_runtime_err": 3,
+      "static_assumed_shape_needs_interface": 3,
+      "status_ok": 3,
+      "static_output_labels": 2,
+      "status_ineq": 1,
+      "static_modifies_intent_in_possible": 1,
+      "status_compile_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 8,
+      "uses_implicit_none": 8,
+      "uses_write_star": 7,
+      "uses_hardcoded_scalars": 6,
+      "uses_allocatable": 4,
+      "uses_assumed_shape": 4,
+      "has_debug_words": 4,
+      "uses_read_stdin": 3,
+      "has_labels_in_output": 2,
+      "uses_allocate": 2,
+      "uses_print_star": 1,
+      "has_contains": 1,
+      "modifies_intent_in_possible": 1
+    }
+  },
+  "ft_ABC_source_numerical_methods_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 9,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_source_numerical_methods_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_source_numerical_methods_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ok": 4,
+      "compile_err": 2,
+      "runtime_err": 1,
+      "exception": 1,
+      "ineq": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "status_compile_err": 1,
+      "status_exception": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 4,
+      "status_ok": 4,
+      "static_output_labels": 3,
+      "static_assumed_shape_needs_interface": 3,
+      "status_compile_err": 2,
+      "status_runtime_err": 1,
+      "status_exception": 1,
+      "static_modifies_intent_in_possible": 1,
+      "static_possible_zero_indexing": 1,
+      "status_ineq": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 9,
+      "uses_implicit_none": 9,
+      "uses_write_star": 7,
+      "uses_hardcoded_scalars": 5,
+      "uses_read_stdin": 4,
+      "has_labels_in_output": 3,
+      "uses_allocatable": 3,
+      "uses_allocate": 3,
+      "uses_assumed_shape": 3,
+      "uses_print_star": 2,
+      "has_debug_words": 2,
+      "has_contains": 1,
+      "modifies_intent_in_possible": 1,
+      "uses_index_0_loop": 1
+    }
+  },
+  "ft_ABC_source_numericalhub_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 20,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_source_numericalhub_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_source_numericalhub_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ok": 9,
+      "compile_err": 9,
+      "ineq": 2
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 19,
+      "static_possible_zero_indexing": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 20,
+      "static_modifies_intent_in_possible": 17,
+      "status_ok": 9,
+      "status_compile_err": 9,
+      "status_ineq": 2,
+      "static_possible_zero_indexing": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 20,
+      "uses_implicit_none": 20,
+      "uses_read_stdin": 20,
+      "uses_print_star": 20,
+      "has_contains": 17,
+      "has_debug_words": 17,
+      "modifies_intent_in_possible": 17,
+      "uses_hardcoded_scalars": 16,
+      "uses_allocatable": 5,
+      "uses_allocate": 5,
+      "uses_assumed_shape": 5,
+      "uses_hardcoded_arrays": 2,
+      "uses_array_index_0_literal": 1
+    }
+  },
+  "ft_ABC_source_stack_v1_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 16,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_source_stack_v1_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_source_stack_v1_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ok": 6,
+      "compile_err": 6,
+      "ineq": 3,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "status_ok": 5,
+      "static_stdin_read": 5,
+      "status_compile_err": 3,
+      "status_ineq": 2,
+      "static_assumed_shape_needs_interface": 1
+    },
+    "error_label_counts": {
+      "status_ok": 6,
+      "status_compile_err": 6,
+      "static_stdin_read": 5,
+      "status_ineq": 3,
+      "static_modifies_intent_in_possible": 2,
+      "static_assumed_shape_needs_interface": 1,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 16,
+      "uses_implicit_none": 16,
+      "uses_print_star": 15,
+      "uses_hardcoded_scalars": 11,
+      "has_debug_words": 8,
+      "uses_read_stdin": 5,
+      "has_contains": 2,
+      "modifies_intent_in_possible": 2,
+      "uses_allocatable": 2,
+      "uses_assumed_shape": 2,
+      "uses_write_star": 1,
+      "uses_allocate": 1
+    }
+  },
+  "ft_ABC_source_stack_v2_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 17,
+    "details_file": "epoch1/learning_rate_1/results/ft_ABC_source_stack_v2_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_ABC_source_stack_v2_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ineq": 11,
+      "compile_err": 4,
+      "ok": 2
+    },
+    "primary_cause_counts": {
+      "status_ineq": 5,
+      "static_stdin_read": 5,
+      "static_assumed_shape_needs_interface": 3,
+      "static_output_labels": 2,
+      "static_possible_zero_indexing": 1,
+      "status_compile_err": 1
+    },
+    "error_label_counts": {
+      "static_modifies_intent_in_possible": 11,
+      "status_ineq": 11,
+      "static_stdin_read": 9,
+      "status_compile_err": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "status_ok": 2,
+      "static_output_labels": 2,
+      "static_possible_zero_indexing": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 17,
+      "uses_implicit_none": 17,
+      "uses_print_star": 17,
+      "uses_hardcoded_scalars": 16,
+      "has_debug_words": 15,
+      "has_contains": 11,
+      "modifies_intent_in_possible": 11,
+      "uses_read_stdin": 9,
+      "uses_allocatable": 6,
+      "uses_allocate": 6,
+      "uses_assumed_shape": 6,
+      "has_labels_in_output": 2,
+      "uses_array_index_0_literal": 1
+    }
+  },
+  "ft_AB_antineighbor_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 18,
+    "details_file": "epoch1/learning_rate_1/results/ft_AB_antineighbor_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_AB_antineighbor_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 11,
+      "ineq": 3,
+      "ok": 3,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 6,
+      "status_compile_err": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "status_ineq": 2,
+      "static_possible_zero_indexing": 1,
+      "status_ok": 1,
+      "status_runtime_err": 1
+    },
+    "error_label_counts": {
+      "status_compile_err": 11,
+      "static_modifies_intent_in_possible": 9,
+      "static_stdin_read": 9,
+      "static_assumed_shape_needs_interface": 3,
+      "status_ineq": 3,
+      "status_ok": 3,
+      "static_possible_zero_indexing": 1,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 18,
+      "uses_implicit_none": 18,
+      "uses_print_star": 18,
+      "uses_hardcoded_scalars": 17,
+      "has_debug_words": 14,
+      "has_contains": 9,
+      "uses_read_stdin": 9,
+      "modifies_intent_in_possible": 9,
+      "uses_allocatable": 7,
+      "uses_allocate": 6,
+      "uses_assumed_shape": 5,
+      "uses_hardcoded_arrays": 3,
+      "uses_array_index_0_literal": 1
+    }
+  },
+  "ft_AB_antineighbor_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 19,
+    "details_file": "epoch1/learning_rate_1/results/ft_AB_antineighbor_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_AB_antineighbor_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 13,
+      "runtime_err": 3,
+      "ineq": 3
+    },
+    "primary_cause_counts": {
+      "status_compile_err": 6,
+      "static_stdin_read": 6,
+      "static_assumed_shape_needs_interface": 3,
+      "status_ineq": 2,
+      "status_runtime_err": 1,
+      "static_output_labels": 1
+    },
+    "error_label_counts": {
+      "status_compile_err": 13,
+      "static_modifies_intent_in_possible": 11,
+      "static_stdin_read": 8,
+      "status_runtime_err": 3,
+      "static_assumed_shape_needs_interface": 3,
+      "status_ineq": 3,
+      "static_output_labels": 2
+    },
+    "static_feature_true_counts": {
+      "has_program": 19,
+      "uses_implicit_none": 19,
+      "uses_print_star": 19,
+      "has_debug_words": 15,
+      "uses_hardcoded_scalars": 15,
+      "has_contains": 11,
+      "modifies_intent_in_possible": 11,
+      "uses_read_stdin": 8,
+      "uses_allocatable": 7,
+      "uses_allocate": 6,
+      "uses_assumed_shape": 5,
+      "has_labels_in_output": 2
+    }
+  },
+  "ft_AB_shuffle_humaneval_mistral_conc15": {
+    "num_base_ok_ft_fail": 24,
+    "details_file": "epoch2/learning_rate_1/results/ft_AB_shuffle_humaneval_mistral_conc15_evaluation_details.json",
+    "solution_file": "epoch2/learning_rate_1/results_qwen_lora/solutions/ft_AB_shuffle_humaneval_mistral_conc15_solutions.json",
+    "ft_status_counts": {
+      "ineq": 12,
+      "compile_err": 11,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 11,
+      "static_output_labels": 7,
+      "static_assumed_shape_needs_interface": 3,
+      "static_possible_zero_indexing": 2,
+      "status_compile_err": 1
+    },
+    "error_label_counts": {
+      "static_modifies_intent_in_possible": 16,
+      "static_stdin_read": 15,
+      "status_ineq": 12,
+      "status_compile_err": 11,
+      "static_output_labels": 7,
+      "static_assumed_shape_needs_interface": 3,
+      "static_possible_zero_indexing": 2,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 24,
+      "uses_implicit_none": 24,
+      "uses_print_star": 22,
+      "has_debug_words": 20,
+      "uses_hardcoded_scalars": 20,
+      "has_contains": 16,
+      "modifies_intent_in_possible": 16,
+      "uses_read_stdin": 15,
+      "uses_allocatable": 8,
+      "has_labels_in_output": 7,
+      "uses_allocate": 7,
+      "uses_assumed_shape": 7,
+      "uses_hardcoded_arrays": 4,
+      "uses_array_index_0_literal": 2,
+      "uses_write_star": 2
+    }
+  },
+  "ft_AB_shuffle_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 16,
+    "details_file": "epoch1/learning_rate_1/results/ft_AB_shuffle_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_AB_shuffle_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ok": 5,
+      "compile_err": 5,
+      "ineq": 4,
+      "exception": 1,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 7,
+      "static_assumed_shape_needs_interface": 4,
+      "status_ok": 2,
+      "status_ineq": 1,
+      "static_possible_zero_indexing": 1,
+      "status_compile_err": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 12,
+      "static_modifies_intent_in_possible": 8,
+      "status_ok": 5,
+      "status_compile_err": 5,
+      "status_ineq": 4,
+      "static_assumed_shape_needs_interface": 4,
+      "static_possible_zero_indexing": 1,
+      "status_exception": 1,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 16,
+      "uses_implicit_none": 16,
+      "uses_print_star": 15,
+      "has_debug_words": 13,
+      "uses_hardcoded_scalars": 13,
+      "uses_read_stdin": 12,
+      "has_contains": 9,
+      "modifies_intent_in_possible": 8,
+      "uses_allocatable": 7,
+      "uses_assumed_shape": 7,
+      "uses_allocate": 6,
+      "uses_array_index_0_literal": 1,
+      "uses_write_star": 1,
+      "uses_hardcoded_arrays": 1
+    }
+  },
+  "ft_AB_shuffle_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 15,
+    "details_file": "epoch1/learning_rate_1/results/ft_AB_shuffle_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_AB_shuffle_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 11,
+      "ineq": 3,
+      "exception": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 9,
+      "static_assumed_shape_needs_interface": 3,
+      "static_possible_zero_indexing": 1,
+      "status_compile_err": 1,
+      "status_ineq": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 13,
+      "status_compile_err": 11,
+      "static_modifies_intent_in_possible": 7,
+      "status_ineq": 3,
+      "static_assumed_shape_needs_interface": 3,
+      "static_possible_zero_indexing": 1,
+      "status_exception": 1,
+      "static_output_labels": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 15,
+      "uses_implicit_none": 15,
+      "uses_print_star": 14,
+      "uses_read_stdin": 13,
+      "has_debug_words": 12,
+      "uses_hardcoded_scalars": 12,
+      "has_contains": 8,
+      "modifies_intent_in_possible": 7,
+      "uses_allocatable": 5,
+      "uses_assumed_shape": 5,
+      "uses_allocate": 4,
+      "uses_hardcoded_arrays": 1,
+      "uses_array_index_0_literal": 1,
+      "uses_write_star": 1,
+      "has_labels_in_output": 1
+    }
+  },
+  "ft_AC_antineighbor_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 21,
+    "details_file": "epoch1/learning_rate_1/results/ft_AC_antineighbor_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_AC_antineighbor_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 10,
+      "ok": 6,
+      "ineq": 3,
+      "runtime_err": 2
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 8,
+      "status_compile_err": 6,
+      "static_assumed_shape_needs_interface": 4,
+      "status_ok": 2,
+      "status_ineq": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 12,
+      "status_compile_err": 10,
+      "static_modifies_intent_in_possible": 9,
+      "status_ok": 6,
+      "static_assumed_shape_needs_interface": 4,
+      "status_ineq": 3,
+      "status_runtime_err": 2
+    },
+    "static_feature_true_counts": {
+      "has_program": 20,
+      "uses_implicit_none": 20,
+      "uses_print_star": 19,
+      "uses_hardcoded_scalars": 16,
+      "has_debug_words": 13,
+      "uses_read_stdin": 12,
+      "has_contains": 10,
+      "modifies_intent_in_possible": 9,
+      "uses_allocatable": 6,
+      "uses_assumed_shape": 6,
+      "uses_allocate": 5,
+      "uses_write_star": 1
+    }
+  },
+  "ft_AC_antineighbor_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 19,
+    "details_file": "epoch1/learning_rate_1/results/ft_AC_antineighbor_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_AC_antineighbor_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "ineq": 9,
+      "compile_err": 8,
+      "runtime_err": 2
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 6,
+      "status_ineq": 5,
+      "status_compile_err": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "static_output_labels": 1
+    },
+    "error_label_counts": {
+      "static_modifies_intent_in_possible": 9,
+      "status_ineq": 9,
+      "static_stdin_read": 9,
+      "status_compile_err": 8,
+      "static_assumed_shape_needs_interface": 3,
+      "static_output_labels": 3,
+      "status_runtime_err": 2
+    },
+    "static_feature_true_counts": {
+      "has_program": 18,
+      "uses_implicit_none": 18,
+      "uses_print_star": 17,
+      "uses_hardcoded_scalars": 17,
+      "has_debug_words": 13,
+      "has_contains": 11,
+      "modifies_intent_in_possible": 9,
+      "uses_read_stdin": 9,
+      "uses_allocatable": 6,
+      "uses_assumed_shape": 6,
+      "uses_allocate": 4,
+      "has_labels_in_output": 3,
+      "uses_write_star": 1
+    }
+  },
+  "ft_AC_shuffle_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 20,
+    "details_file": "epoch1/learning_rate_1/results/ft_AC_shuffle_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_AC_shuffle_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ok": 7,
+      "compile_err": 7,
+      "ineq": 6
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 7,
+      "static_assumed_shape_needs_interface": 4,
+      "status_compile_err": 3,
+      "static_output_labels": 2,
+      "status_ineq": 2,
+      "status_ok": 2
+    },
+    "error_label_counts": {
+      "static_modifies_intent_in_possible": 12,
+      "static_stdin_read": 11,
+      "status_ok": 7,
+      "status_compile_err": 7,
+      "status_ineq": 6,
+      "static_assumed_shape_needs_interface": 4,
+      "static_output_labels": 3
+    },
+    "static_feature_true_counts": {
+      "has_program": 20,
+      "uses_implicit_none": 20,
+      "uses_print_star": 20,
+      "uses_hardcoded_scalars": 17,
+      "has_debug_words": 16,
+      "has_contains": 13,
+      "modifies_intent_in_possible": 12,
+      "uses_read_stdin": 11,
+      "uses_allocatable": 7,
+      "uses_allocate": 6,
+      "uses_assumed_shape": 6,
+      "has_labels_in_output": 3,
+      "uses_assumed_size": 2,
+      "uses_hardcoded_arrays": 1
+    }
+  },
+  "ft_AC_shuffle_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 18,
+    "details_file": "epoch1/learning_rate_1/results/ft_AC_shuffle_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_AC_shuffle_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 11,
+      "ineq": 6,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 11,
+      "static_assumed_shape_needs_interface": 4,
+      "status_compile_err": 2,
+      "status_ineq": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 15,
+      "status_compile_err": 11,
+      "static_modifies_intent_in_possible": 9,
+      "status_ineq": 6,
+      "static_assumed_shape_needs_interface": 4,
+      "static_output_labels": 2,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 18,
+      "uses_implicit_none": 18,
+      "uses_print_star": 16,
+      "has_debug_words": 16,
+      "uses_read_stdin": 15,
+      "uses_hardcoded_scalars": 13,
+      "has_contains": 9,
+      "modifies_intent_in_possible": 9,
+      "uses_allocatable": 7,
+      "uses_allocate": 6,
+      "uses_assumed_shape": 6,
+      "has_labels_in_output": 2,
+      "uses_write_star": 2
+    }
+  },
+  "ft_A_ep2_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 15,
+    "details_file": "epoch2/learning_rate_1/results/ft_A_ep2_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch2/learning_rate_1/results_qwen_lora/solutions/ft_A_ep2_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 12,
+      "ineq": 3
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 6,
+      "status_compile_err": 4,
+      "static_assumed_shape_needs_interface": 4,
+      "status_ineq": 1
+    },
+    "error_label_counts": {
+      "status_compile_err": 12,
+      "static_stdin_read": 10,
+      "static_modifies_intent_in_possible": 5,
+      "static_assumed_shape_needs_interface": 4,
+      "status_ineq": 3,
+      "static_output_labels": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 15,
+      "uses_implicit_none": 15,
+      "uses_print_star": 15,
+      "has_debug_words": 14,
+      "uses_read_stdin": 10,
+      "uses_hardcoded_scalars": 9,
+      "has_contains": 5,
+      "modifies_intent_in_possible": 5,
+      "uses_allocatable": 5,
+      "uses_assumed_shape": 4,
+      "uses_allocate": 2,
+      "has_labels_in_output": 1,
+      "uses_hardcoded_arrays": 1
+    }
+  },
+  "ft_A_half1_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 19,
+    "details_file": "epoch1/learning_rate_1/results/ft_A_half1_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_A_half1_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 8,
+      "ok": 6,
+      "ineq": 3,
+      "runtime_err": 2
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 12,
+      "status_ok": 2,
+      "static_assumed_shape_needs_interface": 2,
+      "status_compile_err": 1,
+      "static_output_labels": 1,
+      "status_ineq": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 14,
+      "static_modifies_intent_in_possible": 13,
+      "status_compile_err": 8,
+      "status_ok": 6,
+      "status_ineq": 3,
+      "static_assumed_shape_needs_interface": 2,
+      "status_runtime_err": 2,
+      "static_output_labels": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 19,
+      "uses_implicit_none": 19,
+      "has_contains": 16,
+      "uses_print_star": 16,
+      "has_debug_words": 16,
+      "uses_hardcoded_scalars": 15,
+      "uses_read_stdin": 14,
+      "modifies_intent_in_possible": 13,
+      "uses_assumed_shape": 8,
+      "uses_allocatable": 7,
+      "uses_allocate": 7,
+      "uses_write_star": 3,
+      "has_labels_in_output": 1,
+      "uses_hardcoded_arrays": 1,
+      "uses_assumed_size": 1
+    }
+  },
+  "ft_A_half2_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 20,
+    "details_file": "epoch1/learning_rate_1/results/ft_A_half2_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_A_half2_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 9,
+      "ok": 6,
+      "ineq": 4,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 16,
+      "static_assumed_shape_needs_interface": 3,
+      "status_compile_err": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 19,
+      "static_modifies_intent_in_possible": 10,
+      "status_compile_err": 9,
+      "status_ok": 6,
+      "status_ineq": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 20,
+      "uses_implicit_none": 20,
+      "uses_read_stdin": 19,
+      "has_debug_words": 17,
+      "uses_hardcoded_scalars": 16,
+      "uses_print_star": 15,
+      "has_contains": 10,
+      "modifies_intent_in_possible": 10,
+      "uses_allocatable": 5,
+      "uses_assumed_shape": 5,
+      "uses_allocate": 3,
+      "uses_write_star": 3
+    }
+  },
+  "ft_A_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 19,
+    "details_file": "epoch1/learning_rate_1/results/ft_A_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_A_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ok": 7,
+      "compile_err": 6,
+      "ineq": 5,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 7,
+      "status_compile_err": 4,
+      "status_ok": 3,
+      "static_assumed_shape_needs_interface": 2,
+      "status_ineq": 2,
+      "static_output_labels": 1
+    },
+    "error_label_counts": {
+      "static_modifies_intent_in_possible": 12,
+      "static_stdin_read": 9,
+      "status_ok": 7,
+      "status_compile_err": 6,
+      "status_ineq": 5,
+      "static_output_labels": 2,
+      "static_assumed_shape_needs_interface": 2,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 18,
+      "uses_implicit_none": 18,
+      "uses_print_star": 16,
+      "uses_hardcoded_scalars": 15,
+      "has_debug_words": 14,
+      "has_contains": 12,
+      "modifies_intent_in_possible": 12,
+      "uses_read_stdin": 9,
+      "uses_allocatable": 5,
+      "uses_allocate": 5,
+      "uses_assumed_shape": 5,
+      "has_labels_in_output": 2,
+      "uses_write_star": 2
+    }
+  },
+  "ft_A_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 21,
+    "details_file": "epoch2/learning_rate_1/results/ft_A_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch2/learning_rate_1/results_qwen_lora/solutions/ft_A_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 13,
+      "ineq": 6,
+      "runtime_err": 2
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 12,
+      "status_compile_err": 4,
+      "static_assumed_shape_needs_interface": 4,
+      "static_output_labels": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 15,
+      "status_compile_err": 13,
+      "static_modifies_intent_in_possible": 11,
+      "status_ineq": 6,
+      "static_assumed_shape_needs_interface": 4,
+      "static_output_labels": 2,
+      "status_runtime_err": 2,
+      "static_possible_zero_indexing": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 21,
+      "uses_implicit_none": 21,
+      "uses_print_star": 20,
+      "uses_hardcoded_scalars": 17,
+      "has_debug_words": 16,
+      "uses_read_stdin": 15,
+      "has_contains": 12,
+      "modifies_intent_in_possible": 11,
+      "uses_allocatable": 7,
+      "uses_assumed_shape": 6,
+      "uses_allocate": 4,
+      "has_labels_in_output": 2,
+      "uses_hardcoded_arrays": 2,
+      "uses_write_star": 1,
+      "uses_index_0_loop": 1
+    }
+  },
+  "ft_B_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 26,
+    "details_file": "epoch1/learning_rate_1/results/ft_B_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_B_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "ok": 13,
+      "compile_err": 8,
+      "ineq": 4,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "status_ok": 13,
+      "status_compile_err": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "static_stdin_read": 3,
+      "status_ineq": 2,
+      "static_possible_zero_indexing": 1
+    },
+    "error_label_counts": {
+      "status_ok": 13,
+      "status_compile_err": 8,
+      "static_stdin_read": 4,
+      "status_ineq": 4,
+      "static_assumed_shape_needs_interface": 3,
+      "static_modifies_intent_in_possible": 3,
+      "status_runtime_err": 1,
+      "static_possible_zero_indexing": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 25,
+      "uses_implicit_none": 25,
+      "uses_hardcoded_scalars": 19,
+      "uses_print_star": 16,
+      "has_debug_words": 12,
+      "uses_write_star": 6,
+      "uses_allocatable": 5,
+      "uses_allocate": 5,
+      "uses_assumed_shape": 5,
+      "uses_read_stdin": 4,
+      "has_contains": 3,
+      "modifies_intent_in_possible": 3,
+      "uses_array_index_0_literal": 1
+    }
+  },
+  "ft_B_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 15,
+    "details_file": "epoch1/learning_rate_1/results/ft_B_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_B_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 9,
+      "ineq": 5,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "status_compile_err": 6,
+      "static_stdin_read": 3,
+      "status_ineq": 3,
+      "static_assumed_shape_needs_interface": 2,
+      "static_possible_zero_indexing": 1
+    },
+    "error_label_counts": {
+      "status_compile_err": 9,
+      "status_ineq": 5,
+      "static_stdin_read": 4,
+      "static_assumed_shape_needs_interface": 2,
+      "static_modifies_intent_in_possible": 2,
+      "status_runtime_err": 1,
+      "static_possible_zero_indexing": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 15,
+      "uses_implicit_none": 15,
+      "uses_hardcoded_scalars": 12,
+      "uses_print_star": 8,
+      "has_debug_words": 7,
+      "uses_read_stdin": 4,
+      "uses_write_star": 3,
+      "uses_allocatable": 3,
+      "uses_allocate": 3,
+      "uses_assumed_shape": 3,
+      "has_contains": 2,
+      "modifies_intent_in_possible": 2,
+      "uses_array_index_0_literal": 1
+    }
+  },
+  "ft_B_then_A_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 22,
+    "details_file": "epoch1/learning_rate_1/results/ft_B_then_A_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_B_then_A_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 14,
+      "ok": 5,
+      "ineq": 3
+    },
+    "primary_cause_counts": {
+      "status_compile_err": 10,
+      "static_stdin_read": 8,
+      "status_ok": 2,
+      "static_assumed_shape_needs_interface": 1,
+      "status_ineq": 1
+    },
+    "error_label_counts": {
+      "status_compile_err": 14,
+      "static_stdin_read": 8,
+      "static_modifies_intent_in_possible": 6,
+      "status_ok": 5,
+      "status_ineq": 3,
+      "static_assumed_shape_needs_interface": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 17,
+      "uses_implicit_none": 17,
+      "uses_print_star": 16,
+      "uses_hardcoded_scalars": 13,
+      "has_debug_words": 11,
+      "uses_read_stdin": 8,
+      "has_contains": 7,
+      "modifies_intent_in_possible": 6,
+      "uses_allocatable": 5,
+      "uses_allocate": 3,
+      "uses_assumed_shape": 3,
+      "uses_module": 2,
+      "uses_hardcoded_arrays": 1,
+      "uses_write_star": 1
+    }
+  },
+  "ft_B_then_A_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 28,
+    "details_file": "epoch1/learning_rate_1/results/ft_B_then_A_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_B_then_A_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 25,
+      "ineq": 2,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "status_compile_err": 17,
+      "static_stdin_read": 7,
+      "static_assumed_shape_needs_interface": 4
+    },
+    "error_label_counts": {
+      "status_compile_err": 25,
+      "static_stdin_read": 9,
+      "static_modifies_intent_in_possible": 7,
+      "static_assumed_shape_needs_interface": 4,
+      "status_ineq": 2,
+      "status_runtime_err": 1,
+      "static_output_labels": 1,
+      "static_possible_zero_indexing": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 20,
+      "uses_implicit_none": 20,
+      "uses_print_star": 17,
+      "uses_hardcoded_scalars": 16,
+      "has_debug_words": 10,
+      "has_contains": 10,
+      "uses_read_stdin": 9,
+      "uses_allocatable": 7,
+      "modifies_intent_in_possible": 7,
+      "uses_assumed_shape": 4,
+      "uses_hardcoded_arrays": 3,
+      "uses_allocate": 2,
+      "uses_write_star": 2,
+      "has_labels_in_output": 1,
+      "uses_array_index_0_literal": 1
+    }
+  },
+  "ft_C_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 17,
+    "details_file": "epoch1/learning_rate_1/results/ft_C_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_C_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 7,
+      "ineq": 4,
+      "runtime_err": 3,
+      "ok": 3
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 15,
+      "status_compile_err": 1,
+      "static_assumed_shape_needs_interface": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 16,
+      "status_compile_err": 7,
+      "status_ineq": 4,
+      "static_modifies_intent_in_possible": 3,
+      "status_runtime_err": 3,
+      "status_ok": 3,
+      "static_assumed_shape_needs_interface": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 17,
+      "uses_implicit_none": 17,
+      "uses_print_star": 17,
+      "uses_read_stdin": 16,
+      "uses_hardcoded_scalars": 15,
+      "has_debug_words": 7,
+      "modifies_intent_in_possible": 3,
+      "uses_allocatable": 3,
+      "uses_assumed_shape": 3,
+      "has_contains": 3,
+      "uses_allocate": 2,
+      "uses_hardcoded_arrays": 1
+    }
+  },
+  "ft_C_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 19,
+    "details_file": "epoch1/learning_rate_1/results/ft_C_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_C_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 12,
+      "runtime_err": 4,
+      "ineq": 3
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 13,
+      "static_assumed_shape_needs_interface": 3,
+      "status_compile_err": 2,
+      "static_possible_zero_indexing": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 17,
+      "status_compile_err": 12,
+      "static_modifies_intent_in_possible": 4,
+      "status_runtime_err": 4,
+      "status_ineq": 3,
+      "static_assumed_shape_needs_interface": 3,
+      "static_possible_zero_indexing": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 18,
+      "uses_implicit_none": 18,
+      "uses_read_stdin": 17,
+      "uses_print_star": 16,
+      "uses_hardcoded_scalars": 14,
+      "has_debug_words": 9,
+      "modifies_intent_in_possible": 4,
+      "uses_allocatable": 4,
+      "uses_assumed_shape": 4,
+      "has_contains": 3,
+      "uses_allocate": 3,
+      "uses_array_index_0_literal": 1,
+      "uses_write_star": 1
+    }
+  },
+  "ft_C_then_A_humaneval_mistral_conc20": {
+    "num_base_ok_ft_fail": 24,
+    "details_file": "epoch1/learning_rate_1/results/ft_C_then_A_humaneval_mistral_conc20_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_C_then_A_humaneval_mistral_conc20_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 15,
+      "ok": 4,
+      "ineq": 4,
+      "runtime_err": 1
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 15,
+      "status_compile_err": 3,
+      "static_output_labels": 3,
+      "static_possible_zero_indexing": 1,
+      "static_assumed_shape_needs_interface": 1,
+      "status_ok": 1
+    },
+    "error_label_counts": {
+      "static_stdin_read": 16,
+      "status_compile_err": 15,
+      "static_modifies_intent_in_possible": 12,
+      "static_output_labels": 4,
+      "status_ok": 4,
+      "status_ineq": 4,
+      "static_possible_zero_indexing": 1,
+      "static_assumed_shape_needs_interface": 1,
+      "status_runtime_err": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 24,
+      "uses_implicit_none": 24,
+      "uses_print_star": 24,
+      "has_debug_words": 20,
+      "uses_hardcoded_scalars": 18,
+      "has_contains": 16,
+      "uses_read_stdin": 16,
+      "modifies_intent_in_possible": 12,
+      "uses_allocatable": 8,
+      "uses_allocate": 7,
+      "uses_assumed_shape": 7,
+      "has_labels_in_output": 4,
+      "uses_hardcoded_arrays": 3,
+      "uses_array_index_0_literal": 1
+    }
+  },
+  "ft_C_then_A_humaneval_mistral_conc3": {
+    "num_base_ok_ft_fail": 27,
+    "details_file": "epoch1/learning_rate_1/results/ft_C_then_A_humaneval_mistral_conc3_evaluation_details.json",
+    "solution_file": "epoch1/learning_rate_1/results_qwen_lora/solutions/ft_C_then_A_humaneval_mistral_conc3_solutions.json",
+    "ft_status_counts": {
+      "compile_err": 18,
+      "ineq": 9
+    },
+    "primary_cause_counts": {
+      "static_stdin_read": 15,
+      "status_ineq": 3,
+      "status_compile_err": 3,
+      "static_output_labels": 3,
+      "static_assumed_shape_needs_interface": 2,
+      "static_possible_zero_indexing": 1
+    },
+    "error_label_counts": {
+      "status_compile_err": 18,
+      "static_stdin_read": 17,
+      "static_modifies_intent_in_possible": 13,
+      "status_ineq": 9,
+      "static_output_labels": 4,
+      "static_assumed_shape_needs_interface": 2,
+      "static_possible_zero_indexing": 1
+    },
+    "static_feature_true_counts": {
+      "has_program": 27,
+      "uses_implicit_none": 27,
+      "uses_print_star": 27,
+      "has_debug_words": 24,
+      "uses_hardcoded_scalars": 22,
+      "has_contains": 18,
+      "uses_read_stdin": 17,
+      "modifies_intent_in_possible": 13,
+      "uses_allocatable": 9,
+      "uses_allocate": 8,
+      "uses_assumed_shape": 8,
+      "has_labels_in_output": 4,
+      "uses_hardcoded_arrays": 3,
+      "uses_array_index_0_literal": 1
+    }
+  }
+}

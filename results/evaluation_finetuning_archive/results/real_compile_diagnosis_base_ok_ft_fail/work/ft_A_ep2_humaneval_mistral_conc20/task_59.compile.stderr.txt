@@ -1,0 +1,65 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:9:32:
+
+    9 |   result = largest_prime_factor(n)
+      |                                1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:16:42:
+
+   16 |   integer function largest_prime_factor(n)
+      |                                          1
+Error: PROGRAM attribute of ‘largest_prime_factor’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:17:28:
+
+   17 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:18:16:
+
+   18 |     integer :: i
+      |                1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:19:25:
+
+   19 |     largest_prime_factor = 1
+      |                         1
+Error: Symbol ‘largest_prime_factor’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:20:15:
+
+   20 |     do i = 2, n
+      |               1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:21:30:
+
+   21 |       if (mod(n, i) == 0) then
+      |                              1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:22:29:
+
+   22 |         largest_prime_factor = i
+      |                             1
+Error: Symbol ‘largest_prime_factor’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:23:17:
+
+   23 |         n = n / i
+      |                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:24:24:
+
+   24 |         if (n == 1) exit
+      |                        1
+Error: EXIT statement at (1) is not within a construct
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:25:9:
+
+   25 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:26:7:
+
+   26 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_ep2_humaneval_mistral_conc20/task_59.f90:27:5:
+
+   27 |   end function largest_prime_factor
+      |     1
+Error: Expecting END PROGRAM statement at (1)

@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_25.f90:34:10:
+
+   34 |           n = n / i
+      |          1
+Error: Dummy argument ‘n’ with INTENT(IN) in variable definition context (assignment) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc3/task_25.f90:41:13:
+
+   41 |     allocate(factors(count))
+      |             1
+Error: Allocate-object at (1) must be ALLOCATABLE or a POINTER

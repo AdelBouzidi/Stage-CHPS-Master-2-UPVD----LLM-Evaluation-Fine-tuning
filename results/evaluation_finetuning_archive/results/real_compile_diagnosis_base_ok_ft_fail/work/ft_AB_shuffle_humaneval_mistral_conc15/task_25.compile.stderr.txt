@@ -1,0 +1,5 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_25.f90:38:24:
+
+   38 |         allocate(factors(size(factors) + count))
+      |                        1
+Error: ‘factors’ must not appear in the array specification at (1) in the same ALLOCATE statement where it is itself allocated

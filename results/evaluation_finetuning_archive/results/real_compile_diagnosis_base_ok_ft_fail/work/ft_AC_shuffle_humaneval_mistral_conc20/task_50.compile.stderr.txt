@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_50.f90:7:15:
+
+    7 |   read *, input
+      |               ^
+Warning: ‘.input’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_shuffle_humaneval_mistral_conc20/task_50.f90:1:25:
+
+    1 | program decode_shift_demo
+      |                         ^
+note: ‘.input’ was declared here

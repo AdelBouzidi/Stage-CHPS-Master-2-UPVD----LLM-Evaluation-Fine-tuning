@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_155.f90:4:23:
+
+    4 |   integer :: even_count, odd_count
+      |                       1
+Warning: Unused variable ‘even_count’ declared at (1) [-Wunused-variable]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_A_humaneval_mistral_conc20/task_155.f90:4:34:
+
+    4 |   integer :: even_count, odd_count
+      |                                  1
+Warning: Unused variable ‘odd_count’ declared at (1) [-Wunused-variable]

@@ -1,0 +1,370 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:11:17:
+
+   11 |   odd_collatz = 0
+      |                 ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:11:17:
+
+   11 |   odd_collatz = 0
+      |                 ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:11:17:
+
+   11 |   odd_collatz = 0
+      |                 ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:12:20:
+
+   12 |   odd_collatz(1) = n
+      |                    ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:12:2:
+
+   12 |   odd_collatz(1) = n
+      |  ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:12:20:
+
+   12 |   odd_collatz(1) = n
+      |                    ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:12:2:
+
+   12 |   odd_collatz(1) = n
+      |  ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:12:20:
+
+   12 |   odd_collatz(1) = n
+      |                    ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:14:32:
+
+   14 |   do while (odd_collatz(i) /= 1)
+      |                                ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:14:12:
+
+   14 |   do while (odd_collatz(i) /= 1)
+      |            ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:14:32:
+
+   14 |   do while (odd_collatz(i) /= 1)
+      |                                ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:14:12:
+
+   14 |   do while (odd_collatz(i) /= 1)
+      |            ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:14:32:
+
+   14 |   do while (odd_collatz(i) /= 1)
+      |                                ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:15:8:
+
+   15 |     if (mod(odd_collatz(i), 2) == 1) then
+      |        ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:15:8:
+
+   15 |     if (mod(odd_collatz(i), 2) == 1) then
+      |        ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:15:8:
+
+   15 |     if (mod(odd_collatz(i), 2) == 1) then
+      |        ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:16:49:
+
+   16 |       odd_collatz(i+1) = (odd_collatz(i) - 1) / 2
+      |                                                 ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:16:49:
+
+   16 |       odd_collatz(i+1) = (odd_collatz(i) - 1) / 2
+      |                                                 ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:16:49:
+
+   16 |       odd_collatz(i+1) = (odd_collatz(i) - 1) / 2
+      |                                                 ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:16:6:
+
+   16 |       odd_collatz(i+1) = (odd_collatz(i) - 1) / 2
+      |      ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:16:49:
+
+   16 |       odd_collatz(i+1) = (odd_collatz(i) - 1) / 2
+      |                                                 ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:16:6:
+
+   16 |       odd_collatz(i+1) = (odd_collatz(i) - 1) / 2
+      |      ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:16:49:
+
+   16 |       odd_collatz(i+1) = (odd_collatz(i) - 1) / 2
+      |                                                 ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:16:49:
+
+   16 |       odd_collatz(i+1) = (odd_collatz(i) - 1) / 2
+      |                                                 ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:18:43:
+
+   18 |       odd_collatz(i+1) = odd_collatz(i) / 2
+      |                                           ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:18:43:
+
+   18 |       odd_collatz(i+1) = odd_collatz(i) / 2
+      |                                           ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:18:43:
+
+   18 |       odd_collatz(i+1) = odd_collatz(i) / 2
+      |                                           ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:18:6:
+
+   18 |       odd_collatz(i+1) = odd_collatz(i) / 2
+      |      ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:18:43:
+
+   18 |       odd_collatz(i+1) = odd_collatz(i) / 2
+      |                                           ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:18:6:
+
+   18 |       odd_collatz(i+1) = odd_collatz(i) / 2
+      |      ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:18:43:
+
+   18 |       odd_collatz(i+1) = odd_collatz(i) / 2
+      |                                           ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:18:43:
+
+   18 |       odd_collatz(i+1) = odd_collatz(i) / 2
+      |                                           ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:25:27:
+
+   25 |     print *, odd_collatz(i)
+      |                           ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:25:12:
+
+   25 |     print *, odd_collatz(i)
+      |            ^
+Warning: ‘odd_collatz.dim[0].lbound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:25:27:
+
+   25 |     print *, odd_collatz(i)
+      |                           ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:25:12:
+
+   25 |     print *, odd_collatz(i)
+      |            ^
+Warning: ‘odd_collatz.dim[0].ubound’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:25:27:
+
+   25 |     print *, odd_collatz(i)
+      |                           ^
+Warning: ‘odd_collatz.offset’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_stack_v1_humaneval_mistral_conc20/task_123.f90:4:40:
+
+    4 |   integer, allocatable :: odd_collatz(:)
+      |                                        ^
+note: ‘odd_collatz’ declared here

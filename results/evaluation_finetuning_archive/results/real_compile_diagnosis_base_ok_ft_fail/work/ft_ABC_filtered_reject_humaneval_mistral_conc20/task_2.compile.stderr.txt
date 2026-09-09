@@ -1,0 +1,30 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_2.f90:8:3:
+
+    8 |   function truncate_number(number) result
+      |   1
+Error: Unclassifiable statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_2.f90:9:30:
+
+    9 |     real, intent(in) :: number
+      |                              1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_2.f90:10:18:
+
+   10 |     real :: result
+      |                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_2.f90:11:33:
+
+   11 |     result = number - int(number)
+      |                                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_2.f90:12:5:
+
+   12 |   end function truncate_number
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_reject_humaneval_mistral_conc20/task_2.f90:5:11:
+
+    5 |   result = truncate_number(number)
+      |           1
+Error: Function ‘truncate_number’ at (1) has no IMPLICIT type

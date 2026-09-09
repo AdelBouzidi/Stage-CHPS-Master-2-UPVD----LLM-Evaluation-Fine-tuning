@@ -1,0 +1,85 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:39:51:
+
+   39 |   function is_palindrome(num) result(is_palindrome)
+      |                                                   1
+Error: RESULT variable at (1) must be different than function name
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:40:17:
+
+   40 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:41:35:
+
+   41 |     integer(i4b), intent(in) :: num
+      |                                   1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:42:33:
+
+   42 |     integer(i4b) :: is_palindrome
+      |                                 1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:43:34:
+
+   43 |     integer(i4b) :: temp, reversed
+      |                                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:44:25:
+
+   44 |     integer(i4b) :: digit
+      |                         1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:46:14:
+
+   46 |     temp = num
+      |              1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:47:16:
+
+   47 |     reversed = 0
+      |                1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:48:6:
+
+   48 |     do
+      |      1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:49:27:
+
+   49 |       digit = mod(temp, 10)
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:50:38:
+
+   50 |       reversed = reversed * 10 + digit
+      |                                      1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:51:22:
+
+   51 |       temp = temp / 10
+      |                      1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:52:25:
+
+   52 |       if (temp == 0) exit
+      |                         1
+Error: EXIT statement at (1) is not within a construct
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:53:7:
+
+   53 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:54:37:
+
+   54 |     is_palindrome = (num == reversed)
+      |                                     1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:55:5:
+
+   55 |   end function is_palindrome
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numericalhub_humaneval_mistral_conc20/task_107.f90:29:10:
+
+   29 |       if (is_palindrome(i)) then
+      |          1
+Error: IF clause at (1) requires a scalar LOGICAL expression

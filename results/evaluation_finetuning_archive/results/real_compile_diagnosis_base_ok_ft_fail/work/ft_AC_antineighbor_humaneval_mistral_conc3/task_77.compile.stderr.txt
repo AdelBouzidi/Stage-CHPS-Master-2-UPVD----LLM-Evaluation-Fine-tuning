@@ -1,0 +1,15 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc3/task_77.f90:27:11:
+
+   27 |        if (cube * root**3 == abs(a)) then
+      |           1
+Warning: Equality comparison for REAL(4) at (1) [-Wcompare-reals]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc3/task_77.f90:27:11:
+
+   27 |        if (cube * root**3 == abs(a)) then
+      |           ^
+Warning: ‘cube’ may be used uninitialized [-Wmaybe-uninitialized]
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AC_antineighbor_humaneval_mistral_conc3/task_77.f90:21:16:
+
+   21 |     real :: cube
+      |                ^
+note: ‘cube’ was declared here

@@ -1,0 +1,155 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:10:27:
+
+   10 |   result = get_odd_collatz(n)
+      |                           1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:16:41:
+
+   16 |   function get_odd_collatz(n) result(res)
+      |                                         1
+Error: PROGRAM attribute of ‘get_odd_collatz’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:17:17:
+
+   17 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:18:28:
+
+   18 |     integer, intent(in) :: n
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:19:34:
+
+   19 |     integer, allocatable :: res(:)
+      |                                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:20:22:
+
+   20 |     integer :: i, temp
+      |                      1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:21:20:
+
+   21 |     logical :: first
+      |                    1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:23:12:
+
+   23 |     temp = n
+      |            1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:24:13:
+
+   24 |     allocate(res(0))
+      |             1
+Error: Allocate-object at (1) is neither a data pointer nor an allocatable variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:25:24:
+
+   25 |     do while (temp /= 1)
+      |                        1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:26:33:
+
+   26 |       if (mod(temp, 2) /= 0) then
+      |                                 1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:27:23:
+
+   27 |         if (first) then
+      |                       1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:28:19:
+
+   28 |           allocate(res(1))
+      |                   1
+Error: Allocate-object at (1) is neither a data pointer nor an allocatable variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:29:23:
+
+   29 |           res(1) = temp
+      |                       1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:30:25:
+
+   30 |           first = .false.
+      |                         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:31:12:
+
+   31 |         else
+      |            1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:32:19:
+
+   32 |           allocate(res(size(res)+1))
+      |                   1
+Error: Allocate-object at (1) is neither a data pointer nor an allocatable variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:33:33:
+
+   33 |           res(size(res)+1) = temp
+      |                                 1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:34:11:
+
+   34 |         end if
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:35:9:
+
+   35 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:36:33:
+
+   36 |       if (mod(temp, 2) == 0) then
+      |                                 1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:37:23:
+
+   37 |         temp = temp / 2
+      |                       1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:38:10:
+
+   38 |       else
+      |          1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:39:25:
+
+   39 |         temp = 3*temp + 1
+      |                         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:40:9:
+
+   40 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:41:7:
+
+   41 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:42:28:
+
+   42 |     if (mod(n, 2) /= 0) then
+      |                            1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:43:15:
+
+   43 |       allocate(res(size(res)+1))
+      |               1
+Error: Allocate-object at (1) is neither a data pointer nor an allocatable variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:44:26:
+
+   44 |       res(size(res)+1) = n
+      |                          1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:45:7:
+
+   45 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_123.f90:46:5:
+
+   46 |   end function get_odd_collatz
+      |     1
+Error: Expecting END PROGRAM statement at (1)

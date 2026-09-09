@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_155.f90:20:12:
+
+   20 |     digit = mod(num, 10)
+      |            1
+Error: Cannot convert INTEGER(4) to CHARACTER(1) at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc3/task_155.f90:21:12:
+
+   21 |     if (mod(digit, 2) == 0) then
+      |            1
+Error: ‘a’ argument of ‘mod’ intrinsic at (1) must be INTEGER or REAL

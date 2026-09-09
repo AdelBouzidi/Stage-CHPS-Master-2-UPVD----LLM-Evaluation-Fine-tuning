@@ -1,0 +1,80 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:6:30:
+
+    6 |   result = correct_bracketing(brackets)
+      |                              1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:9:51:
+
+    9 |   function correct_bracketing(brackets) result(res)
+      |                                                   1
+Error: PROGRAM attribute of ‘correct_bracketing’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:10:17:
+
+   10 |     implicit none
+      |                 1
+Error: Unexpected IMPLICIT NONE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:11:44:
+
+   11 |     character(len=*), intent(in) :: brackets
+      |                                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:12:18:
+
+   12 |     logical :: res
+      |                  1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:13:28:
+
+   13 |     integer :: i, open_count
+      |                            1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:14:18:
+
+   14 |     open_count = 0
+      |                  1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:15:27:
+
+   15 |     do i = 1, len(brackets)
+      |                           1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:16:36:
+
+   16 |       if (brackets(i:i) == '(') then
+      |                                    1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:17:35:
+
+   17 |         open_count = open_count + 1
+      |                                   1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:18:41:
+
+   18 |       else if (brackets(i:i) == ')') then
+      |                                         1
+Error: Unexpected ELSE IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:19:35:
+
+   19 |         open_count = open_count - 1
+      |                                   1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:20:9:
+
+   20 |       end if
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:21:7:
+
+   21 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:22:27:
+
+   22 |     res = (open_count == 0)
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_filtered_accept_humaneval_mistral_conc20/task_61.f90:23:5:
+
+   23 |   end function correct_bracketing
+      |     1
+Error: Expecting END PROGRAM statement at (1)

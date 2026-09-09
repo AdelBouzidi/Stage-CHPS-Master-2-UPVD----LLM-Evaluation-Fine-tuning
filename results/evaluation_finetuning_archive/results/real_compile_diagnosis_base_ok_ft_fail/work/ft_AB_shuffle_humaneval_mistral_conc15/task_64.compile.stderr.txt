@@ -1,0 +1,130 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:10:24:
+
+   10 |   result = vowels_count(input(1))
+      |                        1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:17:36:
+
+   17 |   integer function vowels_count(str)
+      |                                    1
+Error: PROGRAM attribute of ‘vowels_count’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:18:39:
+
+   18 |     character(len=*), intent(in) :: str
+      |                                       1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:19:25:
+
+   19 |     integer :: i, len_str
+      |                         1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:20:26:
+
+   20 |     character(len=1) :: ch
+      |                          1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:22:27:
+
+   22 |     len_str = len_trim(str)
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:23:17:
+
+   23 |     vowels_count = 0
+      |                 1
+Error: Symbol ‘vowels_count’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:25:21:
+
+   25 |     do i = 1, len_str
+      |                     1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:26:17:
+
+   26 |       ch = str(i:i)
+      |                 1
+Error: Syntax error in argument list at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:27:29:
+
+   27 |       select case (ichar(ch))
+      |                             1
+Error: Unexpected SELECT CASE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:28:11:
+
+   28 |       case (97, 101, 105, 111, 117)  ! a, e, i, o, u lowercase
+      |           1
+Error: Unexpected CASE statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:29:21:
+
+   29 |         vowels_count = vowels_count + 1
+      |                     1
+Error: Symbol ‘vowels_count’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:30:11:
+
+   30 |       case (65, 69, 73, 79, 85)  ! A, E, I, O, U uppercase
+      |           1
+Error: Unexpected CASE statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:31:21:
+
+   31 |         vowels_count = vowels_count + 1
+      |                     1
+Error: Symbol ‘vowels_count’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:32:11:
+
+   32 |       case (121)  ! y lowercase
+      |           1
+Error: Unexpected CASE statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:33:30:
+
+   33 |         if (i == len_str) then
+      |                              1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:34:23:
+
+   34 |           vowels_count = vowels_count + 1
+      |                       1
+Error: Symbol ‘vowels_count’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:35:11:
+
+   35 |         end if
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:36:11:
+
+   36 |       case (89)  ! Y uppercase
+      |           1
+Error: Unexpected CASE statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:37:30:
+
+   37 |         if (i == len_str) then
+      |                              1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:38:23:
+
+   38 |           vowels_count = vowels_count + 1
+      |                       1
+Error: Symbol ‘vowels_count’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:39:11:
+
+   39 |         end if
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:40:9:
+
+   40 |       end select
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:41:7:
+
+   41 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:42:5:
+
+   42 |   end function vowels_count
+      |     1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_AB_shuffle_humaneval_mistral_conc15/task_64.f90:3:41:
+
+    3 |   character(len=*), dimension(1) :: input
+      |                                         1
+Error: Entity with assumed character length at (1) must be a dummy argument or a PARAMETER

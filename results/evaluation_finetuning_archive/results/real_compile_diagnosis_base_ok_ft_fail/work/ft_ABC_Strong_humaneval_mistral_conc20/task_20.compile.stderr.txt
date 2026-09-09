@@ -1,0 +1,135 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:21:39:
+
+   21 |   subroutine find_closest_elements(int numbers_len, float[] numbers)
+      |                                       1
+Error: Unexpected junk in formal argument list at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:22:38:
+
+   22 |     integer, intent(in) :: numbers_len
+      |                                      1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:23:38:
+
+   23 |     real(dp), intent(in) :: numbers(:)
+      |                                      1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:24:45:
+
+   24 |     real(dp), intent(out) :: result1, result2
+      |                                             1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:25:35:
+
+   25 |     integer :: i, j, min_idx, min_j
+      |                                   1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:26:30:
+
+   26 |     real(dp) :: min_diff, diff
+      |                              1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:28:27:
+
+   28 |     min_diff = huge(0.0_dp)
+      |                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:29:15:
+
+   29 |     min_idx = 0
+      |               1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:30:13:
+
+   30 |     min_j = 0
+      |             1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:32:25:
+
+   32 |     do i = 1, numbers_len
+      |                         1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:33:31:
+
+   33 |       do j = i + 1, numbers_len
+      |                               1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:34:43:
+
+   34 |         diff = abs(numbers(i) - numbers(j))
+      |                                           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:35:33:
+
+   35 |         if (diff < min_diff) then
+      |                                 1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:36:25:
+
+   36 |           min_diff = diff
+      |                         1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:37:21:
+
+   37 |           min_idx = i
+      |                     1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:38:19:
+
+   38 |           min_j = j
+      |                   1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:39:11:
+
+   39 |         end if
+      |           1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:40:9:
+
+   40 |       end do
+      |         1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:41:7:
+
+   41 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:43:47:
+
+   43 |     if (numbers(min_idx) < numbers(min_j)) then
+      |                                               1
+Error: Unexpected block IF statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:44:32:
+
+   44 |       result1 = numbers(min_idx)
+      |                                1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:45:30:
+
+   45 |       result2 = numbers(min_j)
+      |                              1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:46:8:
+
+   46 |     else
+      |        1
+Error: Unexpected ELSE statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:47:30:
+
+   47 |       result1 = numbers(min_j)
+      |                              1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:48:32:
+
+   48 |       result2 = numbers(min_idx)
+      |                                1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:49:7:
+
+   49 |     end if
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc20/task_20.f90:51:5:
+
+   51 |   end subroutine find_closest_elements
+      |     1
+Error: Expecting END PROGRAM statement at (1)

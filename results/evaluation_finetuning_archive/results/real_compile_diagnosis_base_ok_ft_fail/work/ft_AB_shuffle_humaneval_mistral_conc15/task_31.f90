@@ -1,0 +1,40 @@
+program is_prime_demo
+  implicit none
+  integer :: n
+  logical :: result
+
+  ! Hardcoded input value
+  n = 6
+
+  result = is_prime(n)
+
+  print *, 'is_prime(', n, ') =', result
+
+contains
+
+  logical function is_prime(n)
+    implicit none
+    integer, intent(in) :: n
+    integer :: i
+    logical :: prime
+
+    if (n <= 1) then
+      prime = .false.
+    else if (n == 2) then
+      prime = .true.
+    else if (mod(n, 2) == 0) then
+      prime = .false.
+    else
+      prime = .true.
+      do i = 3, int(sqrt(real(n))), 2
+        if (mod(n, i) == 0) then
+          prime = .false.
+          exit
+        end if
+      end do
+    end if
+
+    is_prime = prime
+  end function is_prime
+
+end program is_prime_demo

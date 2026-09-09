@@ -1,0 +1,10 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_123.f90:39:41:
+
+   39 |   function sort_array(arr) result(sorted)
+      |                                         1
+Error: Array ‘sorted’ at (1) cannot have a deferred shape
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_Strong_humaneval_mistral_conc3/task_123.f90:25:25:
+
+   25 |         allocate(odd_nums(size(odd_nums) + 1))
+      |                         1
+Error: ‘odd_nums’ must not appear in the array specification at (1) in the same ALLOCATE statement where it is itself allocated

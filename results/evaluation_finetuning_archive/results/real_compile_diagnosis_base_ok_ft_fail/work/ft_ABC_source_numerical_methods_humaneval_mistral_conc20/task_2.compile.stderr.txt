@@ -1,0 +1,20 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numerical_methods_humaneval_mistral_conc20/task_2.f90:3:32:
+
+    3 |     real :: number, decimal_part
+      |                                1
+Error: Symbol ‘decimal_part’ at (1) cannot have a type
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numerical_methods_humaneval_mistral_conc20/task_2.f90:9:17:
+
+    9 |     decimal_part = number - int(number)
+      |                 1
+Error: ‘decimal_part’ at (1) is not a variable
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numerical_methods_humaneval_mistral_conc20/task_2.f90:12:29:
+
+   12 |     write (*, *) decimal_part
+      |                             1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_ABC_source_numerical_methods_humaneval_mistral_conc20/task_2.f90:6:18:
+
+    6 |     read *, number
+      |                  1
+Error: Symbol ‘number’ at (1) has no IMPLICIT type

@@ -1,0 +1,45 @@
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:6:16:
+
+    6 |   result = modp(n, p)
+      |                1
+Error: Symbol at (1) is not appropriate for an expression
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:9:29:
+
+    9 |   integer function modp(n, p)
+      |                             1
+Error: PROGRAM attribute of ‘modp’ conflicts with PROCEDURE attribute at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:10:31:
+
+   10 |     integer, intent(in) :: n, p
+      |                               1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:11:21:
+
+   11 |     integer :: i, res
+      |                     1
+Error: Unexpected data declaration statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:12:11:
+
+   12 |     res = 1
+      |           1
+Error: Unexpected assignment statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:13:15:
+
+   13 |     do i = 1, n
+      |               1
+Error: Unexpected DO statement in CONTAINS section at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:15:7:
+
+   15 |     end do
+      |       1
+Error: Expecting END PROGRAM statement at (1)
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:16:9:
+
+   16 |     modp = res
+      |         1
+Error: Symbol ‘modp’ at (1) has already been host associated
+results/real_compile_diagnosis_base_ok_ft_fail/work/ft_C_then_A_humaneval_mistral_conc3/task_49.f90:17:5:
+
+   17 |   end function modp
+      |     1
+Error: Expecting END PROGRAM statement at (1)
